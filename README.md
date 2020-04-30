@@ -1,6 +1,6 @@
 ## 2020 Spring 41 class team1
 
-### Team Foamation
+### Team Member
 * Allan
 * Hanwoul Lee
 * Hogi Min
