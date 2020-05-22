@@ -9,15 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CartActivity"></activity>
-        <activity android:name=".EditInfoActivity" />
-        <activity android:name=".SearchHistoryActivity" />
-        <activity android:name=".GetPreferenceActivity" />
+        <activity android:name=".FragmentHome" />
+        <activity android:name=".FragmentCart" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".FragmentHistory" />
         <activity android:name=".ItemDetailActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".SearchActivity" />
+        <activity android:name=".FragmentProfile" />
+        <activity android:name=".FragmentSearch" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
