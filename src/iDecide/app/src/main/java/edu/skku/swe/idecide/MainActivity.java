@@ -1,15 +1,12 @@
 package edu.skku.swe.idecide;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -71,23 +68,23 @@ public class MainActivity extends AppCompatActivity {
         switch (i)
         {
             case 0:
-                ft.replace(R.id.Main_Frame,fragmentHome);
+                ft.replace(R.id.frameLayout_main,fragmentHome);
                 ft.commit();
                 break;
             case 1:
-                ft.replace(R.id.Main_Frame,fragmentProfile);
+                ft.replace(R.id.frameLayout_main,fragmentProfile);
                 ft.commit();
                 break;
             case 2:
-                ft.replace(R.id.Main_Frame,fragmentSearch);
+                ft.replace(R.id.frameLayout_main,fragmentSearch);
                 ft.commit();
                 break;
             case 3:
-                ft.replace(R.id.Main_Frame,fragmentHistory);
+                ft.replace(R.id.frameLayout_main,fragmentHistory);
                 ft.commit();
                 break;
             case 4:
-                ft.replace(R.id.Main_Frame,fragmentCart);
+                ft.replace(R.id.frameLayout_main,fragmentCart);
                 ft.commit();
                 break;
         }
