@@ -2,13 +2,17 @@ package edu.skku.swe.idecide;
 
 public class Item {
     int image;
-    String tv1;
-    String tv2;
+    String manufacture;
+    String name;
+    String num;
+    String score;
 
-    public Item(int image, String tv1, String tv2){
+    public Item(int image, String manufacture, String name, String num, String score){
         this.image = image;
-        this.tv1 = tv1;
-        this.tv2 = tv2;
+        this.manufacture = manufacture;
+        this.name = name;
+        this.num = num;
+        this.score = score;
     }
 
     public int getImage() {
@@ -19,19 +23,35 @@ public class Item {
         this.image = image;
     }
 
-    public String getTv1() {
-        return tv1;
+    public String getManufacture() {
+        return manufacture;
     }
 
-    public void setTv1(String tv1) {
-        this.tv1 = tv1;
+    public void setManufacture(String manufacture) {
+        this.manufacture = manufacture;
     }
 
-    public String getTv2() {
-        return tv2;
+    public String getName() {
+        return name;
     }
 
-    public void setTv2(String tv2) {
-        this.tv2 = tv2;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getNum() {
+        return num;
+    }
+
+    public void setNum(String num) {
+        this.num = num;
+    }
+
+    public String getScore() {
+        return score;
+    }
+
+    public void setScore(String score) {
+        this.score = score;
     }
 }
