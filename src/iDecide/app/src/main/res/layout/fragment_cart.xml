@@ -9,7 +9,6 @@
     android:layout_height="match_parent"
     tools:context=".FragmentCart">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_cart"
         android:layout_width="match_parent"
@@ -18,8 +17,6 @@
         android:scrollbarThumbVertical="@color/colorAccent"
         android:scrollbarStyle="outsideInset"
         android:scrollbarSize="4dp" >
-
     </androidx.recyclerview.widget.RecyclerView>
-
 
 </LinearLayout>

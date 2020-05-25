@@ -1,5 +1,6 @@
 package edu.skku.swe.idecide;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,36 +35,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
         holder.textView2.setText(list.get(position).name);
         holder.textView3.setText(list.get(position).num);
         holder.textView4.setText(list.get(position).score);
-
-        holder.textView1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), list.get(position).manufacture, Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        holder.textView2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), list.get(position).name, Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        holder.textView3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), list.get(position).num, Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        holder.textView4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), list.get(position).score, Toast.LENGTH_SHORT).show();
-            }
-        });
-
-
     }
 
     @Override
@@ -72,7 +43,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
     }
 }
 
-class ItemViewHolder extends RecyclerView.ViewHolder {
+class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
     ImageView imageView;
     TextView textView1, textView2, textView3, textView4;
 
@@ -84,5 +55,14 @@ class ItemViewHolder extends RecyclerView.ViewHolder {
         textView2 = itemView.findViewById(R.id.name_item);
         textView3 = itemView.findViewById(R.id.num_item);
         textView4 = itemView.findViewById(R.id.score_item);
+
+        itemView.setOnClickListener(this);
+    }
+
+
+    // 넘길때 laptop 정보도 포함시켜야함!
+    public void onClick(View v) {
+        Intent intent = new Intent(v.getContext(), ItemDetailActivity.class);
+        v.getContext().startActivity(intent);
     }
 }
