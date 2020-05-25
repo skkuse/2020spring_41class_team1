@@ -29,7 +29,7 @@ public class FragmentCart extends Fragment {
         // 원래는 파이어베이스 cart에서 받아와야함!!
         for (int i = 0; i < 20; i++)
         {
-            list.add(new Item(R.mipmap.ic_launcher,"SAMSUNG","Ion", "#1", "90"));
+            list.add(new Item(R.drawable.ion,"SAMSUNG","Ion", "", "90"));
         }
 
 

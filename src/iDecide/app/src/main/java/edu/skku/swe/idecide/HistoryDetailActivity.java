@@ -34,7 +34,7 @@ public class HistoryDetailActivity extends AppCompatActivity {
         // 원래는 파이어베이스 history detail에서 받아와야함!!
         for (int i = 0; i < 20; i++)
         {
-            list.add(new Item(R.mipmap.ic_launcher,"SAMSUNG","Ion", "#1", "90"));
+            list.add(new Item(R.drawable.ion,"SAMSUNG","Ion", "#" + (i + 1), "90"));
         }
 
         LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
