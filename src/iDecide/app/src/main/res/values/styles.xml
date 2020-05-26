@@ -10,4 +10,14 @@
         <item name="colorControlNormal">@color/colorAccent</item> <!--홈/뒤로가기 버튼의 색상-->
     </style>
 
+    <style name="editProfile" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorFont</item>
+        <item name="colorAccent">@color/colorAccent</item> <!--드래그했을때 색상-->
+        <item name="colorControlActivated">@color/colorDarkGray</item>
+        <item name="colorControlNormal">@color/colorDarkGray</item> <!--editText 밑줄 색상-->
+    </style>
+
 </resources>
