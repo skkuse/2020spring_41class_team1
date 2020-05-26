@@ -24,7 +24,7 @@
     <item
         android:id="@+id/action_history"
         android:enabled="true"
-        android:icon="@drawable/ic_history_black_24dp"
+        android:icon="@drawable/historyoption_profile"
         android:title="HISTORY"/>
 
     <item
