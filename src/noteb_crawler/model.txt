@@ -1,0 +1,6654 @@
+Dell Latitude Rugged 14 5414 (US)
+1480
+1517
+11:20
+12:10
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Pro
+Dell Latitude Rugged 14 7414 Extreme (EU)
+2777
+2847
+17:40
+19:00
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Dell XPS 13 9360 i7 (US)
+1866
+1913
+10:30
+11:20
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Lenovo Thinkpad 13 (Chrome) (US)
+305
+312
+8:55
+9:35
+Intel Celeron 3855U
+1.60
+2
+Value
+Intel HD Graphics 510
+900
+1067
+1700
+Basic/Integrated
+13.3
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Lenovo Thinkpad P50 Xeon (US)
+3451
+3538
+6:20
+6:45
+Intel Xeon E3-1505M v5
+3.70
+4
+High performance
+NVIDIA Quadro M2000M
+1098
+1253
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+512
+SSD
+32
+Windows 10 Pro
+HP EliteBook 1040 G3 (US)
+1085
+1112
+7:50
+8:25
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+HP EliteBook 820 G3 (US)
+642
+659
+7:50
+8:25
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+12.5
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+HP EliteBook 840 G3 (US)
+1691
+1822
+8:00
+8:35
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+8
+Windows 10 Pro
+HP EliteBook 850 G3 (US)
+790
+810
+7:50
+8:25
+Intel i7-6600U
+3.40
+2
+Ultrabook
+Intel HD Graphics 520
+1050
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+HP X2 210 G2 (EU)
+1052
+1079
+11:30
+12:20
+Intel Atom x5-Z8350
+1.92
+4
+Netbook/Tablet
+Intel HD 400
+500
+800
+1024
+Basic/Integrated
+10.1
+1280
+800
+Yes
+128
+EMMC
+4
+Windows 10 Home
+HP Zbook 15 G3 (US)
+1027
+1054
+6:50
+7:20
+Intel i7-6820HQ
+3.60
+4
+High performance
+NVIDIA Quadro M2000M
+1098
+1253
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+HP Chromebook 13 G1 (US)
+905
+928
+7:45
+8:20
+Intel m5-6Y57
+2.80
+2
+Ultrabook
+Intel HD Graphics 515
+900
+933
+1700
+Basic/Integrated
+13.3
+3200
+1800
+No
+32
+EMMC
+8
+Chrome OS 1
+Asus ZenBook UX360CA (2016) (US)
+543
+556
+11:35
+12:25
+Intel m3-6Y30
+2.20
+2
+Ultrabook
+Intel HD Graphics 515
+850
+933
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus ZenBook UX303UA (US)
+1184
+1213
+8:10
+8:45
+Intel i5-6200U
+2.80
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus ZenBook UX390UA (US)
+1943
+1992
+7:05
+7:35
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+12.5
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Acer Swift 7 SF713-51 (US)
+1470
+1507
+10:00
+10:45
+Intel i5-7Y54
+3.20
+2
+Ultrabook
+Intel HD Graphics 615
+950
+933
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Chromebook CP5-471-C0EX (US)
+389
+398
+9:25
+10:10
+Intel Celeron 3855U
+1.60
+2
+Value
+Intel HD Graphics 510
+900
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Asus Chromebook C300SA (US)
+308
+315
+14:15
+15:15
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+13.3
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Asus Chromebook C202SA (US)
+264
+271
+11:40
+12:35
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Asus 2-in-1 Q524UQ (US)
+818
+839
+4:45
+5:05
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1176
+900
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+Yes
+2000
+HDD
+12
+Windows 10 Home
+Asus 2-in-1 Q304UA (US)
+508
+521
+8:15
+8:50
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+1000
+HDD
+6
+Windows 10 Home
+Asus 2-in-1 Q534UX (US)
+2161
+2216
+4:00
+4:15
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce GTX 950M
+1124
+1250
+2048
+Low mid-range
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Home
+Asus 2-in-1 Q504UA (US)
+627
+642
+7:25
+7:55
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+1000
+HDD
+12
+Windows 10 Home
+Asus Transformer TP200SA (US)
+534
+547
+10:35
+11:20
+Intel Celeron N3050
+2.16
+2
+Netbook/Tablet
+Intel HD Graphics Braswell
+600
+800
+1700
+Basic/Integrated
+11.6
+1366
+768
+Yes
+32
+EMMC
+2
+Windows 10 Home
+Asus ROG GL753VD (US)
+1412
+1447
+3:35
+3:50
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Asus ROG GL753VD (US)
+1412
+1447
+3:35
+3:50
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Acer Aspire 14 R5-471T (US)
+790
+810
+7:40
+8:15
+Intel i5-6200U
+2.80
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Samsung Notebook 9 NP900X5T-K01US (US)
+960
+985
+12:50
+13:45
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Fujitsu Lifebook E736 (EU)
+2003
+2159
+12:50
+13:45
+Intel i3-6100U
+2.30
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Home
+Fujitsu Lifebook E546 (US)
+1439
+1551
+12:40
+13:35
+Intel i3-6100U
+2.30
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+128
+SSD
+4
+Windows 10 Pro
+Razer Blade Stealth 2018 QHD (US)
+1974
+2023
+6:45
+7:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+3200
+1800
+Yes
+512
+SSD
+16
+Windows 10 Home
+Clevo P650HS
+1486
+1523
+4:30
+4:50
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+Clevo P650HS
+1486
+1523
+4:30
+4:50
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+MSI Prestige PL60 7RD (EU)
+1235
+1267
+4:40
+5:00
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Pro
+MSI Gaming GS43 VR Phantom PRO (EU)
+1600
+1641
+4:20
+4:35
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+14
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+MSI Gaming GL72M (US)
+838
+859
+3:30
+3:50
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+17.3
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+MSI Gaming GP62MVRX Leopard Pro
+1442
+1555
+2:50
+3:05
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+3072
+Mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+MSI Gaming GL62M 7RD (US)
+887
+910
+3:50
+4:10
+Intel i5-7300HQ
+3.50
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Lenovo Thinkpad X1 Carbon (5th gen) (US)
+1185
+1215
+8:35
+9:15
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+14
+2560
+1440
+No
+128
+SSD
+8
+Windows 10 Pro
+HP ProBook 640 G3 (EU)
+1021
+1046
+8:20
+9:00
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+HP EliteBook x360 1030 G2 (US)
+987
+1012
+9:15
+9:55
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+16
+Windows 10 Pro
+HP ProBook 11 x360 G1 EE (US)
+850
+871
+10:45
+11:35
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+11.6
+1366
+768
+Yes
+128
+SSD
+4
+Windows 10 Pro
+Panasonic Toughbook 54 (US)
+1401
+1436
+6:20
+6:50
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Pro
+Panasonic Toughbook 20 (US)
+2726
+2939
+6:10
+6:35
+Intel m5-6Y57
+2.80
+2
+Ultrabook
+Intel HD Graphics 515
+900
+933
+1700
+Basic/Integrated
+10.1
+1920
+1200
+Yes
+512
+SSD
+8
+Windows 10 Pro
+Panasonic Toughbook FZ-Q2 (US)
+2358
+2542
+7:55
+8:30
+Intel m5-6Y57
+2.80
+2
+Ultrabook
+Intel HD Graphics 515
+900
+933
+1700
+Basic/Integrated
+12.5
+1920
+1080
+Yes
+128
+SSD
+8
+Windows 10 Pro
+HP EliteBook 820 G4 (US)
+740
+759
+10:05
+10:50
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+12.5
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Pro
+HP EliteBook 840 G4 (US)
+886
+909
+10:15
+11:00
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Pro
+HP EliteBook 850 G4 (US)
+1637
+1764
+6:00
+6:25
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+3840
+2160
+No
+256
+SSD
+8
+Windows 10 Pro
+Razer Blade 14 2017 (US)
+1876
+1923
+5:20
+5:45
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Asus Transformer T304UA (US)
+1173
+1202
+5:50
+6:20
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+12.5
+2160
+1440
+Yes
+256
+SSD
+8
+Windows 10 Home
+Acer Predator G9-793 (2017) (US)
+2961
+3036
+6:10
+6:35
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Dell Chromebook 13 3380 Education (US)
+312
+319
+10:50
+11:35
+Intel Celeron 3855U
+1.60
+2
+Value
+Intel HD Graphics 510
+900
+1067
+1700
+Basic/Integrated
+13.3
+1366
+768
+Yes
+32
+EMMC
+4
+Chrome OS 1
+Dell Chromebook 11 3180 Education (US)
+563
+578
+12:55
+13:55
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Microsoft Surface Pro 4 (US)
+492
+505
+6:20
+6:50
+Intel m3-6Y30
+2.20
+2
+Ultrabook
+Intel HD Graphics 515
+850
+933
+1700
+Basic/Integrated
+12.3
+2736
+1824
+Yes
+128
+SSD
+4
+Windows 10 Pro
+Dell Inspiron 15 3567 (DDR4) (US)
+357
+384
+7:10
+7:40
+Intel i3-7130U
+2.70
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+1000
+HDD
+8
+Windows 10 Home
+Fujitsu Lifebook U747 (EU)
+3479
+3567
+8:00
+8:35
+Intel i7-7600U
+3.90
+2
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Fujitsu Lifebook E557 (EU)
+2062
+2223
+10:45
+11:30
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Asus VivoBook 15 X540UA (US)
+563
+607
+5:15
+5:40
+Intel i3-8130U
+3.40
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+1000
+SSHD
+8
+Windows 10 Home
+Fujitsu Lifebook A557 (EU)
+748
+766
+8:10
+8:45
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Acer Predator GX-792 (US)
+2186
+2241
+3:40
+4:00
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1080
+1733
+1251
+8192
+High-end
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Acer Aspire VX5-591G i7 (US)
+1027
+1053
+3:55
+4:15
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Acer Swift 3 SF314-51 (2017) (US)
+986
+1011
+8:20
+9:00
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Dell Precision 15 5520 (US)
+1461
+1498
+4:05
+4:25
+Intel i7-7820HQ
+3.90
+4
+High performance
+Intel HD Graphics 630
+1100
+1067
+1700
+Basic/Integrated
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Acer Aspire F5-573 (2017) (US)
+646
+663
+6:35
+7:05
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+1000
+HDD
+8
+Windows 10 Home
+Toshiba Tecra A50-D (US)
+869
+891
+8:00
+8:35
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Pro
+Lenovo Ideapad Legion Y520 (US)
+924
+947
+3:25
+3:40
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Medion Erazer P7647 (EU)
+836
+857
+4:45
+5:05
+Intel i5-7200U
+3.10
+2
+Ultrabook
+NVIDIA GeForce GTX 950M
+1124
+900
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+1000
+HDD
+8
+Windows 10 Home
+Fujitsu Lifebook T937 (US)
+2343
+2525
+8:10
+8:45
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Fujitsu Lifebook P727 (US)
+2275
+2452
+7:25
+8:00
+Intel i7-7600U
+3.90
+2
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+12.5
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Fujitsu Stylistic Q737 (US)
+2224
+2397
+7:30
+8:00
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Toshiba Tecra A40-D (US)
+872
+895
+8:10
+8:50
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+500
+HDD
+8
+Windows 10 Pro
+Toshiba Portege A30-D (US)
+934
+957
+6:45
+7:15
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+500
+HDD
+4
+Windows 10 Pro
+Asus ROG FX553VD (US)
+908
+931
+3:40
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer TravelMate B TMB117-M (US)
+320
+329
+11:25
+12:15
+Intel Celeron N3050
+2.16
+2
+Netbook/Tablet
+Intel HD Graphics Braswell
+600
+800
+1700
+Basic/Integrated
+11.6
+1366
+768
+No
+32
+EMMC
+4
+Windows 10 Pro
+Asus ROG GL502VS (2017) (US)
+2961
+3036
+2:55
+3:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+15.6
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+Lenovo Yoga 720-13 (US)
+689
+706
+7:50
+8:20
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus ROG GL502VS (2017) (US)
+2961
+3036
+2:55
+3:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+15.6
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+Asus ROG Strix GL702VI (US)
+3949
+4048
+3:35
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1080
+1733
+1251
+8192
+High-end
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Dell Latitude 13 3380 Education (US)
+378
+387
+11:25
+12:15
+Intel i3-6006U
+2.00
+2
+Ultrabook
+Intel HD Graphics 520
+900
+1067
+1700
+Basic/Integrated
+13.3
+1366
+768
+No
+128
+SSD
+4
+Windows 10 Pro
+Acer Chromebook 14 CB3-431 (US)
+236
+241
+10:45
+11:30
+Intel Celeron N3160
+2.24
+4
+Netbook/Tablet
+Intel HD 400
+640
+800
+1024
+Basic/Integrated
+14
+1920
+1080
+No
+32
+EMMC
+4
+Chrome OS 1
+Lenovo Ideapad Legion Y720 (US)
+1233
+1264
+4:30
+4:50
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Lenovo Thinkpad P51 (US)
+2271
+2328
+6:20
+6:45
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA Quadro M1200
+1150
+1253
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Lenovo Ideapad 710S Plus Touch dGPU (US)
+1480
+1517
+5:05
+5:25
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1189
+1000
+2048
+Budget/Casual gaming
+13.3
+1920
+1080
+Yes
+512
+SSD
+8
+Windows 10 Home
+Clevo NH55RZQ (EU)
+915
+986
+4:45
+5:05
+Intel i5-9300H
+4.10
+4
+High performance
+Intel HD Graphics 630
+1050
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Asus ROG GL553VE (US)
+1353
+1388
+3:20
+3:35
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Microsoft Surface Laptop m3 (US)
+917
+940
+8:15
+8:50
+Intel m3-7Y30
+2.60
+2
+Ultrabook
+Intel HD Graphics 615
+900
+933
+1700
+Basic/Integrated
+13.5
+2256
+1504
+Yes
+128
+SSD
+4
+Windows 10 S
+Lenovo Thinkpad P51 (US)
+2271
+2328
+6:20
+6:45
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA Quadro M1200
+1150
+1253
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Lenovo Thinkpad P71 (US)
+2389
+2450
+7:10
+7:40
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA Quadro M620
+977
+1253
+2048
+Budget/Casual gaming
+17.3
+1920
+1080
+No
+256
+SSD
+32
+Windows 10 Pro
+Asus ZenBook UX310UQ (EU)
+1244
+1276
+5:00
+5:20
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1176
+900
+2048
+Budget/Casual gaming
+13.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Dell XPS 15 9560 UHD (US)
+1233
+1264
+5:50
+6:15
+Intel i5-7300HQ
+3.50
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+15.6
+3840
+2160
+Yes
+256
+SSD
+8
+Windows 10 Home
+Xiaomi Air 13 (2018) (US)
+1271
+1304
+4:35
+4:55
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Acer Spin 5 SP513-51 (2017) (US)
+986
+1011
+7:50
+8:20
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus ZenBook UX303UA (US)
+1184
+1213
+8:10
+8:45
+Intel i5-6200U
+2.80
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus ZenBook UX490UA (2018) (US)
+1620
+1661
+8:00
+8:35
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Asus ROG GL553VE (US)
+1353
+1388
+3:20
+3:35
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Lenovo Yoga 720-15 UHD (US)
+1164
+1193
+4:20
+4:40
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Home
+HP Envy 13-ab (US)
+1480
+1517
+10:10
+10:55
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Predator Helios 300 15 G3-571 (Amazon) (US)
+1229
+1260
+3:40
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Lenovo Thinkpad P50 Xeon (US)
+3451
+3538
+6:20
+6:45
+Intel Xeon E3-1505M v5
+3.70
+4
+High performance
+NVIDIA Quadro M2000M
+1098
+1253
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+512
+SSD
+32
+Windows 10 Pro
+HP ProBook 450 G3 (US)
+790
+810
+6:25
+6:55
+Intel i5-6200U
+2.80
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+500
+HDD
+8
+Windows 10 Pro
+Lenovo Yoga 520-14 (EU)
+563
+577
+3:35
+3:50
+Intel i5-7200U
+3.10
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1189
+1000
+2048
+Budget/Casual gaming
+14
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Razer Blade Pro 17 (2017) (US)
+2544
+2609
+3:50
+4:05
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+HP Zbook 15 G4 (US)
+1150
+1179
+8:45
+9:20
+Intel i7-7820HQ
+3.90
+4
+High performance
+Intel HD Graphics 630
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+HP Spectre x2 (US)
+1974
+2023
+5:15
+5:40
+Intel i7-7560U
+3.80
+2
+Ultrabook
+Intel Iris Plus Graphics 640
+1050
+1067
+64
+Basic/Integrated
+12.3
+3000
+2000
+Yes
+256
+SSD
+8
+Windows 10 Pro
+HP 255 G6 (US)
+423
+434
+8:05
+8:40
+AMD A6-9225
+3.00
+2
+Value
+AMD Radeon R4 (Bristol-Ridge)
+600
+1067
+2048
+Basic/Integrated
+15.6
+1366
+768
+No
+128
+SSD
+32
+Windows 10 Pro
+Dell Inspiron 15 7567 Gaming (US)
+749
+768
+5:25
+5:50
+Intel i5-7300HQ
+3.50
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+1000
+SSHD
+8
+Windows 10 Home
+Toshiba Portege X20W-E (US)
+1081
+1165
+7:15
+7:50
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.5
+1920
+1080
+Yes
+128
+SSD
+8
+Windows 10 Pro
+Fujitsu Lifebook U937 (EU)
+2453
+2644
+8:45
+9:25
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Asus ROG GL502VS (2017) (US)
+2961
+3036
+2:55
+3:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+15.6
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+Asus ROG Zephyrus GX501GI (US)
+2862
+2935
+2:35
+2:45
+Intel i7-8750H
+4.10
+6
+High performance
+NVIDIA GeForce GTX 1080 Max-Q
+1468
+1251
+8192
+High-end
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Asus PRO P2540 UB (US)
+957
+982
+8:00
+8:35
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX110
+993
+1253
+2048
+Basic/Multimedia
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Asus PRO P2540 UB (US)
+957
+982
+8:00
+8:35
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX110
+993
+1253
+2048
+Basic/Multimedia
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Asus ZenBook UX310UQ (EU)
+1244
+1276
+5:00
+5:20
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1176
+900
+2048
+Budget/Casual gaming
+13.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Asus PRO B8430UA (EU)
+597
+613
+8:20
+9:00
+Intel i5-6200U
+2.80
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Asus VivoBook Max X541SA (US)
+591
+606
+8:25
+9:05
+Intel Pentium N3710
+2.56
+4
+Netbook/Tablet
+Intel HD 405
+700
+800
+1024
+Basic/Integrated
+15.6
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Home
+Asus PRO B9440UA (US)
+1361
+1396
+8:20
+9:00
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Asus PRO B9440UA (US)
+1361
+1396
+8:20
+9:00
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+Asus VivoBook 15 X556UQ (2017) (US)
+1065
+1092
+4:20
+4:40
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1176
+900
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+512
+SSD
+8
+Windows 10 Home
+Asus VivoBook S15 S510UA (2018) (US)
+1159
+1188
+6:05
+6:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+Asus ZenBook UX430UA (2018) (US)
+2172
+2227
+8:40
+9:20
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Asus ZenBook UX410UA (EU)
+594
+609
+8:20
+9:00
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Asus VivoBook Pro 15 N580GD (US)
+979
+1055
+2:45
+2:55
+Intel i7-8750H
+4.10
+6
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+15.6
+3840
+2160
+Yes
+1000
+HDD
+8
+Windows 10 Home
+Asus X series X751NA (EU)
+540
+554
+9:20
+10:00
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+17.3
+1600
+900
+No
+1000
+HDD
+4
+Windows 10 Home
+Asus X series X751NA (EU)
+540
+554
+9:20
+10:00
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+17.3
+1600
+900
+No
+1000
+HDD
+4
+Windows 10 Home
+Asus Chromebook C302CA (US)
+739
+758
+9:00
+9:40
+Intel m3-6Y30
+2.20
+2
+Ultrabook
+Intel HD Graphics 515
+850
+933
+1700
+Basic/Integrated
+12.5
+1920
+1080
+Yes
+64
+EMMC
+4
+Chrome OS 1
+Dell Inspiron 15 3565 (US)
+394
+403
+9:15
+9:55
+AMD A6-9200
+2.80
+2
+Netbook/Tablet
+AMD Radeon R4 (Stoney Ridge)
+600
+1067
+2048
+Basic/Integrated
+15.6
+1366
+768
+No
+128
+SSD
+8
+Windows 10 Home
+Dell Inspiron 15 5566 (US)
+744
+802
+7:50
+8:25
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+512
+SSD
+8
+Windows 10 Pro
+Dell Latitude 12 7285 2-in-1 (US)
+1580
+1620
+5:30
+5:50
+Intel i7-7Y75
+3.60
+2
+Ultrabook
+Intel HD Graphics 615
+1050
+933
+1700
+Basic/Integrated
+12.3
+2880
+1920
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Dell Inspiron 15 5578 2-in-1 (US)
+739
+758
+6:00
+6:25
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+1000
+HDD
+8
+Windows 10 Home
+Acer Predator Helios 300 17 PH317-52 (US)
+1330
+1363
+3:35
+3:50
+Intel i7-8750H
+4.10
+6
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+17.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Acer Predator Helios 300 17 PH317-52 (US)
+1330
+1363
+3:35
+3:50
+Intel i7-8750H
+4.10
+6
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+17.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Acer Predator Helios 300 15 G3-571 (Amazon) (US)
+1229
+1260
+3:40
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Acer Chromebook 11 N7 CB311 (US)
+246
+253
+12:30
+13:25
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+Yes
+16
+EMMC
+4
+Chrome OS 1
+Acer Chromebook R 11 CB5-132T (US)
+274
+295
+12:30
+13:25
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+Yes
+32
+EMMC
+4
+Chrome OS 1
+Acer Chromebook Spin 11 R751TN
+394
+403
+10:15
+11:00
+Intel Celeron N3350
+2.40
+2
+Netbook/Tablet
+Intel HD Graphics 500
+650
+933
+1700
+Basic/Integrated
+11.6
+1366
+768
+Yes
+32
+EMMC
+4
+Chrome OS 1
+Acer Aspire A315-51 (US)
+397
+428
+6:35
+7:05
+Intel i3-7100U
+2.40
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+1000
+HDD
+6
+Windows 10 Home
+Acer Aspire A315-31 (US)
+328
+337
+8:40
+9:20
+Intel Celeron N3350
+2.40
+2
+Netbook/Tablet
+Intel HD Graphics 500
+650
+933
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Home
+Acer Aspire Nitro 5 15 AN515-53 (US)
+790
+810
+3:30
+3:45
+Intel i5-8300H
+4.00
+4
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+1000
+HDD
+8
+Windows 10 Home
+Acer Aspire Switch 3 2-in-1 SW312-31 (US)
+500
+513
+7:50
+8:25
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+12.2
+1920
+1200
+Yes
+128
+EMMC
+4
+Windows 10 Home
+Acer Aspire Switch 5 SW512-52 (US)
+1085
+1112
+5:30
+5:55
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+12
+2160
+1440
+Yes
+256
+SSD
+8
+Windows 10 Home
+MSI Gaming GE63 Raider RGB-9SF (US)
+2589
+2654
+4:55
+5:15
+Intel i7-9750H
+4.50
+6
+High performance
+NVIDIA GeForce RTX 2070
+1440
+1750
+8192
+High-end
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+MSI Gaming GF62 (US)
+1129
+1218
+2:50
+3:05
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+MSI Workstation WE62 7RJ (US)
+2961
+3036
+3:50
+4:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA Quadro M2200
+1025
+1375
+4096
+Low mid-range
+15.6
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+MSI Gaming GT75VR Titan (US)
+3257
+3340
+3:30
+3:45
+Intel i7-7820HK
+3.90
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+17.3
+1920
+1080
+No
+512
+RAID
+64
+Windows 10 Pro
+Acer Aspire 5 A515-51 (2017) (US)
+592
+607
+7:30
+8:05
+Intel i3-7100U
+2.40
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+1000
+HDD
+8
+Windows 10 Home
+Acer Aspire 7 A715-71G (US)
+917
+940
+3:40
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Aspire 7 A715-71G (US)
+917
+940
+3:40
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Lenovo Education N23 Chromebook (US)
+266
+273
+12:30
+13:25
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+Yes
+32
+EMMC
+4
+Chrome OS 1
+Panasonic Toughbook 33
+4038
+4141
+6:40
+7:10
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12
+2160
+1440
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Microsoft Surface Pro 5 (US)
+1580
+1620
+6:00
+6:25
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.3
+2736
+1824
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Huawei MateBook X (EU)
+1532
+1571
+6:35
+7:05
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+2160
+1440
+No
+256
+SSD
+8
+Windows 10 Home
+HP Elite X2 1012 G2 (US)
+1312
+1345
+6:15
+6:45
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+12.3
+2736
+1824
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Clevo PA71ES-G (EUROCOM)
+2398
+2585
+4:55
+5:20
+Intel i9-8950HK
+4.80
+6
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+HP Chromebook 11 G5 (US)
+341
+368
+12:15
+13:05
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+Yes
+16
+EMMC
+4
+Chrome OS 1
+HP ProBook 11 x360 G4 EE (US)
+851
+872
+13:05
+14:05
+Intel i5-8200Y
+3.90
+2
+Ultrabook
+Intel HD Graphics 615
+950
+933
+1700
+Basic/Integrated
+11.6
+1366
+768
+Yes
+256
+SSD
+8
+Windows 10 Home
+Samsung Notebook 9 Pro 15 NP940X5N (US)
+1234
+1265
+5:50
+6:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+AMD Radeon 540
+1124
+1500
+2048
+Budget/Casual gaming
+15
+1920
+1080
+Yes
+256
+SSD
+16
+Windows 10 Home
+Samsung Chromebook Pro XE510C24 (US)
+671
+688
+7:25
+7:55
+Intel m3-6Y30
+2.20
+2
+Ultrabook
+Intel HD Graphics 515
+850
+933
+1700
+Basic/Integrated
+12.3
+2400
+1600
+Yes
+32
+EMMC
+4
+Chrome OS 1
+Samsung Chromebook 3 XE500C13 (US)
+217
+222
+10:45
+11:35
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Asus VivoBook E12 E203NA (US)
+416
+427
+11:40
+12:35
+Intel Celeron N3350
+2.40
+2
+Netbook/Tablet
+Intel HD Graphics 500
+650
+933
+1700
+Basic/Integrated
+11.6
+1366
+768
+No
+64
+EMMC
+4
+Windows 10 S
+Asus ZenBook Flip S UX370UAUA (2017) (US)
+1974
+2023
+6:20
+6:50
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Asus VivoBook 15 X542UF (EU)
+747
+806
+4:05
+4:25
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX130
+1242
+1253
+2048
+Basic/Multimedia
+15.6
+1920
+1080
+No
+1000
+HDD
+8
+Windows 10 Home
+Asus ROG FX753VE (EU)
+1639
+1681
+3:20
+3:35
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+Acer Aspire Nitro VN7-593G (EU)
+1484
+1521
+4:50
+5:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Aspire A114-31 (US)
+312
+319
+8:50
+9:30
+Intel Celeron N3450
+2.20
+4
+Netbook/Tablet
+Intel HD Graphics 500
+700
+933
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+32
+EMMC
+4
+Windows 10 Home
+Acer Aspire A315-21 (US)
+385
+394
+5:15
+5:35
+AMD A9-9420
+3.60
+2
+Value
+AMD Radeon R5 (Bristol-Ridge) (A9-94xx)
+800
+1067
+2048
+Basic/Integrated
+15.6
+1366
+768
+No
+1000
+HDD
+6
+Windows 10 Home
+Acer Aspire A315-21 (US)
+385
+394
+5:15
+5:35
+AMD A9-9420
+3.60
+2
+Value
+AMD Radeon R5 (Bristol-Ridge) (A9-94xx)
+800
+1067
+2048
+Basic/Integrated
+15.6
+1366
+768
+No
+1000
+HDD
+6
+Windows 10 Home
+Acer Predator Triton PT715-51 (US)
+1776
+1821
+2:45
+2:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1080 Max-Q
+1468
+1251
+8192
+High-end
+15.6
+1920
+1080
+No
+512
+SSD
+32
+Windows 10 Home
+Acer Swift 1 SF113-31 (US)
+332
+341
+10:10
+10:50
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+64
+EMMC
+4
+Windows 10 Home
+Acer Swift 1 SF113-31 (US)
+332
+341
+10:10
+10:50
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+64
+EMMC
+4
+Windows 10 Home
+Acer TravelMate P6 TMP658-M (US)
+693
+710
+10:35
+11:25
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Pro
+Acer TravelMate P2 TMP249-M (US)
+607
+622
+8:15
+8:50
+Intel i3-6100U
+2.30
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+128
+SSD
+4
+Windows 10 Pro
+Acer TravelMate Spin B1 TMB118-RN (US)
+596
+611
+8:05
+8:40
+Intel Celeron N4000
+2.60
+2
+Netbook/Tablet
+Intel HD Graphics 600
+650
+1200
+8192
+Basic/Integrated
+11.6
+1920
+1080
+Yes
+128
+SSD
+4
+Windows 10 Pro
+Acer TravelMate B TMB117-M (US)
+320
+329
+11:25
+12:15
+Intel Celeron N3050
+2.16
+2
+Netbook/Tablet
+Intel HD Graphics Braswell
+600
+800
+1700
+Basic/Integrated
+11.6
+1366
+768
+No
+32
+EMMC
+4
+Windows 10 Pro
+Acer Swift 3 SF315-51 (2018) (US)
+690
+707
+8:10
+8:45
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Swift 3 SF315-51G (2018) (US)
+1184
+1213
+5:50
+6:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+HP Spectre x360 15t (US)
+2250
+2426
+7:15
+7:50
+Intel i7-8565U
+4.60
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+15.6
+3840
+2160
+Yes
+256
+SSD
+16
+Windows 10 Home
+HP Envy x360 15-cn0 (US)
+1348
+1453
+7:00
+7:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+128
+SSD
+16
+Windows 10 Home
+Asus VivoBook E403NA (US)
+332
+341
+13:35
+14:35
+Intel Celeron N3350
+2.40
+2
+Netbook/Tablet
+Intel HD Graphics 500
+650
+933
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+64
+EMMC
+4
+Windows 10 Home
+Asus ROG Strix GL703VD (US)
+1670
+1800
+4:45
+5:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Asus ROG Strix GL702ZC (EU)
+890
+913
+4:30
+4:50
+AMD Ryzen 5 1600
+3.60
+6
+Desktop
+AMD Radeon RX 580
+1340
+2000
+4096
+High-end
+17.3
+1920
+1080
+No
+1000
+SSHD
+8
+Windows 10 Home
+Asus ROG Strix GL702ZC (EU)
+890
+913
+4:30
+4:50
+AMD Ryzen 5 1600
+3.60
+6
+Desktop
+AMD Radeon RX 580
+1340
+2000
+4096
+High-end
+17.3
+1920
+1080
+No
+1000
+SSHD
+8
+Windows 10 Home
+Asus VivoBook Pro 17 N705UD (US)
+2467
+2530
+4:15
+4:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Microsoft Surface Book (US)
+770
+789
+8:35
+9:10
+Intel i5-6300U
+3.00
+2
+Ultrabook
+Intel HD Graphics 520
+1000
+1067
+1700
+Basic/Integrated
+13.5
+3000
+2000
+Yes
+128
+SSD
+8
+Windows 10 Pro
+Clevo N950KP6
+821
+885
+3:50
+4:05
+Intel i5-7400
+3.50
+4
+Desktop
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+Asus ZenBook Pro UX550GE (US)
+2313
+2372
+4:15
+4:35
+Intel i7-8750H
+4.10
+6
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Asus ZenBook UX530UX (EU)
+637
+654
+5:05
+5:30
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce GTX 950M
+1124
+1250
+2048
+Low mid-range
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Dell Inspiron 15 7570 UHD (US)
+1268
+1301
+4:40
+5:00
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX130
+1242
+1253
+4096
+Basic/Multimedia
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Home
+Dell Inspiron 15 7573 2-in-1 (US)
+770
+830
+6:00
+6:25
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+2000
+HDD
+12
+Windows 10 Home
+Dell Inspiron 13 7373 2-in-1 (US)
+690
+707
+6:10
+6:40
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Dell Inspiron 15 5579 2-in-1 (US)
+467
+504
+6:30
+6:55
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+128
+SSD
+8
+Windows 10 Home
+Dell Inspiron 15 7577 Gaming (US)
+897
+920
+3:55
+4:10
+Intel i5-7300HQ
+3.50
+4
+High performance
+NVIDIA GeForce GTX 1060 Max-Q
+1480
+2002
+6144
+Mid-range
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+Dell Inspiron 13 5379 2-in-1 (US)
+1480
+1517
+6:50
+7:20
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Dell Latitude Rugged 12 7212 Extreme (US)
+1639
+1680
+5:45
+6:10
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+11.6
+1920
+1080
+Yes
+256
+SSD
+16
+Windows 10 Pro
+Dell XPS 13 9360 i7 (US)
+1866
+1913
+10:30
+11:20
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Acer Aspire Nitro 5 Spin NP515-51 (US)
+1974
+2023
+3:30
+3:50
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Acer Spin 5 SP513-51 (2017) (US)
+986
+1011
+7:50
+8:20
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Acer Spin 5 SP513-51 (2017) (US)
+986
+1011
+7:50
+8:20
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Acer Spin 1 SP111-34 (US)
+598
+613
+8:15
+8:50
+Intel Pentium N5000
+2.70
+4
+Netbook/Tablet
+Intel HD Graphics 605
+750
+1200
+8192
+Basic/Integrated
+11.6
+1920
+1080
+Yes
+128
+EMMC
+4
+Windows 10 Home
+Acer Swift 3 SF314-52G (2017) (EU)
+1417
+1453
+5:55
+6:20
+Intel i7-7500U
+3.50
+2
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+14
+1920
+1080
+No
+512
+SSD
+8
+Windows 10 Home
+Acer Swift 3 SF315-51 (2018) (US)
+690
+707
+8:10
+8:45
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Swift 3 SF315-51G (2018) (US)
+1184
+1213
+5:50
+6:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Lenovo Thinkpad A475 (US)
+582
+597
+7:40
+8:15
+AMD A12 PRO-9800B
+3.60
+4
+Value
+AMD Radeon R7 (Bristol-Ridge)
+758
+933
+2048
+Basic/Integrated
+14
+1920
+1080
+No
+500
+HDD
+8
+Windows 10 Pro
+Lenovo Thinkpad A275 (US)
+395
+405
+8:35
+9:10
+AMD A10 PRO-8730B
+3.30
+4
+Value
+AMD Radeon R5 (Bristol Ridge PRO)
+720
+933
+2048
+Basic/Integrated
+12.5
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Pro
+Microsoft Surface Book 2 13.5 i7 (US)
+1505
+1544
+6:50
+7:20
+Intel i7-8650U
+4.20
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+13.5
+3000
+2000
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Microsoft Surface Book 2 13.5 i7 (US)
+1505
+1544
+6:50
+7:20
+Intel i7-8650U
+4.20
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+2048
+Low mid-range
+13.5
+3000
+2000
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Microsoft Surface Book 2 15 (US)
+2170
+2225
+7:25
+8:00
+Intel i7-8650U
+4.20
+4
+Ultrabook
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+15
+3240
+2160
+Yes
+256
+SSD
+16
+Windows 10 Home
+Lenovo Yoga 920-14 UHD (US)
+2961
+3036
+7:50
+8:25
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.9
+3840
+2160
+Yes
+1024
+SSD
+16
+Windows 10 Home
+Lenovo Ideapad V320-17 (EU)
+839
+861
+4:55
+5:20
+Intel Pentium 4415U
+2.20
+2
+Value
+Intel HD Graphics 610
+950
+1067
+1700
+Basic/Integrated
+17.3
+1600
+900
+No
+1000
+HDD
+4
+Windows 10 Pro
+Lenovo Ideapad 120s-14 (EU)
+361
+389
+8:50
+9:25
+Intel Pentium N4200
+2.50
+4
+Netbook/Tablet
+Intel HD Graphics 505
+750
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+128
+SSD
+8
+Windows 10 Home
+Razer Blade Pro 17 (2017) (US)
+2544
+2609
+3:50
+4:05
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1060
+1708
+2002
+6144
+Mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Razer Blade Stealth 2018 QHD (US)
+1974
+2023
+6:45
+7:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+3200
+1800
+Yes
+512
+SSD
+16
+Windows 10 Home
+Google Pixelbook GA00122-US (i7) (US)
+1628
+1669
+7:30
+8:00
+Intel i7-7Y75
+3.60
+2
+Ultrabook
+Intel HD Graphics 615
+1050
+933
+1700
+Basic/Integrated
+12.3
+2400
+1600
+Yes
+512
+SSD
+16
+Chrome OS 1
+Google Pixelbook GA00122-US (i7) (US)
+1628
+1669
+7:30
+8:00
+Intel i7-7Y75
+3.60
+2
+Ultrabook
+Intel HD Graphics 615
+1050
+933
+1700
+Basic/Integrated
+12.3
+2400
+1600
+Yes
+512
+SSD
+16
+Chrome OS 1
+Google Pixelbook GA00122-US (i7) (US)
+1628
+1669
+7:30
+8:00
+Intel i7-7Y75
+3.60
+2
+Ultrabook
+Intel HD Graphics 615
+1050
+933
+1700
+Basic/Integrated
+12.3
+2400
+1600
+Yes
+512
+SSD
+16
+Chrome OS 1
+Asus ROG GL503VS (US)
+2369
+2428
+3:05
+3:15
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1070
+1645
+2002
+8192
+High-end
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Asus ROG Strix GL703VD (US)
+1670
+1800
+4:45
+5:10
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+HP EliteBook 1040 G4 (US)
+1282
+1315
+10:45
+11:30
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Pro
+HP Stream 11 Pro G4 EE (US)
+311
+335
+10:30
+11:15
+Intel Celeron N3450
+2.20
+4
+Netbook/Tablet
+Intel HD Graphics 500
+700
+933
+1700
+Basic/Integrated
+11.6
+1366
+768
+Yes
+128
+EMMC
+4
+Windows 10 S
+HP EliteBook x360 1020 G2 (US)
+739
+758
+5:40
+6:05
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+12.5
+3840
+2160
+Yes
+256
+SSD
+16
+Windows 10 Pro
+HP ProBook 470 G5 (EU)
+787
+807
+5:25
+5:45
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce 930MX
+1176
+900
+2048
+Basic/Multimedia
+17.3
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+HP ProBook 440 G5 (US)
+614
+629
+9:40
+10:20
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Pro
+Clevo P750TM-R (US)
+2135
+2302
+3:15
+3:25
+Intel i5-8600K
+4.30
+6
+Desktop
+NVIDIA GeForce RTX 2060
+1200
+1750
+6144
+Mid-range
+15.6
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+HP Envy 17-ce0 (US)
+1332
+1365
+6:00
+6:25
+Intel i7-8565U
+4.60
+4
+Ultrabook
+NVIDIA GeForce MX250 25W
+1582
+1502
+4096
+Basic/Multimedia
+17.3
+1920
+1080
+Yes
+128
+SSD
+16
+Windows 10 Pro
+HP Envy x360 15-ds0 (US)
+700
+755
+8:05
+8:40
+AMD Ryzen 5 3500U
+3.70
+4
+Value
+AMD Radeon RX Vega 8 (Picasso)
+1200
+1200
+2048
+Basic/Multimedia
+15.6
+1920
+1080
+Yes
+128
+SSD
+8
+Windows 10 Home
+Samsung Galaxy Book 12 (US)
+926
+998
+5:55
+6:20
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+12
+2160
+1440
+Yes
+256
+SSD
+4
+Windows 10 Home
+Asus Chromebook C202SA (US)
+264
+271
+11:40
+12:35
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+11.6
+1366
+768
+No
+16
+EMMC
+4
+Chrome OS 1
+Lenovo Yoga 920-14 UHD (US)
+2961
+3036
+7:50
+8:25
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.9
+3840
+2160
+Yes
+1024
+SSD
+16
+Windows 10 Home
+Dell Inspiron 15 7570 UHD (US)
+1268
+1301
+4:40
+5:00
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX130
+1242
+1253
+4096
+Basic/Multimedia
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Home
+Asus VivoBook S14 S406UA (EU)
+1293
+1325
+7:50
+8:25
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Home
+Asus ZenBook UX430UA (2018) (US)
+2172
+2227
+8:40
+9:20
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Asus VivoBook Flip 14 TP401MA (US)
+746
+765
+8:15
+8:55
+Intel Pentium N5000
+2.70
+4
+Netbook/Tablet
+Intel HD Graphics 605
+750
+1200
+8192
+Basic/Integrated
+14
+1920
+1080
+Yes
+64
+EMMC
+4
+Windows 10 S
+Asus ZenBook UX490UA (2018) (US)
+1620
+1661
+8:00
+8:35
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Pro
+HP Spectre x360 13-ae0 (US)
+1332
+1365
+9:45
+10:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+16
+Windows 10 Pro
+Asus VivoBook Flip 14 TP410UA (2018) (US)
+719
+738
+6:45
+7:10
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus VivoBook Flip 14 TP410UA (2018) (US)
+719
+738
+6:45
+7:10
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Acer Aspire 5 A515-51G (2018) (US)
+1480
+1517
+5:50
+6:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Aspire 5 A515-51G (2018) (US)
+1480
+1517
+5:50
+6:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Asus ZenBook Flip 14 UX461UN (US)
+1974
+2023
+6:35
+7:05
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+14
+1920
+1080
+Yes
+512
+SSD
+16
+Windows 10 Home
+Asus VivoBook Pro 17 N705UD (US)
+2467
+2530
+4:15
+4:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Asus ZenBook Flip 14 UX461UN (US)
+1974
+2023
+6:35
+7:05
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+14
+1920
+1080
+Yes
+512
+SSD
+16
+Windows 10 Home
+Asus VivoBook S14 S410UA (2018) (US)
+986
+1011
+6:50
+7:20
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+1000
+SSHD
+8
+Windows 10 Home
+Asus ZenBook 13 UX331UN (US)
+1974
+2023
+6:10
+6:35
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150 Max-Q
+1038
+1253
+2048
+Basic/Multimedia
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus VivoBook Flip 15 TP510UA (US)
+563
+607
+6:00
+6:25
+Intel i3-7100U
+2.40
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+1000
+HDD
+8
+Windows 10 Home
+Asus ZenBook UX430UA (2018) (US)
+2172
+2227
+8:40
+9:20
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Asus VivoBook Pro 17 N705UD (US)
+2467
+2530
+4:15
+4:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Asus ZenBook 13 UX331UN (US)
+1974
+2023
+6:10
+6:35
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150 Max-Q
+1038
+1253
+2048
+Basic/Multimedia
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Asus VivoBook S15 S510UA (2018) (US)
+1159
+1188
+6:05
+6:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+Asus VivoBook S15 S510UA (2018) (US)
+1159
+1188
+6:05
+6:30
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+128
+SSD
+8
+Windows 10 Home
+Asus ROG Strix GL702VI (US)
+3949
+4048
+3:35
+3:55
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1080
+1733
+1251
+8192
+High-end
+17.3
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Home
+Asus VivoBook Max X541SA (US)
+591
+606
+8:25
+9:05
+Intel Pentium N3710
+2.56
+4
+Netbook/Tablet
+Intel HD 405
+700
+800
+1024
+Basic/Integrated
+15.6
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Home
+Dell Inspiron 15 5570 (US)
+700
+717
+6:00
+6:25
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+1000
+HDD
+12
+Windows 10 Home
+Dell Inspiron 17 5770 dGPU (US)
+2186
+2241
+4:45
+5:05
+Intel i7-8550U
+4.00
+4
+Ultrabook
+AMD Radeon 530
+1024
+1125
+4096
+Basic/Multimedia
+17.3
+1920
+1080
+No
+1024
+SSD
+32
+Windows 10 Pro
+Dell Inspiron 17 5770 dGPU (US)
+2186
+2241
+4:45
+5:05
+Intel i7-8550U
+4.00
+4
+Ultrabook
+AMD Radeon 530
+1024
+1125
+4096
+Basic/Multimedia
+17.3
+1920
+1080
+No
+1024
+SSD
+32
+Windows 10 Pro
+Dell Inspiron 13 7370 (US)
+636
+653
+6:10
+6:40
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Home
+Dell Inspiron 17 7773 2-in-1 (US)
+879
+902
+5:45
+6:10
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+17.3
+1920
+1080
+Yes
+1000
+HDD
+12
+Windows 10 Home
+Lenovo Ideapad 720S-15 (US)
+1185
+1215
+4:45
+5:05
+Intel i7-7700HQ
+3.80
+4
+High performance
+NVIDIA GeForce GTX 1050 Ti
+1620
+1752
+4096
+Low mid-range
+15.6
+3840
+2160
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Lenovo Ideapad 720S-13 UHD (US)
+888
+911
+5:25
+5:50
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+3840
+2160
+Yes
+512
+SSD
+8
+Windows 10 Home
+Acer Spin SP515-51GN (2018) (US)
+948
+973
+4:50
+5:10
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce GTX 1050
+1493
+1752
+4096
+Low mid-range
+15.6
+1920
+1080
+Yes
+1000
+HDD
+8
+Windows 10 Home
+Acer Aspire Switch 7 SW713-51G (US)
+1628
+1669
+4:00
+4:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+13.5
+2256
+1504
+Yes
+512
+SSD
+16
+Windows 10 Pro
+Acer Chromebook 15 CB515-1HT (US)
+325
+351
+9:40
+10:25
+Intel Celeron N3350
+2.40
+2
+Netbook/Tablet
+Intel HD Graphics 500
+650
+933
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+32
+EMMC
+4
+Chrome OS 1
+Acer Swift 5 SF514-52T (US)
+939
+1012
+5:45
+6:10
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+512
+SSD
+8
+Windows 10 Home
+Acer Chromebook 15 CB3-532 (US)
+265
+272
+12:45
+13:40
+Intel Celeron N3060
+2.48
+2
+Netbook/Tablet
+Intel HD 400
+600
+800
+1024
+Basic/Integrated
+15.6
+1366
+768
+No
+16
+EMMC
+2
+Chrome OS 1
+Acer Chromebook 11 C771 (US)
+273
+294
+9:05
+9:45
+Intel Celeron 3855U
+1.60
+2
+Value
+Intel HD Graphics 510
+900
+1067
+1700
+Basic/Integrated
+11.6
+1366
+768
+Yes
+64
+EMMC
+4
+Chrome OS 1
+Acer Aspire E5-576G (US)
+1974
+2023
+4:50
+5:10
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Aspire E5-575G (2017) (US)
+1480
+1517
+4:45
+5:10
+Intel i5-7200U
+3.10
+2
+Ultrabook
+NVIDIA GeForce 940MX
+1176
+900
+2048
+Budget/Casual gaming
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Dell Latitude 14 7490 (US)
+760
+779
+12:05
+12:55
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+128
+SSD
+8
+Windows 10 Pro
+Dell Latitude 13 7390 (US)
+885
+908
+10:30
+11:20
+Intel i7-8650U
+4.20
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Lenovo Ideapad 720s-14 (2018) (US)
+1185
+1215
+6:45
+7:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+NVIDIA GeForce MX150
+1468
+1502
+2048
+Budget/Casual gaming
+14
+1920
+1080
+No
+512
+SSD
+16
+Windows 10 Home
+Lenovo Ideapad 120s-11 (EU)
+490
+502
+9:50
+10:35
+Intel Celeron N3350
+2.40
+2
+Netbook/Tablet
+Intel HD Graphics 500
+650
+933
+1700
+Basic/Integrated
+11.6
+1366
+768
+No
+64
+EMMC
+4
+Windows 10 Home
+Lenovo Ideapad Miix 520 (US)
+889
+912
+6:20
+6:50
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.2
+1920
+1200
+Yes
+256
+SSD
+8
+Windows 10 Home
+Lenovo Thinkpad E580 (US)
+668
+720
+7:40
+8:15
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Lenovo Thinkpad E480 dGPU (US)
+715
+734
+4:55
+5:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+AMD Radeon RX 550
+1287
+1750
+2048
+Budget/Casual gaming
+14
+1920
+1080
+No
+500
+HDD
+8
+Windows 10 Pro
+Lenovo Yoga 720-12 (US)
+492
+505
+6:00
+6:25
+Intel i7-7500U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1050
+1067
+1700
+Basic/Integrated
+12.5
+1920
+1080
+Yes
+512
+SSD
+8
+Windows 10 Home
+Panasonic Toughbook CF-XZ6 (US)
+3406
+3493
+11:35
+12:25
+Intel i5-7300U
+3.50
+2
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12
+2160
+1440
+Yes
+256
+SSD
+8
+Windows 10 Home
+LG gram 15 Z980 (US)
+1812
+1857
+11:05
+11:55
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+Yes
+1024
+SSD
+16
+Windows 10 Home
+Lenovo Thinkpad E480 dGPU (US)
+715
+734
+4:55
+5:15
+Intel i7-8550U
+4.00
+4
+Ultrabook
+AMD Radeon RX 550
+1287
+1750
+2048
+Budget/Casual gaming
+14
+1920
+1080
+No
+500
+HDD
+8
+Windows 10 Pro
+Fujitsu Lifebook E558 (US)
+1623
+1750
+8:55
+9:35
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+15.6
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Pro
+Fujitsu Lifebook E548 (EU)
+2161
+2329
+8:40
+9:20
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Dell XPS 13 9370 (US)
+891
+914
+5:55
+6:20
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+3840
+2160
+Yes
+128
+SSD
+8
+Windows 10 Home
+Dell Vostro 14 5471 dGPU (NoAvb)
+881
+950
+4:50
+5:10
+Intel i7-8550U
+4.00
+4
+Ultrabook
+AMD Radeon 530
+1024
+1125
+4096
+Budget/Casual gaming
+14
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Pro
+Clevo N131WU
+943
+966
+4:50
+5:10
+Intel i7-8550U
+4.00
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+13.3
+3200
+1800
+No
+128
+SSD
+8
+Windows 10 Home
+Xiaomi Pro 15.6 (US)
+908
+931
+9:10
+9:50
+Intel i5-8250U
+3.40
+4
+Ultrabook
+NVIDIA GeForce MX250 10W
+1582
+1502
+2048
+Basic/Multimedia
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Lenovo Thinkpad E580 (US)
+668
+720
+7:40
+8:15
+Intel i5-7200U
+3.10
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+8
+Windows 10 Home
+Acer Aspire Nitro VN7-792G (EU)
+2017
+2068
+3:35
+3:50
+Intel i7-6700HQ
+3.50
+4
+High performance
+NVIDIA GeForce GTX 960M
+1176
+1253
+4096
+Mid-range
+17.3
+1920
+1080
+No
+256
+SSD
+32
+Windows 10 Home
+Dell Latitude 12 7290 (US)
+1185
+1215
+12:20
+13:15
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.5
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Pro
+Dell Latitude 13 3390 2-in-1 (US)
+988
+1013
+6:50
+7:20
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Dell Latitude 12 7290 (US)
+1185
+1215
+12:20
+13:15
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.5
+1366
+768
+No
+256
+SSD
+8
+Windows 10 Pro
+Dell Latitude 13 3390 2-in-1 (US)
+988
+1013
+6:50
+7:20
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Dell Latitude 14 3490 (US)
+617
+632
+10:10
+10:55
+Intel i3-8130U
+3.40
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Pro
+Dell Latitude 14 3490 (US)
+617
+632
+10:10
+10:55
+Intel i3-8130U
+3.40
+2
+Ultrabook
+Intel HD Graphics 620
+1000
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+500
+HDD
+4
+Windows 10 Pro
+Dell Latitude 12 5290 2-in-1 (US)
+1326
+1359
+6:10
+6:40
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.3
+1920
+1280
+Yes
+500
+HDD
+8
+Windows 10 Pro
+Dell Latitude 12 5290 2-in-1 (US)
+1326
+1359
+6:10
+6:40
+Intel i5-8350U
+3.60
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.3
+1920
+1280
+Yes
+500
+HDD
+8
+Windows 10 Pro
+Dell Latitude 14 5490 (US)
+1079
+1106
+12:25
+13:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+500
+HDD
+8
+Windows 10 Pro
+Dell Latitude 14 5490 (US)
+1079
+1106
+12:25
+13:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1366
+768
+No
+500
+HDD
+8
+Windows 10 Pro
+Dell Latitude 15 5590 (US)
+1974
+2023
+11:35
+12:25
+Intel i7-8650U
+4.20
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Pro
+Dell Latitude 15 5590 (US)
+1974
+2023
+11:35
+12:25
+Intel i7-8650U
+4.20
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+15.6
+1920
+1080
+No
+256
+SSD
+16
+Windows 10 Pro
+Dell Latitude 13 7390 2-in-1 (EU)
+1204
+1235
+7:20
+7:50
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Dell Latitude 13 7390 2-in-1 (EU)
+1204
+1235
+7:20
+7:50
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+13.3
+1920
+1080
+Yes
+256
+SSD
+8
+Windows 10 Pro
+Clevo P750TM-R (US)
+2135
+2302
+3:15
+3:25
+Intel i5-8600K
+4.30
+6
+Desktop
+NVIDIA GeForce RTX 2060
+1200
+1750
+6144
+Mid-range
+15.6
+1920
+1080
+No
+128
+SSD
+16
+Windows 10 Home
+Lenovo Thinkpad X1 Carbon (6th gen)
+1579
+1618
+8:35
+9:15
+Intel i7-8650U
+4.20
+4
+Ultrabook
+Intel HD Graphics 620
+1150
+1067
+1700
+Basic/Integrated
+14
+2560
+1440
+No
+512
+SSD
+16
+Windows 10 Pro
+Lenovo Thinkpad X1 Yoga (3rd Gen) (US)
+986
+1011
+8:40
+9:15
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+14
+1920
+1080
+Yes
+512
+SSD
+8
+Windows 10 Pro
+Lenovo Thinkpad X280 (US)
+951
+1026
+9:55
+10:35
+Intel i5-8250U
+3.40
+4
+Ultrabook
+Intel HD Graphics 620
+1100
+1067
+1700
+Basic/Integrated
+12.5
+1366
+768
+No
+256
+SSD
+16
+Windows 10 Pro
+Lenovo Thinkpad T480 dGPU (US)
+
+
+
+
+
+
+
+
+

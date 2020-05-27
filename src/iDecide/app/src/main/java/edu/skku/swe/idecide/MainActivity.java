@@ -10,6 +10,10 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.io.IOException;
+
+import edu.skku.swe.idecide.utils.UpdateLaptop;
+
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;
     private FragmentManager fm;
@@ -59,6 +63,13 @@ public class MainActivity extends AppCompatActivity {
         fragmentHistory = new FragmentHistory();
         fragmentCart = new FragmentCart();
         setFrag(0);
+
+//	for test, save laptops to firebase
+//      try {
+//          UpdateLaptop.saveLaptopsToFiretore("model.txt", this);
+//      } catch (IOException e) {
+//          e.printStackTrace();
+//      }
     }
 
     private void setFrag(int i)
