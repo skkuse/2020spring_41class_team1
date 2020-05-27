@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "645312967140",
+    "firebase_url": "https://idecide-363c2.firebaseio.com",
+    "project_id": "idecide-363c2",
+    "storage_bucket": "idecide-363c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645312967140:android:314b62d862ce338ded17f1",
+        "android_client_info": {
+          "package_name": "edu.skku.swe.idecide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645312967140-durraff8n3s3886ecpf0di6665hh6fh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.swe.idecide",
+            "certificate_hash": "2259a600e0e218498bea26af8d6c6aabad871716"
+          }
+        },
+        {
+          "client_id": "645312967140-907dvkalvcuoqgehvvl2ibsbpgf5jgtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGBalSovWeROqZzEa1C38bwhTPRntbWOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645312967140-907dvkalvcuoqgehvvl2ibsbpgf5jgtc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,4 +6,14 @@
     <string name="menu_action_up_down">Up down</string>
     <string name="menu_action_up_down_stack">Up down stack</string>
 
+    <string name="email_registration">Email Registration</string>
+    <string name="prompt_email">Email</string>\
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="nickname">Nickname</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="collection_users">User</string>
 </resources>
