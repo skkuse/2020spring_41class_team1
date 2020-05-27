@@ -36,7 +36,6 @@ import java.util.List;
 public class EditProfileActivity extends AppCompatActivity {
     private NumberPicker.OnValueChangeListener valueChangeListener;
     private static final int REQUEST_CODE = 0;
-    private boolean allSetFlag = false;
     private File newImageFile;
 
     Button editImg;
@@ -45,9 +44,13 @@ public class EditProfileActivity extends AppCompatActivity {
     TextInputLayout l_nickname, l_gender, l_age;
 
     // initialize
+    // firebase에서 받아와야함
     Bitmap getImage = null;
     String getNickname = null;
     int getGender = -1, getAge = -1;
+
+    // temp
+    int getIndex = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -114,18 +117,24 @@ public class EditProfileActivity extends AppCompatActivity {
                 final CharSequence[] genderList = {"남자", "여자", "기타"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileActivity.this);
                 builder.setTitle("성별을 선택해주세요")
-                        .setSingleChoiceItems(genderList, -1, new DialogInterface.OnClickListener(){
-
-                            public void onClick(DialogInterface dialog, int index){
-                                getGender = index;
-                                gender.setText(genderList[index].toString());
-                                dialog.cancel();
-                            }
+                        .setSingleChoiceItems(genderList, getGender, new DialogInterface.OnClickListener(){
+                            public void onClick(DialogInterface dialog, int index){ getIndex = index; }
                         });
-                AlertDialog dialog = builder.create();
 
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        getGender = getIndex;
+                        gender.setText(genderList[getGender].toString());
+                    }
+                });
+                builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) { }
+                });
+
+                AlertDialog dialog = builder.create();
                 dialog.show();
-                if (getGender > 0) allSetFlag = true;
             }
         });
         // age
@@ -146,7 +155,6 @@ public class EditProfileActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         getAge = numberPicker.getValue();
                         age.setText(Integer.toString(getAge));
-                        allSetFlag = true;
                     }
                 });
 
@@ -177,7 +185,7 @@ public class EditProfileActivity extends AppCompatActivity {
             }
             case R.id.toolbar_confirm:{
                 getNickname = nickname.getText().toString();
-                if (allSetFlag == false || getNickname.length() == 0) {
+                if (getNickname.length() == 0 || getGender < 0 || getAge < 0) {
                     Toast.makeText(this, "모든 정보를 입력해주세요", Toast.LENGTH_SHORT).show();
                 }
                 else {

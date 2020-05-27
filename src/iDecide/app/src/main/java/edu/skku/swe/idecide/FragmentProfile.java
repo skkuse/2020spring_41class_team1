@@ -2,8 +2,10 @@ package edu.skku.swe.idecide;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -23,6 +25,8 @@ public class FragmentProfile extends Fragment {
     Button editButton, historyOptionButton, logoutButton;
     TextView nickname, age_gender, email;
     CircleImageView img;
+    int notSaveHistory = 0;
+    int getIndex;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,6 +54,7 @@ public class FragmentProfile extends Fragment {
         img.setImageResource(R.drawable.ryan);
 
 
+        // EDIT PROFILE
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +63,63 @@ public class FragmentProfile extends Fragment {
                 startActivityForResult(intent, REQUEST_CODE);
             }
 
+        });
+        // SAVE HISTORY OPTION
+        historyOptionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final CharSequence[] saveOrNot = {"저장", "저장 안함"};
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+                builder.setTitle("검색기록 저장 옵션을 선택해주세요")
+                        .setSingleChoiceItems(saveOrNot, notSaveHistory, new DialogInterface.OnClickListener(){
+                            public void onClick(DialogInterface dialog, int index){ getIndex = index; }
+                        });
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        notSaveHistory = getIndex;
+                        if (notSaveHistory == 1)
+                        {
+                            // History를 저장하지 않을 경우 firebase에서 user history 삭제
+                        }
+                    }
+                });
+                builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) { }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
+
+            }
+        });
+        // LOGOUT
+        logoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+                builder.setTitle(" 종료하시겠습니까?");
+                builder.setCancelable(true);
+                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                android.os.Process.killProcess(android.os.Process.myPid());
+                                //System.runFinalization();
+                                //System.exit(0);
+                            }
+                        });
+                builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
         });
 
 
