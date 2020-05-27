@@ -6,16 +6,16 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class ItemDetailActivity extends AppCompatActivity {
+public class SearchResultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_item_detail);
+        setContentView(R.layout.activity_search_result);
 
         // toolbar
-        Toolbar tb = (Toolbar) findViewById(R.id.toolbar_item_detail);
-        tb.setTitle("상세 정보"); // change title to clicked laptop name later (after db is made)
+        Toolbar tb = (Toolbar) findViewById(R.id.toolbar_search_result);
+        tb.setTitle("검색 결과");
         setSupportActionBar(tb);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
