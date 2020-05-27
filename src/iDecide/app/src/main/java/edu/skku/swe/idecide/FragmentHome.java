@@ -55,6 +55,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
@@ -99,7 +100,7 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
 //        R.color.color_26
     };
     private CardStackView mStackView;
-    private LinearLayout mActionButtonContainer;
+    private FrameLayout mActionButtonContainer;
     private HomeStackAdapter mHomeStackAdapter;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -113,7 +114,7 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         super.onCreate(savedInstanceState);
         ViewGroup rootView= (ViewGroup)inflater.inflate(R.layout.fragment_home_stack_view,container, false);
         mStackView = (CardStackView) rootView.findViewById(R.id.stackview_main);
-        mActionButtonContainer = (LinearLayout) rootView.findViewById(R.id.button_container);
+        mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_home);
         mStackView.setItemExpendListener(this);
         mHomeStackAdapter = new HomeStackAdapter(getActivity());
         mStackView.setAdapter(mHomeStackAdapter);

@@ -1,25 +1,25 @@
 package edu.skku.swe.idecide;
 
-import android.content.Context;
-
-import com.loopeer.cardstack.StackAdapter;
 import android.graphics.PorterDuff;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
 import com.loopeer.cardstack.CardStackView;
+import com.loopeer.cardstack.StackAdapter;
 
-public class HomeStackAdapter extends StackAdapter<Integer> {
+import java.util.ArrayList;
 
-    public HomeStackAdapter(FragmentActivity activity) {
+public class SearchStackAdapter extends StackAdapter<Integer> {
+
+
+
+    public SearchStackAdapter(FragmentActivity activity) {
         super(activity);
     }
-
-
-
     @Override
     public void bindView(Integer data, int position, CardStackView.ViewHolder holder) {
         if (holder instanceof ColorItemLargeHeaderViewHolder) {
@@ -47,7 +47,7 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
                 view = getLayoutInflater().inflate(R.layout.list_card_item_with_no_header, parent, false);
                 return new ColorItemWithNoHeaderViewHolder(view);
             default:
-                view = getLayoutInflater().inflate(R.layout.list_card_item, parent, false);
+                view = getLayoutInflater().inflate(R.layout.preference_check, parent, false);
                 return new ColorItemViewHolder(view);
         }
     }
@@ -62,7 +62,7 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
 //        }else {
 //            return R.layout.list_card_item;
 //        }
-        return R.layout.list_card_item;
+        return R.layout.preference_check;
     }
 
     static class ColorItemViewHolder extends CardStackView.ViewHolder {
@@ -72,6 +72,7 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
 
         public ColorItemViewHolder(View view) {
             super(view);
+
             mLayout = view.findViewById(R.id.frame_list_card_item);
             mContainerContent = view.findViewById(R.id.container_list_content);
             mTextTitle = (TextView) view.findViewById(R.id.text_list_card_title);
@@ -84,8 +85,8 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
 
         public void onBind(Integer data, int position) {
             mLayout.getBackground().setColorFilter(ContextCompat.getColor(getContext(), data), PorterDuff.Mode.SRC_IN);
-            mTextTitle.setText(String.valueOf(position));
-
+            mTextTitle.setText("Preference"
+                    +position);
         }
 
     }
@@ -106,8 +107,8 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
 
         public void onBind(Integer data, int position) {
             mLayout.getBackground().setColorFilter(ContextCompat.getColor(getContext(), data), PorterDuff.Mode.SRC_IN);
-            mTextTitle.setText(String.valueOf(position));
-
+            mTextTitle.setText("Preference"
+                    +position);
         }
 
     }
@@ -116,6 +117,7 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
         View mLayout;
         View mContainerContent;
         TextView mTextTitle;
+        ArrayList<String> preferenceList = new ArrayList<String>();
 
         public ColorItemLargeHeaderViewHolder(View view) {
             super(view);
@@ -142,8 +144,8 @@ public class HomeStackAdapter extends StackAdapter<Integer> {
 
         public void onBind(Integer data, int position) {
             mLayout.getBackground().setColorFilter(ContextCompat.getColor(getContext(), data), PorterDuff.Mode.SRC_IN);
-            mTextTitle.setText(String.valueOf(position));
-
+            mTextTitle.setText("Preference"
+            +position);
             itemView.findViewById(R.id.text_view).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
