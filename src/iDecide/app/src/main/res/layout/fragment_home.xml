@@ -9,9 +9,14 @@
     android:layout_height="match_parent"
     tools:context=".FragmentHistory">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="home" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/colorAccent"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarSize="4dp" >
+    </androidx.recyclerview.widget.RecyclerView>
+
 </LinearLayout>
