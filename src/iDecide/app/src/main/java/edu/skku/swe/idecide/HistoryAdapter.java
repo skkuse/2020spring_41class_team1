@@ -28,17 +28,16 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull HistoryViewHolder holder, final int position) {
-
         holder.textView1.setText(list.get(position).history);
-
     }
-
 
     @Override
     public int getItemCount() {
         return list.size();
     }
-}
+}//Adapter
+
+
 
 class HistoryViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
     TextView textView1;
@@ -56,4 +55,4 @@ class HistoryViewHolder extends RecyclerView.ViewHolder implements View.OnClickL
         Intent intent = new Intent(v.getContext(), HistoryDetailActivity.class);
         v.getContext().startActivity(intent);
     }
-}
+}//Holder
