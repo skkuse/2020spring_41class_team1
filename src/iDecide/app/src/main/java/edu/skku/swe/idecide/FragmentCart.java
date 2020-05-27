@@ -18,6 +18,11 @@ public class FragmentCart extends Fragment {
     private RecyclerView recyclerView;
     private List<Item> list = new ArrayList<>();
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -27,9 +32,10 @@ public class FragmentCart extends Fragment {
 
 
         // 원래는 파이어베이스 cart에서 받아와야함!!
+        // 지금은 사진이 int로 되어있는데 firebase에서 받아올때는 bitmap으로 바꿀수도 있음
         for (int i = 0; i < 20; i++)
         {
-            list.add(new Item(R.mipmap.ic_launcher,"SAMSUNG","Ion", "#1", "90"));
+            list.add(new Item(R.drawable.ion,"SAMSUNG","Ion", "", "90"));
         }
 
 
