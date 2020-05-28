@@ -31,18 +31,22 @@
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="item name"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="item specs"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="item score"/>
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+            <com.github.mikephil.charting.charts.RadarChart
+                android:id="@+id/hardware_chart_item_detail"
+                android:layout_width="205dp"
+                android:layout_height="match_parent" />
+
+            <com.github.mikephil.charting.charts.RadarChart
+                android:id="@+id/review_chart_item_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
