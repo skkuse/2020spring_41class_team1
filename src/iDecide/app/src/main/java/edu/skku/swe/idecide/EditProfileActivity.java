@@ -10,13 +10,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -29,27 +27,26 @@ import android.widget.Toast;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.util.List;
 
 public class EditProfileActivity extends AppCompatActivity {
     private NumberPicker.OnValueChangeListener valueChangeListener;
     private static final int REQUEST_CODE = 0;
     private File newImageFile;
 
-    Button editImg;
+    Button editImgButton;
     CircleImageView imageView;
-    TextInputEditText nickname, gender, age;
+    TextInputEditText nicknameEditText, genderEditText, ageEditText;
     TextInputLayout l_nickname, l_gender, l_age;
 
     // initialize
-    // firebase에서 받아와야함
     Bitmap getImage = null;
     String getNickname = null;
     int getGender = -1, getAge = -1;
 
     // temp
+    final CharSequence[] genderList = {"남자", "여자", "기타"};
+    final CharSequence[] changeProfile = {"새 프로필 사진", "프로필 사진 삭제"};
     int getIndex = -1;
 
     @Override
@@ -64,10 +61,12 @@ public class EditProfileActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         imageView = findViewById(R.id.img_edit_profile);
-        editImg = findViewById(R.id.editButton_edit_profile);
-        nickname = findViewById(R.id.nickname_edit_profile);
-        gender = findViewById(R.id.gender_edit_profile);
-        age = findViewById(R.id.age_edit_profile);
+        editImgButton = findViewById(R.id.editButton_edit_profile);
+        nicknameEditText = findViewById(R.id.nickname_edit_profile);
+        genderEditText = findViewById(R.id.gender_edit_profile);
+        ageEditText = findViewById(R.id.age_edit_profile);
+        genderEditText.setInputType(0);
+        ageEditText.setInputType(0);
         l_nickname = findViewById(R.id.l_nickname_edit_profile);
         l_gender = findViewById(R.id.l_gender_edit_profile);
         l_age = findViewById(R.id.l_age_edit_profile);
@@ -75,25 +74,52 @@ public class EditProfileActivity extends AppCompatActivity {
         l_nickname.setCounterMaxLength(20);
 
         // SET
-        // 원래는 서버에서 받아와서 set 해줘야 함
-        if (getImage == null) {
-            imageView.setImageResource(R.drawable.default5);
-        }
+        Intent fromProfile = getIntent();
+        getImage = (Bitmap)fromProfile.getParcelableExtra("img");
+        getNickname = fromProfile.getStringExtra("nickname");
+        getAge = fromProfile.getIntExtra("age", -1);
+        getGender = fromProfile.getIntExtra("gender", -1);
+        if (getImage == null) { imageView.setImageResource(R.drawable.default5); }
+        else { imageView.setImageBitmap(getImage); }
+        nicknameEditText.setText(getNickname);
+        if (getGender > 0) genderEditText.setText(genderList[getGender]);
+        if (getAge > 0) ageEditText.setText(Integer.toString(getAge));
+
 
 
         // GET
         // image
-        editImg.setOnClickListener(new View.OnClickListener() {
+        editImgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 사진 변경, 삭제 고르는 메뉴 추가해야함
-                tedPermission(); // 권한확인부분 수정 필요
-                Intent gallary = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
-                startActivityForResult(gallary, REQUEST_CODE);
+                AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileActivity.this);
+                builder.setTitle("프로필 사진 변경");
+                builder.setItems(changeProfile, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        switch (which) {
+                            case 0:
+                                tedPermission(); // 권한확인부분 수정 필요
+                                Intent gallary = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
+                                startActivityForResult(gallary, REQUEST_CODE);
+                                break;
+
+                            case 1:
+                                getImage = null;
+                                imageView.setImageResource(R.drawable.default5);
+                                Toast.makeText(EditProfileActivity.this, "프로필 사진이 삭제되었습니다", Toast.LENGTH_SHORT).show();
+                                break;
+                        }
+
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
             }
         });
         // nickname
-        nickname.addTextChangedListener(new TextWatcher() {
+        nicknameEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
             @Override
@@ -111,10 +137,13 @@ public class EditProfileActivity extends AppCompatActivity {
             }
         });
         // gender
-        gender.setOnClickListener(new View.OnClickListener() {
+        genderEditText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final CharSequence[] genderList = {"남자", "여자", "기타"};
+                InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                mgr.hideSoftInputFromWindow(v.getWindowToken(), 0);
+
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileActivity.this);
                 builder.setTitle("성별을 선택해주세요")
                         .setSingleChoiceItems(genderList, getGender, new DialogInterface.OnClickListener(){
@@ -125,7 +154,7 @@ public class EditProfileActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         getGender = getIndex;
-                        gender.setText(genderList[getGender].toString());
+                        genderEditText.setText(genderList[getGender].toString());
                     }
                 });
                 builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
@@ -138,13 +167,18 @@ public class EditProfileActivity extends AppCompatActivity {
             }
         });
         // age
-        age.setOnClickListener(new View.OnClickListener() {
+        ageEditText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                mgr.hideSoftInputFromWindow(v.getWindowToken(), 0);
+
+
                 final NumberPicker numberPicker = new NumberPicker(EditProfileActivity.this);
                 numberPicker.setMinValue(5);
                 numberPicker.setMaxValue(120);
-                numberPicker.setValue(20);
+                if (getAge < 0) numberPicker.setValue(20);
+                else numberPicker.setValue(getAge);
                 numberPicker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
                 AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileActivity.this);
 
@@ -154,7 +188,7 @@ public class EditProfileActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         getAge = numberPicker.getValue();
-                        age.setText(Integer.toString(getAge));
+                        ageEditText.setText(Integer.toString(getAge));
                     }
                 });
 
@@ -184,22 +218,26 @@ public class EditProfileActivity extends AppCompatActivity {
                 return true;
             }
             case R.id.toolbar_confirm:{
-                getNickname = nickname.getText().toString();
+                getNickname = nicknameEditText.getText().toString();
                 if (getNickname.length() == 0 || getGender < 0 || getAge < 0) {
                     Toast.makeText(this, "모든 정보를 입력해주세요", Toast.LENGTH_SHORT).show();
                 }
                 else {
                     // change image to bytearray
-                    Intent intent = new Intent();
+                    try {
+                        Intent intent = new Intent();
 
-                    intent.putExtra("img", getImage);
-                    intent.putExtra("nickname", getNickname);
-                    intent.putExtra("gender", getGender);
-                    intent.putExtra("age", getAge);
-                    setResult(RESULT_OK, intent);
-                    finish();
-                    Toast.makeText(this, "저장되었습니다", Toast.LENGTH_SHORT).show();
-                    return true;
+                        intent.putExtra("img", getImage);
+                        intent.putExtra("nickname", getNickname);
+                        intent.putExtra("gender", getGender);
+                        intent.putExtra("age", getAge);
+                        setResult(RESULT_OK, intent);
+                        finish();
+                        Toast.makeText(this, "저장되었습니다", Toast.LENGTH_SHORT).show();
+                        return true;
+                    } catch (Exception e) {
+                        Toast.makeText(this, "서비스 이용이 원활하지 않습니다. 다시 시도해주세요.", Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         }
