@@ -2,9 +2,12 @@ package edu.skku.swe.idecide;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.ViewDebug;
 import android.view.WindowManager;
 import android.widget.TextView;
@@ -22,12 +25,15 @@ import com.github.mikephil.charting.interfaces.datasets.IRadarDataSet;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ItemDetailActivity extends AppCompatActivity {
     private RadarChart chart;
     TextView score;
     int hardwareColor = 0xFF64B5F6;
     int reviewColor = 0xFF9575CD;
+    private RecyclerView recyclerView;
+    private List<Vendor> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,8 +47,24 @@ public class ItemDetailActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
+        // SCORE
         score = findViewById(R.id.score_item_detail);
         score.setText(Integer.toString((int) (Math.random() * 100)));
+
+
+
+        recyclerView = (RecyclerView) findViewById(R.id.rv_item_detail);
+        // 원래는 파이어베이스 item에서 받아와야함!!
+        // 지금은 사진이 int로 되어있는데 firebase에서 받아올때는 bitmap으로 바꿀수도 있음
+        if (list.isEmpty()) {
+            for (int i = 0; i < 5; i++) {
+                list.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500));
+            }
+        }
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        recyclerView.setAdapter(new VendorAdapter(list));
+
 
 
         /* ABOUT CHART */
@@ -157,6 +179,18 @@ public class ItemDetailActivity extends AppCompatActivity {
         public String getFormattedValue(float value, AxisBase axis) {
             return mActivities[(int) value % mActivities.length];
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId()) {
+            case android.R.id.home:{
+                finish();
+                return true;
+            }
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }
