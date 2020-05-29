@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".ItemDetailActivity">
 
     <!-- toolbar -->
@@ -26,7 +27,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:theme="@style/Widget.MaterialComponents.CardView">
 
@@ -52,7 +54,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/button">
+                android:background="@drawable/button"
+                android:elevation="3dp">
 
 
                 <TextView
@@ -70,15 +73,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp">
                     <TextView
                         android:id="@+id/score_item_detail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:textColor="@color/colorAccent"
-                        android:textSize="30dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="35dp"
                         android:textStyle="bold"
                         android:text="SCORE" />
                     <TextView
@@ -86,21 +90,16 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="30dp"
+                        android:textColor="@color/colorLightGray"
+                        android:textSize="20dp"
                         android:textStyle="bold"
                         android:text=" / 100" />
                 </LinearLayout>
 
-                <View
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"/>
-
             </LinearLayout>
 
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

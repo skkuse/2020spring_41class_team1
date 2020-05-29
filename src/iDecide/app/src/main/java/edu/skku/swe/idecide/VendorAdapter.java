@@ -1,6 +1,7 @@
 package edu.skku.swe.idecide;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +43,7 @@ public class VendorAdapter extends RecyclerView.Adapter<VendorViewHolder>{
 
 
 
-class VendorViewHolder extends RecyclerView.ViewHolder{
+class VendorViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
     ImageView imageView;
     TextView textView1;
     TextView textView2;
@@ -53,5 +54,13 @@ class VendorViewHolder extends RecyclerView.ViewHolder{
         imageView = vendorView.findViewById(R.id.img_vendor);
         textView1 = vendorView.findViewById(R.id.price_vendor);
         textView2 = vendorView.findViewById(R.id.shipping_vendor);
+
+        vendorView.setOnClickListener(this);
+    }
+
+    public void onClick(View v) {
+        // Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(list.get()));
+        // v.getContext().startActivity(intent);
+        // 클릭하면 사이트 이동하는 intent 만들어야함,,!
     }
 }//Holder

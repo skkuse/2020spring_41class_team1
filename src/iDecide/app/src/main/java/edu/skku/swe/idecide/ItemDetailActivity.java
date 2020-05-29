@@ -55,11 +55,18 @@ public class ItemDetailActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.rv_item_detail);
         // 원래는 파이어베이스 item에서 받아와야함!!
-        // 지금은 사진이 int로 되어있는데 firebase에서 받아올때는 bitmap으로 바꿀수도 있음
+        // 원래는 name, price, shipping, sitelink 받아와야 함(이미지 말고)
         if (list.isEmpty()) {
-            for (int i = 0; i < 10; i++) {
-                list.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500));
-            }
+            list.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500, "https://11st.co.kr"));
+            list.add(new Vendor(R.drawable.vendor_coupang, 1200000, 0, "https://www.coupang.com/"));
+            list.add(new Vendor(R.drawable.vendor_gmarket, 1200000, 2500, "https://www.gmarket.co.kr/"));
+            list.add(new Vendor(R.drawable.vendor_interpark, 1200000, 0, "http://interpark.com/"));
+            list.add(new Vendor(R.drawable.vendor_tmon, 1200000, 2500, "http://tmon.co.kr/"));
+            list.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500, "https://11st.co.kr"));
+            list.add(new Vendor(R.drawable.vendor_coupang, 1200000, 0, "https://www.coupang.com/"));
+            list.add(new Vendor(R.drawable.vendor_gmarket, 1200000, 2500, "https://www.gmarket.co.kr/"));
+            list.add(new Vendor(R.drawable.vendor_interpark, 1200000, 0, "http://interpark.com/"));
+            list.add(new Vendor(R.drawable.vendor_tmon, 1200000, 2500, "http://tmon.co.kr/"));
         }
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
