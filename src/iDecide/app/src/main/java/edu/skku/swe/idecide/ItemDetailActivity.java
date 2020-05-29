@@ -57,7 +57,7 @@ public class ItemDetailActivity extends AppCompatActivity {
         // 원래는 파이어베이스 item에서 받아와야함!!
         // 지금은 사진이 int로 되어있는데 firebase에서 받아올때는 bitmap으로 바꿀수도 있음
         if (list.isEmpty()) {
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 10; i++) {
                 list.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500));
             }
         }

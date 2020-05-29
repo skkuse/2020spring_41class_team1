@@ -11,7 +11,8 @@ public class Vendor {
         DecimalFormat formatter = new DecimalFormat("###,###");
         this.siteImg = siteImg;
         this.price = formatter.format(price) + "원";
-        this.shipping = formatter.format(shipping) + "원";
+        if (shipping == 0) this.shipping = "무료배송";
+        else this.shipping = formatter.format(shipping) + "원";
     }
 
     public int getSiteImg() {
