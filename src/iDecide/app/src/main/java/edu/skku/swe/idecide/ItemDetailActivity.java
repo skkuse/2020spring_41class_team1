@@ -5,7 +5,9 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.ViewDebug;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.RadarChart;
 import com.github.mikephil.charting.components.AxisBase;
@@ -23,6 +25,7 @@ import java.util.ArrayList;
 
 public class ItemDetailActivity extends AppCompatActivity {
     private RadarChart chart;
+    TextView score;
     int hardwareColor = 0xFF64B5F6;
     int reviewColor = 0xFF9575CD;
 
@@ -38,23 +41,23 @@ public class ItemDetailActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
+        score = findViewById(R.id.score_item_detail);
+        score.setText(Integer.toString((int) (Math.random() * 100)));
+
+
+        /* ABOUT CHART */
         // 전체화면
         // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         setTitle("RadarChartActivity");
-
         chart = findViewById(R.id.chart_item_detail);
         //chart.setBackgroundColor(Color.rgb(60, 65, 82));
-
         chart.getDescription().setEnabled(false);
-
         chart.setWebLineWidth(1f);
         chart.setWebColor(Color.LTGRAY);
         chart.setWebLineWidthInner(1f);
         chart.setWebColorInner(Color.LTGRAY);
         chart.setWebAlpha(80);
         chart.setTouchEnabled(false);
-
 
         setData();
 
@@ -67,7 +70,6 @@ public class ItemDetailActivity extends AppCompatActivity {
         xAxis.setXOffset(0f);
         xAxis.setValueFormatter(new MyValueFormatter());
         xAxis.setTextColor(Color.BLACK);
-
         YAxis yAxis = chart.getYAxis();
         yAxis.setLabelCount(4, false);
         yAxis.setTextSize(9f);

@@ -76,7 +76,7 @@
                     android:textColor="@color/colorAccent"
                     android:textSize="30dp"
                     android:textStyle="bold"
-                    android:text="10" />
+                    android:text="SCORE" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -93,6 +93,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@color/colorLightGray"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp"
+                android:text="가격 비교"/>
 
         </LinearLayout>
 
