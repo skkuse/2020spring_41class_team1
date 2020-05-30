@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -33,6 +34,7 @@ public class VendorAdapter extends RecyclerView.Adapter<VendorViewHolder>{
         holder.imageView.setImageResource(list.get(position).siteImg);
         holder.textView1.setText(list.get(position).price);
         holder.textView2.setText(list.get(position).shipping);
+        holder.imageView.setTag(list.get(position).siteLink);
     }
 
     @Override
@@ -59,8 +61,9 @@ class VendorViewHolder extends RecyclerView.ViewHolder implements View.OnClickLi
     }
 
     public void onClick(View v) {
-        // Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(list.get()));
-        // v.getContext().startActivity(intent);
-        // 클릭하면 사이트 이동하는 intent 만들어야함,,!
+        String link = imageView.getTag().toString();
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+        v.getContext().startActivity(intent);
+        // 클릭하면 사이트 이동
     }
 }//Holder

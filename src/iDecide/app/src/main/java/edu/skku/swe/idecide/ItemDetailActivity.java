@@ -55,7 +55,7 @@ public class ItemDetailActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.rv_item_detail);
         // 원래는 파이어베이스 item에서 받아와야함!!
-        // 원래는 name, price, shipping, sitelink 받아와야 함(이미지 말고)
+        // 원래는 name, price, shipping, sitelink 받아와야 함(이미지 말고), sitelink가 그 판매 페이지 바로가게 되어야 함!!!
         if (list.isEmpty()) {
             list.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500, "https://11st.co.kr"));
             list.add(new Vendor(R.drawable.vendor_coupang, 1200000, 0, "https://www.coupang.com/"));
