@@ -34,9 +34,10 @@ public class FragmentHistory extends Fragment {
 
 
         // 원래는 파이어베이스 history에서 받아와야함!!
-        for (int i = 0; i < 20; i++)
-        {
-            list.add(new History("HISTORY"));
+        if (list.isEmpty()) {
+            for (int i = 0; i < 20; i++) {
+                list.add(new History("HISTORY"));
+            }
         }
 
 

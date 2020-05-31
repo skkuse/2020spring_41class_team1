@@ -3,9 +3,12 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#D2D2D2</color>
     <color name="colorAccent">#1E88E5</color>
+    <color name="colorLightGray">#E8E8E8</color>
     <color name="colorGray">#D2D2D2</color>
     <color name="colorDarkGray">#6C6C6C</color>
     <color name="colorFont">#303030</color>
+    <color name="hardwareColor">#FF64B5F6</color>
+    <color name="reviewColor">#FF9575CD</color>
 
 <!--    <color name="colorPrimary">#3F51B5</color>-->
 <!--    <color name="colorPrimaryDark">#303F9F</color>-->
