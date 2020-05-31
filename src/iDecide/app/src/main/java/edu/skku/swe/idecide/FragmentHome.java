@@ -55,17 +55,20 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.loopeer.cardstack.AllMoveDownAnimatorAdapter;
 import com.loopeer.cardstack.CardStackView;
 import com.loopeer.cardstack.UpDownAnimatorAdapter;
 import com.loopeer.cardstack.UpDownStackAnimatorAdapter;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FragmentHome extends Fragment implements CardStackView.ItemExpendListener {
@@ -98,9 +101,11 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
 //        R.color.color_25,
 //        R.color.color_26
     };
+    private ArrayList<Item> list= new ArrayList<>();
     private CardStackView mStackView;
-    private LinearLayout mActionButtonContainer;
+    private FrameLayout mActionButtonContainer;
     private HomeStackAdapter mHomeStackAdapter;
+    private RecyclerView mHomeRecycler;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -113,9 +118,17 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         super.onCreate(savedInstanceState);
         ViewGroup rootView= (ViewGroup)inflater.inflate(R.layout.fragment_home_stack_view,container, false);
         mStackView = (CardStackView) rootView.findViewById(R.id.stackview_main);
-        mActionButtonContainer = (LinearLayout) rootView.findViewById(R.id.button_container);
+        mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_home);
         mStackView.setItemExpendListener(this);
-        mHomeStackAdapter = new HomeStackAdapter(getActivity());
+
+        //DB로부터 받아와서 list에 넣기
+        for (int i = 0; i < 20; i++)
+        {
+            list.add(new Item(R.drawable.ion,"LG","Gram2020", "", "75"));
+        }
+        //adapter로 넘겨주기.
+        mHomeStackAdapter = new HomeStackAdapter(getActivity(),list);
+
         mStackView.setAdapter(mHomeStackAdapter);
 
 
@@ -152,13 +165,13 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         return super.onOptionsItemSelected(item);
     }
 
-    public void onPreClick(View view) {
-        mStackView.pre();
-    }
-
-    public void onNextClick(View view) {
-        mStackView.next();
-    }
+//    public void onPreClick(View view) {
+//        mStackView.pre();
+//    }
+//
+//    public void onNextClick(View view) {
+//        mStackView.next();
+//    }
 
     @Override
     public void onItemExpend(boolean expend) {
