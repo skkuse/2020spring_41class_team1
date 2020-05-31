@@ -19,27 +19,15 @@
             android:paddingTop="12dp"/>
     </FrameLayout>
     <FrameLayout
-        android:id="@+id/button_container_search"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:layout_marginBottom="40dp"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:orientation="vertical"
-        android:gravity="center">
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onPreClick"
-            android:src="@color/color_1"
-            android:text="Pre" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="174dp"
-            android:onClick="onNextClick"
-            android:src="@color/color_1"
-            android:text="Next" />
+        android:layout_gravity="bottom">
+        <Button
+            android:id="@+id/returnB"
+            android:layout_height = "100dp"
+            android:layout_width = "match_parent"
+            android:text="See results"
+            android:visibility="visible" />
 
     </FrameLayout>
 </FrameLayout>

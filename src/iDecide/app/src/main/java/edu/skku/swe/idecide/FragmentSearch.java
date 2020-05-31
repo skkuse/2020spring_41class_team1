@@ -48,28 +48,26 @@
 //    }
 
 package edu.skku.swe.idecide;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import com.loopeer.cardstack.AllMoveDownAnimatorAdapter;
 import com.loopeer.cardstack.CardStackView;
 import com.loopeer.cardstack.UpDownAnimatorAdapter;
 import com.loopeer.cardstack.UpDownStackAnimatorAdapter;
-
 import java.util.Arrays;
 
-public class FragmentSearch extends Fragment implements CardStackView.ItemExpendListener {
+public class FragmentSearch extends Fragment implements CardStackView.ItemExpendListener{
     public static Integer[] TEST_DATAS = new Integer[]{
 //            R.color.color_1,
 //            R.color.color_2,
@@ -100,8 +98,12 @@ public class FragmentSearch extends Fragment implements CardStackView.ItemExpend
 //        R.color.color_26
     };
     private CardStackView mStackView;
-    private FrameLayout mActionButtonContainer;
+//    private FrameLayout mActionButtonContainer;
     private SearchStackAdapter mSearchStackAdapter;
+    private Button returnB;
+
+
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,10 +117,19 @@ public class FragmentSearch extends Fragment implements CardStackView.ItemExpend
         ViewGroup rootView= (ViewGroup)inflater.inflate(R.layout.fragment_search_stack_view,
                 container, false);
         mStackView = (CardStackView) rootView.findViewById(R.id.stackview_search);
-        mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_search);
+//        mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_search);
         mStackView.setItemExpendListener(this);
         mSearchStackAdapter = new SearchStackAdapter(getActivity());
         mStackView.setAdapter(mSearchStackAdapter);
+        returnB = rootView.findViewById(R.id.returnB);
+        returnB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("Button","returnB clicked");
+                Intent intent = new Intent(v.getContext(), SearchResultActivity.class);
+                v.getContext().startActivity(intent);
+            }
+        });
 
 
         new Handler().postDelayed(
@@ -164,8 +175,9 @@ public class FragmentSearch extends Fragment implements CardStackView.ItemExpend
 
     @Override
     public void onItemExpend(boolean expend) {
-        mActionButtonContainer.setVisibility(expend ? View.VISIBLE : View.GONE);
+//        mActionButtonContainer.setVisibility(expend ? View.VISIBLE : View.GONE);
     }
+
 }
 
 
