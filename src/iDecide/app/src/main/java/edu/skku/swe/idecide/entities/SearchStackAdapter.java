@@ -1,4 +1,4 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.entities;
 
 import android.content.Intent;
 import android.graphics.PorterDuff;
@@ -16,6 +16,8 @@ import com.loopeer.cardstack.CardStackView;
 import com.loopeer.cardstack.StackAdapter;
 
 import java.util.ArrayList;
+
+import edu.skku.swe.idecide.R;
 
 public class SearchStackAdapter extends StackAdapter<Integer> {
 

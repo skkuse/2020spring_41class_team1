@@ -1,4 +1,4 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.fragment;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +13,10 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.skku.swe.idecide.entities.ItemAdapter;
+import edu.skku.swe.idecide.R;
+import edu.skku.swe.idecide.entities.Item;
 
 public class FragmentCart extends Fragment {
     private RecyclerView recyclerView;

@@ -1,4 +1,4 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.entities;
 
 public class Item {
     int image;

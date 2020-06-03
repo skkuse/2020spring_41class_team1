@@ -1,4 +1,4 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.entities;
 
 import android.graphics.Bitmap;
 

@@ -8,8 +8,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.ViewDebug;
-import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.RadarChart;
@@ -26,6 +24,9 @@ import com.github.mikephil.charting.interfaces.datasets.IRadarDataSet;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.skku.swe.idecide.entities.Vendor;
+import edu.skku.swe.idecide.entities.VendorAdapter;
 
 public class ItemDetailActivity extends AppCompatActivity {
     private RadarChart chart;

@@ -1,4 +1,4 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.fragment;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,6 +16,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import edu.skku.swe.idecide.EditProfileActivity;
+import edu.skku.swe.idecide.R;
+import edu.skku.swe.idecide.entities.Profile;
 
 import static android.app.Activity.RESULT_OK;
 

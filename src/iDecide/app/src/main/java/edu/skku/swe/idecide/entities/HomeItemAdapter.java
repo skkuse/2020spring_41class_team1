@@ -1,4 +1,4 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.entities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +15,9 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+
+import edu.skku.swe.idecide.ItemDetailActivity;
+import edu.skku.swe.idecide.R;
 
 public class HomeItemAdapter extends RecyclerView.Adapter <HomeViewHolder> {
     HomeCardItem homeCardItem;

@@ -15,13 +15,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".HistoryDetailActivity"></activity>
         <activity android:name=".SearchResultActivity" />
-        <activity android:name=".FragmentHome" />
-        <activity android:name=".FragmentCart" />
+        <activity android:name=".fragment.FragmentHome" />
+        <activity android:name=".fragment.FragmentCart" />
         <activity android:name=".EditProfileActivity" />
-        <activity android:name=".FragmentHistory" />
+        <activity android:name=".fragment.FragmentHistory" />
         <activity android:name=".ItemDetailActivity" />
-        <activity android:name=".FragmentProfile" />
-        <activity android:name=".FragmentSearch" />
+        <activity android:name=".fragment.FragmentProfile" />
+        <activity android:name=".fragment.FragmentSearch" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

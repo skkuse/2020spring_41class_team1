@@ -7,10 +7,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.skku.swe.idecide.entities.Item;
+import edu.skku.swe.idecide.entities.ItemAdapter;
 
 public class HistoryDetailActivity extends AppCompatActivity {
     private RecyclerView recyclerView;

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:scrollbars="vertical"
     android:scrollbarThumbVertical="@color/colorAccent"
-    android:scrollbarStyle="outsideInset"
+    android:scrollbarStyle="insideOverlay"
     android:scrollbarSize="4dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -20,7 +20,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".FragmentProfile">
+        tools:context=".fragment.FragmentProfile">
 
         <FrameLayout
             android:layout_width="match_parent"

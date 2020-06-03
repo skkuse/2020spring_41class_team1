@@ -1,8 +1,7 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.fragment;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,6 +13,10 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.skku.swe.idecide.entities.HistoryAdapter;
+import edu.skku.swe.idecide.R;
+import edu.skku.swe.idecide.entities.History;
 
 public class FragmentHistory extends Fragment {
     private RecyclerView recyclerView;

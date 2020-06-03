@@ -1,9 +1,6 @@
-package edu.skku.swe.idecide;
+package edu.skku.swe.idecide.entities;
 
-import android.graphics.drawable.Drawable;
 import android.util.Log;
-
-import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 //Home card view 에 들어갈 데이터들

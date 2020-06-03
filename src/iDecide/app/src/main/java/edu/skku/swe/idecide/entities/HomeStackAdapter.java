@@ -1,6 +1,4 @@
-package edu.skku.swe.idecide;
-
-import android.content.Context;
+package edu.skku.swe.idecide.entities;
 
 import com.loopeer.cardstack.StackAdapter;
 import android.graphics.PorterDuff;
@@ -14,6 +12,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.loopeer.cardstack.CardStackView;
 
 import java.util.ArrayList;
+
+import edu.skku.swe.idecide.R;
+import edu.skku.swe.idecide.entities.Item;
 
 public class HomeStackAdapter extends StackAdapter<Integer> {
     //변수설정

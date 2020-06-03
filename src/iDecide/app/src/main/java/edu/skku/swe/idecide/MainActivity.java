@@ -10,6 +10,12 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import edu.skku.swe.idecide.fragment.FragmentCart;
+import edu.skku.swe.idecide.fragment.FragmentHistory;
+import edu.skku.swe.idecide.fragment.FragmentHome;
+import edu.skku.swe.idecide.fragment.FragmentProfile;
+import edu.skku.swe.idecide.fragment.FragmentSearch;
+
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;
     private FragmentManager fm;
