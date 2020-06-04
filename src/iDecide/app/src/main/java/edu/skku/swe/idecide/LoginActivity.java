@@ -1,13 +1,21 @@
 package edu.skku.swe.idecide;
 
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.LinearGradient;
+import android.graphics.Shader;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextPaint;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -16,6 +24,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -37,15 +46,63 @@ public class LoginActivity extends AppCompatActivity implements
 
     // widgets
     private EditText mEmail, mPassword;
+    private TextInputLayout lEmail, lPassword;
     private ProgressBar mProgressBar;
 
+    @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mEmail = findViewById(R.id.email);
         mPassword = findViewById(R.id.password);
+        lEmail = findViewById(R.id.email_layout);
+        lPassword = findViewById(R.id.password_layout);
         mProgressBar = findViewById(R.id.progressBar);
+
+        mEmail.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) { }
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (s.toString().length() == 0) { lEmail.setError("이메일을 입력해 주세요"); }
+                else lEmail.setError(null);
+            }
+        });
+
+
+        mPassword.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) { }
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (s.toString().length() == 0) { lPassword.setError("비밀번호를 입력해 주세요"); }
+                else lPassword.setError(null);
+            }
+        });
+
+
+/*
+        TextView textView = (TextView) findViewById(R.id.loginTV);
+
+        TextPaint paint = textView.getPaint();
+        float width = paint.measureText("Lomesssage");
+
+        Shader textShader = new LinearGradient(0, 0, width, textView.getTextSize(),
+                new int[]{
+                        Color.parseColor("#F97C3C"),
+                        Color.parseColor("#FDB54E"),
+                        Color.parseColor("#64B678"),
+                        Color.parseColor("#478AEA"),
+                        Color.parseColor("#8446CC"),
+                }, null, Shader.TileMode.CLAMP);
+        textView.getPaint().setShader(textShader);
+
+ */
 
         setupFirebaseAuth();
         findViewById(R.id.email_sign_in_button).setOnClickListener(this);
@@ -151,13 +208,13 @@ public class LoginActivity extends AppCompatActivity implements
                     }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
-                    Toast.makeText(LoginActivity.this, "Authentication Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "이메일과 비밀번호를 다시 확인해 주세요", Toast.LENGTH_SHORT).show();
                     hideDialog();
                 }
             });
-        }else{
-            Toast.makeText(LoginActivity.this, "You didn't fill in all the fields.", Toast.LENGTH_SHORT).show();
         }
+        if (isEmpty(mEmail.getText().toString())) { lEmail.setError("이메일을 입력해 주세요"); }
+        if (isEmpty(mPassword.getText().toString())) { lPassword.setError("비밀번호를 입력해 주세요"); }
     }
 
     @Override
