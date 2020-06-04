@@ -73,6 +73,7 @@
                     android:layout_height="wrap_content"
                     android:hint="닉네임"
                     android:textSize="17dp"
+                    android:maxLines="1"
                     android:textColor="@color/colorDarkGray"/>
             </com.google.android.material.textfield.TextInputLayout>
 

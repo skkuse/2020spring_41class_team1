@@ -49,6 +49,8 @@
 
 package edu.skku.swe.idecide.fragment;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -73,6 +75,8 @@ import java.util.Arrays;
 import edu.skku.swe.idecide.entities.HomeStackAdapter;
 import edu.skku.swe.idecide.R;
 import edu.skku.swe.idecide.entities.Item;
+
+import static android.app.Activity.RESULT_OK;
 
 public class FragmentHome extends Fragment implements CardStackView.ItemExpendListener {
     public static Integer[] TEST_DATAS = new Integer[]{
@@ -123,6 +127,7 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         mStackView = (CardStackView) rootView.findViewById(R.id.stackview_main);
         mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_home);
         mStackView.setItemExpendListener(this);
+
 
         //DB로부터 받아와서 list에 넣기
         for (int i = 0; i < 20; i++)

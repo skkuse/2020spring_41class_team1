@@ -1,9 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GetProfileActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GetProfileActivity">
+    android:background="@drawable/background_profile"
+    android:theme="@style/GetProfileTheme"
+    style="@style/GetProfileTheme">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="프로필을 설정해 주세요"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:fontFamily="@font/dotumbold"
+            android:textStyle="bold"
+            android:layout_marginBottom="60dp"
+            android:id="@+id/textEmailReg"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/l_nickname_get_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:boxStrokeWidth="1dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nickname_get_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="닉네임"
+                android:textSize="17dp"
+                android:maxLines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/l_gender_get_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:errorEnabled="true"
+            app:boxStrokeWidth="1dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/gender_get_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="성별"
+                android:textSize="17dp"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:maxLines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/l_age_get_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:errorEnabled="true"
+            app:boxStrokeWidth="1dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/age_get_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="나이"
+                android:textSize="17dp"
+                android:cursorVisible="false"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:maxLines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/startBT_get_profile"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_white"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:text="시작"
+            android:textStyle="bold"
+            android:elevation="2dp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+</FrameLayout>
