@@ -15,8 +15,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 import edu.skku.swe.idecide.EditProfileActivity;
+import edu.skku.swe.idecide.LoginActivity;
 import edu.skku.swe.idecide.R;
 import edu.skku.swe.idecide.entities.Profile;
 
@@ -108,14 +111,17 @@ public class FragmentProfile extends Fragment {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
-                builder.setTitle(" 종료하시겠습니까?");
+                builder.setTitle("로그아웃하시겠습니까?");
                 builder.setCancelable(true);
                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                android.os.Process.killProcess(android.os.Process.myPid());
-                                //System.runFinalization();
-                                //System.exit(0);
+                                FirebaseAuth.getInstance().signOut();
+                                getActivity().finish();
+                                Intent intent = new Intent(getContext(), LoginActivity.class);
+
+                                startActivity(intent);
+
                             }
                         });
                 builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
