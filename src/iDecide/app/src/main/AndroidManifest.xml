@@ -3,8 +3,8 @@
     package="edu.skku.swe.idecide">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HistoryDetailActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".HistoryDetailActivity" />
         <activity android:name=".SearchResultActivity" />
         <activity android:name=".fragment.FragmentHome" />
         <activity android:name=".fragment.FragmentCart" />
@@ -22,7 +23,7 @@
         <activity android:name=".ItemDetailActivity" />
         <activity android:name=".fragment.FragmentProfile" />
         <activity android:name=".fragment.FragmentSearch" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".EmailRegisterActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

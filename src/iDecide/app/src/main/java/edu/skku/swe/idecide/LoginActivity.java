@@ -3,19 +3,14 @@ package edu.skku.swe.idecide;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.LinearGradient;
-import android.graphics.Shader;
 import android.os.Bundle;
 import android.text.Editable;
-import android.text.TextPaint;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -222,7 +217,7 @@ public class LoginActivity extends AppCompatActivity implements
         switch (view.getId()){
             case R.id.link_register:{
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-                Toast.makeText(this, "go to register", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "go to register", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
                 break;
             }
