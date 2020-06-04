@@ -2,7 +2,6 @@ package edu.skku.swe.idecide;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -19,7 +18,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -138,7 +136,7 @@ public class EmailRegisterActivity extends AppCompatActivity implements
                                     hideDialog();
 
                                     if(task.isSuccessful()){
-                                        redirectLoginScreen();
+                                        goToGetProfilePage();
                                     }else{
                                         Toast.makeText(EmailRegisterActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                         //View parentLayout = findViewById(android.R.id.content);
@@ -151,7 +149,8 @@ public class EmailRegisterActivity extends AppCompatActivity implements
                         else {
                             //View parentLayout = findViewById(android.R.id.content);
                             //Snackbar.make(parentLayout, task.getException().getMessage(), Snackbar.LENGTH_SHORT).show();
-                            Toast.makeText(EmailRegisterActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(EmailRegisterActivity.this, "다른 이메일 주소를 사용해 주세요", Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(EmailRegisterActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             hideDialog();
                         }
 
@@ -160,13 +159,11 @@ public class EmailRegisterActivity extends AppCompatActivity implements
                 });
     }
 
-    /**
-     * Redirects the user to the login screen
-     */
-    private void redirectLoginScreen(){
-        Log.d(TAG, "redirectLoginScreen: redirecting to login screen.");
 
-        Intent intent = new Intent(EmailRegisterActivity.this, LoginActivity.class);
+    private void goToGetProfilePage(){
+        Log.d(TAG, "go to Get Profile Page");
+
+        Intent intent = new Intent(EmailRegisterActivity.this, GetProfileActivity.class);
         startActivity(intent);
         finish();
     }

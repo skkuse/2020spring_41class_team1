@@ -85,7 +85,7 @@
             android:background="@drawable/button"
             android:textColor="@color/colorPrimary"
             android:layout_marginTop="30dp"
-            android:textSize="17dp"
+            android:textSize="20dp"
             android:text="확인"
             android:textStyle="bold"
             android:elevation="2dp"/>
