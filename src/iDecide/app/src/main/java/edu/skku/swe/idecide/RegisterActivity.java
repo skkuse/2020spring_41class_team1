@@ -1,115 +1,128 @@
 package edu.skku.swe.idecide;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.EditText;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import edu.skku.swe.idecide.entities.User;
 
-import static android.text.TextUtils.isEmpty;
-
-
-public class RegisterActivity extends AppCompatActivity implements
-        View.OnClickListener
-{
-    private static final String TAG = "RegisterActivity";
-
-    //widgets
-    private EditText mEmail, mNickName, mPassword, mConfirmPassword, mAge, mGender;
+public class RegisterActivity extends AppCompatActivity {
+    Button emailBT, googleBT;
     private ProgressBar mProgressBar;
-
-    //vars
+    private FirebaseAuth.AuthStateListener mAuthListener;
+    private FirebaseAuth mAuth;
+    private GoogleApiClient mGoogleApiClient;
+    private static final int RC_SIGN_UP = 1000;
     private FirebaseFirestore mDb;
-
+    private GoogleSignInAccount account;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_register);
-        mEmail = (EditText) findViewById(R.id.input_email);
-        mNickName = (EditText) findViewById(R.id.input_nickname);
-        mPassword = (EditText) findViewById(R.id.input_password);
-        mConfirmPassword = (EditText) findViewById(R.id.input_confirm_password);
-        mAge = (EditText) findViewById(R.id.input_age);
-        mGender = (EditText) findViewById(R.id.input_gender);
-        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
-
-        findViewById(R.id.btn_register).setOnClickListener(this);
-
+        mProgressBar = findViewById(R.id.progressBar_r);
+        emailBT = findViewById(R.id.email_register_button);
+        googleBT = findViewById(R.id.google_register_button);
         mDb = FirebaseFirestore.getInstance();
+        mAuth = FirebaseAuth.getInstance();
 
-        hideSoftKeyboard();
+
+        // when register with email
+        emailBT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RegisterActivity.this, EmailRegisterActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+
+        // when register with google
+        googleBT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialog();
+                GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                        .requestIdToken(getString(R.string.default_web_client_id))
+                        .requestEmail()
+                        .build();
+
+                GoogleSignInClient mGoogleSignInClient = GoogleSignIn.getClient(RegisterActivity.this, gso);
+                Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+                startActivityForResult(signInIntent, RC_SIGN_UP);
+            }
+        });
     }
 
-    /**
-     * Register a new email and password to Firebase Authentication
-     * @param email
-     * @param password
-     */
-    public void registerNewEmail(final String email, String password){
-
+    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+        final String email = acct.getEmail();
         showDialog();
-
-        FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
+        Log.v("error", email);
+        mAuth.signInWithCredential(credential)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
-
-                        if (task.isSuccessful()){
-                            Log.d(TAG, "onComplete: AuthState: " + FirebaseAuth.getInstance().getCurrentUser().getUid());
-
-                            //insert some default data
+                        if (task.isSuccessful()) {
+                            Log.v("errora", "asdasdasdsd");
+                            // Sign in success, update UI with the signed-in user's information
                             User user = new User();
                             user.setEmail(email);
-                            user.setNickname(mNickName.getText().toString());
-                            user.setAge(mAge.getText().toString());
-                            user.setGender(mGender.getText().toString());
 
                             FirebaseFirestoreSettings settings = new FirebaseFirestoreSettings.Builder().build();
                             mDb.setFirestoreSettings(settings);
 
                             DocumentReference newUserRef = mDb
                                     .collection(getString(R.string.collection_users))
-                                    .document(FirebaseAuth.getInstance().getUid());
+                                    .document(email);
 
                             newUserRef.set(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     hideDialog();
-
                                     if(task.isSuccessful()){
-                                        redirectLoginScreen();
+                                        goToGetProfilePage(email);
                                     }else{
-                                        View parentLayout = findViewById(android.R.id.content);
-                                        Snackbar.make(parentLayout, task.getException().getMessage(), Snackbar.LENGTH_SHORT).show();
+                                        Toast.makeText(RegisterActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                        //View parentLayout = findViewById(android.R.id.content);
+                                        //Snackbar.make(parentLayout, task.getException().getMessage(), Snackbar.LENGTH_SHORT).show();
                                     }
                                 }
                             });
 
-                        }
-                        else {
-                            View parentLayout = findViewById(android.R.id.content);
-                            Snackbar.make(parentLayout, task.getException().getMessage(), Snackbar.LENGTH_SHORT).show();
+                        } else {
                             hideDialog();
+                            Toast.makeText(RegisterActivity.this, "회원가입에 실패하였습니다", Toast.LENGTH_SHORT).show();
                         }
 
                         // ...
@@ -117,58 +130,70 @@ public class RegisterActivity extends AppCompatActivity implements
                 });
     }
 
-    /**
-     * Redirects the user to the login screen
-     */
-    private void redirectLoginScreen(){
-        Log.d(TAG, "redirectLoginScreen: redirecting to login screen.");
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
-        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-        startActivity(intent);
-        finish();
+        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+        if (requestCode == RC_SIGN_UP) {
+            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            try {
+                // Google Sign In was successful, authenticate with Firebase
+                account = task.getResult(ApiException.class);
+                String email = account.getEmail();
+
+
+                /**
+                 * 이미 계정이 있는지 없는지 확인
+                 */
+                FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+                firestore.collection("User").document(email).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                        if (task.isSuccessful()) {
+                            DocumentSnapshot documentSnapshot = task.getResult();
+                            if (documentSnapshot.exists()) {
+                                hideDialog();
+                                Toast.makeText(RegisterActivity.this, "이미 회원가입 된 계정입니다", Toast.LENGTH_SHORT).show();
+                                finish();
+                            }
+                            else {
+                                firebaseAuthWithGoogle(account);
+                            }
+                        }
+                        else {
+                            Toast.makeText(RegisterActivity.this, "회원가입에 실패했습니다", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+            } catch (ApiException e) {
+                // Google Sign In failed, update UI appropriately
+                Log.v("error", e.getMessage());
+                Toast.makeText(RegisterActivity.this, "회원가입에 실패했습니다", Toast.LENGTH_SHORT).show();
+
+                // ...
+            }
+        }
     }
-
 
     private void showDialog(){
         mProgressBar.setVisibility(View.VISIBLE);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
     }
 
     private void hideDialog(){
         if(mProgressBar.getVisibility() == View.VISIBLE){
             mProgressBar.setVisibility(View.INVISIBLE);
+            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
         }
     }
 
-    private void hideSoftKeyboard(){
-        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-    }
-
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.btn_register:{
-                Log.d(TAG, "onClick: attempting to register.");
-
-                //check for null valued EditText fields
-                if(!isEmpty(mEmail.getText().toString())
-                        && !isEmpty(mPassword.getText().toString())
-                        && !isEmpty(mConfirmPassword.getText().toString())){
-
-                    //check if passwords match
-                    if(mPassword.getText().toString().equals(mConfirmPassword.getText().toString())){
-
-                        //Initiate registration task
-                        registerNewEmail(mEmail.getText().toString(), mPassword.getText().toString());
-                    }else{
-                        Toast.makeText(RegisterActivity.this, "Passwords do not Match", Toast.LENGTH_SHORT).show();
-                    }
-
-                }else{
-                    Toast.makeText(RegisterActivity.this, "You must fill out all the fields", Toast.LENGTH_SHORT).show();
-                }
-                break;
-            }
-        }
+    private void goToGetProfilePage(String email){
+        Intent intent = new Intent(RegisterActivity.this, GetProfileActivity.class);
+        intent.putExtra("user_key", email);
+        startActivity(intent);
+        finish();
     }
 }

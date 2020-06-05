@@ -1,111 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".RegisterActivity">
 
-    <ScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <RelativeLayout
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/tv_register"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:text="회원가입 방식을 선택해주세요"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorFont"
+            android:textSize="27dp"
+            android:fontFamily="@font/dotumbold"
+            android:textStyle="bold"
+            android:layout_marginBottom="60dp"/>
 
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/relLayout1"
-                android:padding="20dp">
+        <Button
+            android:id="@+id/email_register_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_blue"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="150dp"
+            android:paddingLeft="15dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:textSize="17dp"
+            android:text="이메일로 회원가입"
+            android:textStyle="bold"
+            android:elevation="2dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/email_registration"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorFont"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="30dp"
-                    android:id="@+id/textEmailReg"/>
-
-
-                <EditText
-                    android:id="@+id/input_email"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:inputType="textEmailAddress"
-                    android:hint="@string/prompt_email"
-                    android:layout_below="@+id/textEmailReg"/>
-
-                <EditText
-                    android:id="@+id/input_password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:inputType="textPassword"
-                    android:hint="@string/password"
-                    android:layout_below="@+id/input_email"/>
-
-                <EditText
-                    android:id="@+id/input_confirm_password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:inputType="textPassword"
-                    android:hint="@string/confirm_password"
-                    android:layout_below="@+id/input_password"/>
-
-                <EditText
-                    android:id="@+id/input_nickname"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:inputType="text"
-                    android:hint="@string/nickname"
-                    android:layout_below="@+id/input_confirm_password"/>
-
-                <EditText
-                    android:id="@+id/input_age"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:inputType="text"
-                    android:hint="@string/age"
-                    android:layout_below="@+id/input_nickname"/>
-
-                <EditText
-                    android:id="@+id/input_gender"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:inputType="text"
-                    android:hint="@string/gender"
-                    android:layout_below="@+id/input_age"/>
-
-                <Button
-                    android:id="@+id/btn_register"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="35dp"
-                    android:layout_below="@+id/input_gender"
-                    android:text="@string/register"
-                    android:background="@drawable/theme_button"/>
-
-            </RelativeLayout>
+        <Button
+            android:id="@+id/google_register_button"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_google"
+            android:paddingLeft="15dp"
+            android:drawableStart="@drawable/googlelogo_white"
+            android:textSize="17dp"
+            android:text="구글 계정으로 회원가입"
+            android:textStyle="bold"
+            android:elevation="2dp"/>
 
 
-
-        </RelativeLayout>
-    </ScrollView>
+    </LinearLayout>
 
     <ProgressBar
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBar_r"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
+        android:layout_gravity="center_vertical"
         android:visibility="invisible"/>
 
-</RelativeLayout>
+</FrameLayout>
