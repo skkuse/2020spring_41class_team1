@@ -51,7 +51,9 @@ dependencies {
 
     implementation 'com.loopeer.library:cardstack:1.0.2'
     implementation 'com.google.firebase:firebase-firestore:21.4.3'
-    implementation 'com.google.firebase:firebase-auth:19.3.1'// cardStackView
+    implementation 'com.google.firebase:firebase-storage:17.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
     implementation 'com.github.PhilJay:MpAndroidChart:v3.0.2' // android chart
 }
 

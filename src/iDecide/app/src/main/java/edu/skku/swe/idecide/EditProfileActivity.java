@@ -1,33 +1,48 @@
 package edu.skku.swe.idecide;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import de.hdodenhof.circleimageview.CircleImageView;
+import edu.skku.swe.idecide.entities.User;
+import edu.skku.swe.idecide.fragment.FragmentProfile;
 
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.NumberPicker;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.util.Map;
 
 public class EditProfileActivity extends AppCompatActivity {
     private NumberPicker.OnValueChangeListener valueChangeListener;
@@ -38,11 +53,13 @@ public class EditProfileActivity extends AppCompatActivity {
     CircleImageView imageView;
     TextInputEditText nicknameEditText, genderEditText, ageEditText;
     TextInputLayout l_nickname, l_gender, l_age;
+    ProgressBar mProgressBar;
 
     // initialize
     Bitmap getImage = null;
     String getNickname = null;
     int getGender = -1, getAge = -1;
+    private String user_key;
 
     // temp
     final CharSequence[] genderList = {"남자", "여자", "기타"};
@@ -72,18 +89,43 @@ public class EditProfileActivity extends AppCompatActivity {
         l_age = findViewById(R.id.l_age_edit_profile);
         l_nickname.setCounterEnabled(true);
         l_nickname.setCounterMaxLength(20);
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar_e);
 
         // SET
+        /**
+         * get profile image from firestore
+         */
+        showDialog();
+
         Intent fromProfile = getIntent();
-        getImage = (Bitmap)fromProfile.getParcelableExtra("img");
+        user_key = fromProfile.getStringExtra("user_key");
+        //getImage = (Bitmap)fromProfile.getParcelableExtra("img");
         getNickname = fromProfile.getStringExtra("nickname");
         getAge = fromProfile.getIntExtra("age", -1);
         getGender = fromProfile.getIntExtra("gender", -1);
-        if (getImage == null) { imageView.setImageResource(R.drawable.default5); }
-        else { imageView.setImageBitmap(getImage); }
+
+
+        StorageReference mStorageRef = FirebaseStorage.getInstance().getReference().child("User").child(user_key).child("profile.jpg");
+        final long ONE_MEGABYTE = 1024 * 1024;
+        mStorageRef.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+            @Override
+            public void onSuccess(byte[] bytes) {
+                Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+                getImage = bitmap;
+                imageView.setImageBitmap(getImage);
+                hideDialog();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e)
+            {
+                getImage = null; hideDialog();
+                imageView.setImageResource(R.drawable.default5);
+            }});
         nicknameEditText.setText(getNickname);
         if (getGender > 0) genderEditText.setText(genderList[getGender]);
         if (getAge > 0) ageEditText.setText(Integer.toString(getAge));
+
 
 
 
@@ -105,9 +147,23 @@ public class EditProfileActivity extends AppCompatActivity {
                                 break;
 
                             case 1:
-                                getImage = null;
-                                imageView.setImageResource(R.drawable.default5);
-                                Toast.makeText(EditProfileActivity.this, "프로필 사진이 삭제되었습니다", Toast.LENGTH_SHORT).show();
+                                showDialog();
+                                StorageReference ref = FirebaseStorage.getInstance().getReference().child("User").child(user_key).child("profile.jpg");
+                                ref.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void aVoid) {
+                                        getImage = null;
+                                        imageView.setImageResource(R.drawable.default5);
+                                        hideDialog();
+                                        Toast.makeText(EditProfileActivity.this, "프로필 사진이 삭제되었습니다", Toast.LENGTH_SHORT).show();
+                                    }
+                                }).addOnFailureListener(new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(@NonNull Exception e) {
+                                        hideDialog();
+                                        Toast.makeText(EditProfileActivity.this, "프로필 사진이 존재하지 않습니다", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
                                 break;
                         }
 
@@ -203,9 +259,6 @@ public class EditProfileActivity extends AppCompatActivity {
                 dialog.show();
             }
         });
-
-
-
     }
 
     // TOOL BAR
@@ -219,24 +272,55 @@ public class EditProfileActivity extends AppCompatActivity {
             }
             case R.id.toolbar_confirm:{
                 getNickname = nicknameEditText.getText().toString();
+                showDialog();
                 if (getNickname.length() == 0 || getGender < 0 || getAge < 0) {
+                    hideDialog();
                     Toast.makeText(this, "모든 정보를 입력해주세요", Toast.LENGTH_SHORT).show();
                 }
                 else {
                     // change image to bytearray
                     try {
+                        // update fragment profile
                         Intent intent = new Intent();
-
-                        intent.putExtra("img", getImage);
-                        intent.putExtra("nickname", getNickname);
-                        intent.putExtra("gender", getGender);
-                        intent.putExtra("age", getAge);
                         setResult(RESULT_OK, intent);
-                        finish();
-                        Toast.makeText(this, "저장되었습니다", Toast.LENGTH_SHORT).show();
-                        return true;
+
+                        // update firestore without profile image
+                        FirebaseFirestore db = FirebaseFirestore.getInstance();
+                        Map<String, Object> postValue = null;
+                        User user = new User(getNickname, getGender, getAge);
+                        postValue = user.toMap();
+                        db.collection("User").document(user_key).update(postValue);
+
+
+                        // update profile image
+                        if (getImage != null) {
+                            StorageReference ref = FirebaseStorage.getInstance().getReference().child("User").child(user_key).child("profile.jpg");
+                            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                            getImage.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+                            byte[] data = baos.toByteArray();
+                            UploadTask uploadTask = ref.putBytes(data);
+                            uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                                    hideDialog();
+                                    finish();
+                                    Toast.makeText(EditProfileActivity.this, "저장되었습니다", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                            return true;
+                        }
+                        else
+                        {
+                            hideDialog();
+                            finish();
+                            Toast.makeText(EditProfileActivity.this, "저장되었습니다", Toast.LENGTH_SHORT).show();
+                            return true;
+                        }
+
                     } catch (Exception e) {
-                        Toast.makeText(this, "서비스 이용이 원활하지 않습니다. 다시 시도해주세요.", Toast.LENGTH_SHORT).show();
+                        hideDialog();
+                        //Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "서비스 이용이 원활하지 않습니다. 다시 시도해주세요", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -338,5 +422,18 @@ public class EditProfileActivity extends AppCompatActivity {
         }
 
         return bitmap;
+    }
+
+    private void showDialog(){
+        mProgressBar.setVisibility(View.VISIBLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
+    }
+
+    private void hideDialog(){
+        if(mProgressBar.getVisibility() == View.VISIBLE){
+            mProgressBar.setVisibility(View.INVISIBLE);
+            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
+        }
     }
 }

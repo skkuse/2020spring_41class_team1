@@ -105,6 +105,9 @@ public class FragmentSearch extends Fragment implements CardStackView.ItemExpend
 //    private FrameLayout mActionButtonContainer;
     private SearchStackAdapter mSearchStackAdapter;
     private Button returnB;
+    private String user_key;
+
+    public FragmentSearch(String user_key) { this.user_key = user_key; }
 
 
 

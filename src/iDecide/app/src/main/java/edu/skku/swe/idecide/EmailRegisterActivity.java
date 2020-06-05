@@ -51,7 +51,7 @@ public class EmailRegisterActivity extends AppCompatActivity implements
         mEmail = (EditText) findViewById(R.id.input_email);
         mPassword = (EditText) findViewById(R.id.input_password);
         mConfirmPassword = (EditText) findViewById(R.id.input_confirm_password);
-        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar_l);
         lEmail = findViewById(R.id.l_input_email);
         lPassword = findViewById(R.id.l_input_password);
         lCFPassword = findViewById(R.id.l_input_confirm_password);
@@ -128,7 +128,7 @@ public class EmailRegisterActivity extends AppCompatActivity implements
 
                             DocumentReference newUserRef = mDb
                                     .collection(getString(R.string.collection_users))
-                                    .document(FirebaseAuth.getInstance().getUid());
+                                    .document(email);
 
                             newUserRef.set(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
@@ -136,7 +136,7 @@ public class EmailRegisterActivity extends AppCompatActivity implements
                                     hideDialog();
 
                                     if(task.isSuccessful()){
-                                        goToGetProfilePage();
+                                        goToGetProfilePage(email);
                                     }else{
                                         Toast.makeText(EmailRegisterActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                         //View parentLayout = findViewById(android.R.id.content);
@@ -160,23 +160,25 @@ public class EmailRegisterActivity extends AppCompatActivity implements
     }
 
 
-    private void goToGetProfilePage(){
+    private void goToGetProfilePage(String email){
         Log.d(TAG, "go to Get Profile Page");
 
         Intent intent = new Intent(EmailRegisterActivity.this, GetProfileActivity.class);
+        intent.putExtra("user_key", email);
         startActivity(intent);
         finish();
     }
 
-
     private void showDialog(){
         mProgressBar.setVisibility(View.VISIBLE);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
     }
 
     private void hideDialog(){
         if(mProgressBar.getVisibility() == View.VISIBLE){
             mProgressBar.setVisibility(View.INVISIBLE);
+            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
         }
     }
 

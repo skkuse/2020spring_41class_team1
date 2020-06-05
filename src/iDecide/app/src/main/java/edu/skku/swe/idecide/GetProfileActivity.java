@@ -1,5 +1,6 @@
 package edu.skku.swe.idecide;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +10,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
@@ -18,8 +20,20 @@ import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreSettings;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import edu.skku.swe.idecide.entities.User;
 
 public class GetProfileActivity extends AppCompatActivity {
     Button startButton;
@@ -33,6 +47,9 @@ public class GetProfileActivity extends AppCompatActivity {
     final CharSequence[] genderList = {"남자", "여자", "기타"};
     final CharSequence[] changeProfile = {"새 프로필 사진", "프로필 사진 삭제"};
     int getIndex = -1;
+
+    private FirebaseFirestore mDb;
+    private String user_key;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +71,10 @@ public class GetProfileActivity extends AppCompatActivity {
         l_nickname.setCounterMaxLength(20);
         genderEditText.setInputType(0);
         ageEditText.setInputType(0);
+
+
+        Intent intent = getIntent();
+        user_key = intent.getStringExtra("user_key");
 
 
         // nickname
@@ -153,15 +174,32 @@ public class GetProfileActivity extends AppCompatActivity {
                 }
                 else {
                     try {
-                        /**
-                         * 여기에 이메일, 닉네임, 성별, 나이 firestore에 저장하는 코드 작성해야 함
-                         */
-                        Toast.makeText(GetProfileActivity.this, "메인 화면으로 이동합니다", Toast.LENGTH_SHORT).show();
-                        redirectLoginScreen();
+                        Log.v("erroruser", user_key);
+
+                        if (user_key != null)
+                        {
+                            /**
+                             * 여기에 이메일, 닉네임, 성별, 나이 firestore에 저장하는 코드 작성해야 함
+                             */
+                            FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+                            Map<String, Object> postValue = null;
+
+                            User user = new User(getNickname, getGender, getAge);
+                            postValue = user.toMap();
+
+                            db.collection("User").document(user_key).update(postValue);
+
+                            redirectLoginScreen();
+                        }
+                        else {
+                            Toast.makeText(GetProfileActivity.this, "회원가입에 실패했습니다. 다시 시도해주세요.", Toast.LENGTH_SHORT).show();
+                        }
                         //Intent intent = new Intent();
                         //startActivity(intent);
                         //finish();
                     } catch (Exception e) {
+                        Log.v("error3", e.getMessage());
                         Toast.makeText(GetProfileActivity.this, "서비스 이용이 원활하지 않습니다. 다시 시도해주세요.", Toast.LENGTH_SHORT).show();
                     }
                 }

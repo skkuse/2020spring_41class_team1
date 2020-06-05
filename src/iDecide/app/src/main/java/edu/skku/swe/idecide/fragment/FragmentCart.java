@@ -21,6 +21,9 @@ import edu.skku.swe.idecide.entities.Item;
 public class FragmentCart extends Fragment {
     private RecyclerView recyclerView;
     private List<Item> list = new ArrayList<>();
+    private String user_key;
+
+    public FragmentCart(String user_key) { this.user_key = user_key; }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

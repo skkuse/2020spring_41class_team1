@@ -9,7 +9,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
+import edu.skku.swe.idecide.entities.User;
 import edu.skku.swe.idecide.fragment.FragmentCart;
 import edu.skku.swe.idecide.fragment.FragmentHistory;
 import edu.skku.swe.idecide.fragment.FragmentHome;
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private FragmentSearch fragmentSearch;
     private FragmentHistory fragmentHistory;
     private FragmentCart fragmentCart;
+    private String user_key;
 
 
     @Override
@@ -32,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        getUserKey();
 
         bottomNavigationView = findViewById(R.id.bottomNavi);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener()
@@ -61,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fragmentHome = new FragmentHome();
-        fragmentProfile = new FragmentProfile();
-        fragmentSearch = new FragmentSearch();
-        fragmentHistory = new FragmentHistory();
-        fragmentCart = new FragmentCart();
+        fragmentHome = new FragmentHome(user_key);
+        fragmentProfile = new FragmentProfile(user_key);
+        fragmentSearch = new FragmentSearch(user_key);
+        fragmentHistory = new FragmentHistory(user_key);
+        fragmentCart = new FragmentCart(user_key);
         setFrag(0);
     }
 
@@ -98,4 +101,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void getUserKey()
+    {
+        FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+        user_key = firebaseAuth.getCurrentUser().getEmail();
+    }
 }

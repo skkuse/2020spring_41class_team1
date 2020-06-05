@@ -113,6 +113,10 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
     private FrameLayout mActionButtonContainer;
     private HomeStackAdapter mHomeStackAdapter;
     private RecyclerView mHomeRecycler;
+    private String user_key;
+
+    public FragmentHome(String user_key) { this.user_key = user_key; }
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

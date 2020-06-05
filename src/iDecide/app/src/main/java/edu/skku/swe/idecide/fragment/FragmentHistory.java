@@ -21,6 +21,9 @@ import edu.skku.swe.idecide.entities.History;
 public class FragmentHistory extends Fragment {
     private RecyclerView recyclerView;
     private List<History> list = new ArrayList<>();
+    private String user_key;
+
+    public FragmentHistory(String user_key) { this.user_key = user_key; }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
