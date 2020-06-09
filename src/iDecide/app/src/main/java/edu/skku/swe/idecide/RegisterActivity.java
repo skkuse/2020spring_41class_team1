@@ -4,8 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -31,6 +33,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.pranavpandey.android.dynamic.toasts.DynamicToast;
 
 import edu.skku.swe.idecide.entities.User;
 
@@ -122,7 +125,8 @@ public class RegisterActivity extends AppCompatActivity {
 
                         } else {
                             hideDialog();
-                            Toast.makeText(RegisterActivity.this, "회원가입에 실패하였습니다", Toast.LENGTH_SHORT).show();
+                            Toast toast = DynamicToast.makeError(getApplicationContext(), "회원가입에 실패했습니다", Toast.LENGTH_SHORT);
+                            toast.show();
                         }
 
                         // ...
@@ -154,7 +158,8 @@ public class RegisterActivity extends AppCompatActivity {
                             DocumentSnapshot documentSnapshot = task.getResult();
                             if (documentSnapshot.exists()) {
                                 hideDialog();
-                                Toast.makeText(RegisterActivity.this, "이미 회원가입 된 계정입니다", Toast.LENGTH_SHORT).show();
+                                Toast toast = DynamicToast.makeError(getApplicationContext(), "이미 회원가입 된 계정입니다", Toast.LENGTH_SHORT);
+                                toast.show();
                                 finish();
                             }
                             else {
@@ -162,7 +167,9 @@ public class RegisterActivity extends AppCompatActivity {
                             }
                         }
                         else {
-                            Toast.makeText(RegisterActivity.this, "회원가입에 실패했습니다", Toast.LENGTH_SHORT).show();
+                            hideDialog();
+                            Toast toast = DynamicToast.makeError(getApplicationContext(), "회원가입에 실패했습니다", Toast.LENGTH_SHORT);
+                            toast.show();
                         }
                     }
                 });
@@ -170,7 +177,9 @@ public class RegisterActivity extends AppCompatActivity {
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
                 Log.v("error", e.getMessage());
-                Toast.makeText(RegisterActivity.this, "회원가입에 실패했습니다", Toast.LENGTH_SHORT).show();
+                hideDialog();
+                Toast toast = DynamicToast.makeError(getApplicationContext(), "회원가입에 실패했습니다", Toast.LENGTH_SHORT);
+                toast.show();
 
                 // ...
             }

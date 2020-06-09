@@ -7,8 +7,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.RadarChart;
 import com.github.mikephil.charting.components.AxisBase;
@@ -20,11 +23,14 @@ import com.github.mikephil.charting.data.RadarDataSet;
 import com.github.mikephil.charting.data.RadarEntry;
 import com.github.mikephil.charting.formatter.IAxisValueFormatter;
 import com.github.mikephil.charting.interfaces.datasets.IRadarDataSet;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.pranavpandey.android.dynamic.toasts.DynamicToast;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.skku.swe.idecide.entities.Item;
 import edu.skku.swe.idecide.entities.Vendor;
 import edu.skku.swe.idecide.entities.VendorAdapter;
 
@@ -35,6 +41,7 @@ public class ItemDetailActivity extends AppCompatActivity {
     int reviewColor = 0xFF9575CD;
     private RecyclerView recyclerView;
     private List<Vendor> list = new ArrayList<>();
+    FloatingActionButton add_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +53,23 @@ public class ItemDetailActivity extends AppCompatActivity {
         tb.setTitle("상세 정보"); // change title to clicked laptop name later (after db is made)
         setSupportActionBar(tb);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        // add to cart button
+        add_button = findViewById(R.id.fab_item_detail);
+        add_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DynamicToast.Config.getInstance().setSuccessBackgroundColor(0xFF1E88E5).apply();
+                Toast toast = DynamicToast.makeSuccess(getApplicationContext(), "장바구니에 추가되었습니다", Toast.LENGTH_SHORT);
+                toast.show();
+
+
+                //DynamicToast.makeSuccess(ItemDetailActivity.this, "장바구니에 추가했습니다", Toast.LENGTH_SHORT).show();
+
+
+            }
+        });
+
+
 
 
         // SCORE
@@ -200,5 +224,7 @@ public class ItemDetailActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 
 }

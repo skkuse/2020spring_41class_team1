@@ -3,10 +3,12 @@ package edu.skku.swe.idecide;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
@@ -37,6 +39,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
+import com.pranavpandey.android.dynamic.toasts.DynamicToast;
 
 
 import static android.text.TextUtils.isEmpty;
@@ -227,7 +230,8 @@ public class LoginActivity extends AppCompatActivity implements
                 @Override
                 public void onFailure(@NonNull Exception e) {
                     hideDialog();
-                    Toast.makeText(LoginActivity.this, "이메일과 비밀번호를 다시 확인해 주세요", Toast.LENGTH_SHORT).show();
+                    Toast toast = DynamicToast.makeError(getApplicationContext(), "이메일과 비밀번호를 다시 확인해 주세요", Toast.LENGTH_SHORT);
+                    toast.show();
                 }
             });
         }
@@ -253,7 +257,8 @@ public class LoginActivity extends AppCompatActivity implements
                             startActivity(intent);
                             finish();
                         } else {
-                            Toast.makeText(LoginActivity.this, "로그인에 실패하였습니다", Toast.LENGTH_SHORT).show();
+                            Toast toast = DynamicToast.makeError(getApplicationContext(), "로그인에 실패했습니다", Toast.LENGTH_SHORT);
+                            toast.show();
                         }
 
                         // ...
@@ -289,19 +294,24 @@ public class LoginActivity extends AppCompatActivity implements
                             }
                             else {
                                 hideDialog();
-                                Toast.makeText(LoginActivity.this, "등록되지 않은 계정입니다. 회원가입을 진행해 주세요.", Toast.LENGTH_SHORT).show();
+                                Toast toast = DynamicToast.makeError(getApplicationContext(), "등록되지 않은 계정입니다. 회원가입을 진행해 주세요", Toast.LENGTH_SHORT);
+                                toast.show();
                             }
                         }
                         else {
-                            Toast.makeText(LoginActivity.this, "로그인에 실패했습니다", Toast.LENGTH_SHORT).show();
+                            hideDialog();
+                            Toast toast = DynamicToast.makeError(getApplicationContext(), "로그인에 실패했습니다", Toast.LENGTH_SHORT);
+                            toast.show();
                         }
                     }
                 });
 
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
+                hideDialog();
                 Log.v("error", e.getMessage());
-                Toast.makeText(LoginActivity.this, "로그인에 실패했습니다", Toast.LENGTH_SHORT).show();
+                Toast toast = DynamicToast.makeError(getApplicationContext(), "로그인에 실패했습니다", Toast.LENGTH_SHORT);
+                toast.show();
 
                 // ...
             }
