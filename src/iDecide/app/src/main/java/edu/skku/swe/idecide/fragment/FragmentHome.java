@@ -129,7 +129,7 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         super.onCreate(savedInstanceState);
         ViewGroup rootView= (ViewGroup)inflater.inflate(R.layout.fragment_home_stack_view,container, false);
         mStackView = (CardStackView) rootView.findViewById(R.id.stackview_main);
-        mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_home);
+        //mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_home);
         mStackView.setItemExpendListener(this);
 
 
