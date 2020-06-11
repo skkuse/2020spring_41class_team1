@@ -1,59 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color_26">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:gravity="center"
-                android:textColor="@color/colorPrimary"
-                android:textSize="30dp"
-                android:text="Welcome to iDecide!"/>
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nickname_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorFont"
+            android:textSize="30dp"
+            android:fontFamily="@font/dotumbold"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorFont"
+            android:textSize="20dp"
+            android:fontFamily="@font/dotummedium"
+            android:text="안녕하세요?"/>
     </LinearLayout>
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="600dp"
-    android:layout_gravity="center">
-    <com.loopeer.cardstack.CardStackView
-        android:id="@+id/stackview_main"
+
+
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:background="@android:color/white"
-        android:clipToPadding="false"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
-        android:paddingTop="12dp">
-    </com.loopeer.cardstack.CardStackView>
-</FrameLayout>
-    <FrameLayout
-        android:id="@+id/button_container_home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:layout_marginBottom="40dp"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:orientation="vertical"
-        android:gravity="center">
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onPreClick"
-            android:src="@color/color_1"
-            android:text="Pre" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="174dp"
-            android:onClick="onNextClick"
-            android:src="@color/color_1"
-            android:text="Next" />
-
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <com.loopeer.cardstack.CardStackView
+            android:id="@+id/stackview_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:clipToPadding="false"
+            android:paddingTop="12dp">
+        </com.loopeer.cardstack.CardStackView>
     </FrameLayout>
-</FrameLayout>
+
+</LinearLayout>

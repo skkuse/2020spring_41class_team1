@@ -19,19 +19,19 @@ import java.util.ArrayList;
 import edu.skku.swe.idecide.ItemDetailActivity;
 import edu.skku.swe.idecide.R;
 
-public class HomeItemAdapter extends RecyclerView.Adapter <HomeViewHolder> {
-    HomeCardItem homeCardItem;
-    ArrayList<HomeCardItem> homeCardItems;
+public class HomeCardAdapter extends RecyclerView.Adapter <HomeViewHolder> {
+    HomeCard homeCard;
+    ArrayList<HomeCard> homeCards;
     Context context;
 
 
     //constructor
-    public HomeItemAdapter(FragmentActivity activity, ArrayList<HomeCardItem> list) {
+    public HomeCardAdapter(FragmentActivity activity, ArrayList<HomeCard> list) {
         this.context = activity;
-        this.homeCardItems = list;
+        this.homeCards = list;
     }
-    public HomeItemAdapter(ArrayList<HomeCardItem> list) {
-        this.homeCardItems = list;
+    public HomeCardAdapter(ArrayList<HomeCard> list) {
+        this.homeCards = list;
     }
 
     //Viewholder
@@ -44,19 +44,19 @@ public class HomeItemAdapter extends RecyclerView.Adapter <HomeViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull HomeViewHolder holder, int position) {
-        HomeCardItem item = homeCardItems.get(position);
+        HomeCard item = homeCards.get(position);
     }
 
     @Override
     public int getItemCount() {
-        return this.homeCardItems.size();
+        return this.homeCards.size();
     }
 }
     class HomeViewHolder extends RecyclerView.ViewHolder {
         //home_item_card_view에서 찾기.
         public ImageView card_image; //카드에 삽입될 배경 이미지
         public TextView card_preference; //카드위에 올라갈 설명 (ex)"이동이 많은 사용자들에게 추천하는 노트북!"
-        public HomeCardItem homeCard;
+        public HomeCard homeCard;
         public CardView cardView;
 
         //constructor

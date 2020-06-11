@@ -27,42 +27,18 @@
             tools:text="12"/>
     </FrameLayout>
 
-    <FrameLayout
+    <LinearLayout
         android:id="@+id/container_list_content"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:orientation = "vertical"
-        >
+        android:orientation = "vertical">
 
-        <ImageView
-            android:contentDescription="Computer Society"
-            android:id="@+id/home_image1"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_history_detail"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/laptop1" />
-        <ImageView
-            android:contentDescription="Computer Society"
-            android:id="@+id/home_image2"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/laptop1" />
-        <ImageView
-            android:contentDescription="Computer Society"
-            android:id="@+id/home_image3"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/laptop1" />
-        <ImageView
-            android:contentDescription="Computer Society"
-            android:id="@+id/home_image4"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/laptop1" />
-        <ImageView
-            android:contentDescription="Computer Society"
-            android:id="@+id/home_image5"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/laptop1" />
-        </FrameLayout>
+            android:layout_height="match_parent" >
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
 </LinearLayout>
