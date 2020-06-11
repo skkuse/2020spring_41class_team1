@@ -14,7 +14,7 @@
         android:id="@+id/frame_list_card_item"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@drawable/shape_rectangle_with_radius">
+        android:background="@drawable/card1">
 
         <TextView
             android:id="@+id/text_list_card_title"
@@ -22,19 +22,24 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:textColor="@android:color/white"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            tools:text="12"/>
+            android:textSize="25sp"
+            android:fontFamily="@font/dotumbold"/>
     </FrameLayout>
 
     <LinearLayout
         android:id="@+id/container_list_content"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation = "vertical">
+        android:layout_height="wrap_content"
+        android:orientation = "vertical"
+        android:background="@color/colorPrimary">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@color/colorPrimary"/>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_history_detail"
+            android:id="@+id/rv_item_homecard"
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
         </androidx.recyclerview.widget.RecyclerView>

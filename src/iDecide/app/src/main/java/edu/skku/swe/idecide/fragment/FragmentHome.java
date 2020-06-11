@@ -1,17 +1,17 @@
 package edu.skku.swe.idecide.fragment;
 
+import android.graphics.Rect;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -24,29 +24,24 @@ import com.loopeer.cardstack.UpDownAnimatorAdapter;
 import com.loopeer.cardstack.UpDownStackAnimatorAdapter;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
 
-import edu.skku.swe.idecide.entities.HomeStackAdapter;
+import edu.skku.swe.idecide.entities.HistoryAdapter;
+import edu.skku.swe.idecide.entities.HomeCard;
 import edu.skku.swe.idecide.R;
+import edu.skku.swe.idecide.entities.HomeStackAdapter;
 import edu.skku.swe.idecide.entities.Item;
 import edu.skku.swe.idecide.entities.User;
 
 public class FragmentHome extends Fragment implements CardStackView.ItemExpendListener {
-    public static Integer[] TEST_DATAS = new Integer[]{
-    R.color.color_1,
-        R.color.color_2,
-        R.color.color_3,
-        R.color.color_4,
-        R.color.color_5,
-    };
-    private ArrayList<Item> list= new ArrayList<>();
-    private CardStackView mStackView;
-    private FrameLayout mActionButtonContainer;
-    private HomeStackAdapter mHomeStackAdapter;
-    private RecyclerView mHomeRecycler;
+    private ArrayList<HomeCard> homeCards = new ArrayList<>();
+    private RecyclerView recyclerView;
     private String user_key;
-    private TextView nicknameTV;
+    private TextView nicknameTV, nickname2TV;
     private String nickname;
+
+    private HomeStackAdapter homeStackAdapter;
+    private CardStackView cardStackView;
 
     public FragmentHome(String user_key) { this.user_key = user_key; }
 
@@ -60,11 +55,10 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
                               @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ViewGroup rootView= (ViewGroup)inflater.inflate(R.layout.fragment_home_stack_view,container, false);
-        mStackView = (CardStackView) rootView.findViewById(R.id.stackview_main);
-       // mActionButtonContainer = (FrameLayout) rootView.findViewById(R.id.button_container_home);
-        mStackView.setItemExpendListener(this);
+        ViewGroup rootView= (ViewGroup)inflater.inflate(R.layout.fragment_home,container, false);
+        recyclerView = (RecyclerView) rootView.findViewById(R.id.rv_item_homecard);
         nicknameTV = rootView.findViewById(R.id.nickname_home);
+        nickname2TV = rootView.findViewById(R.id.nickname2_home);
 
         // get and set user nickname
         FirebaseFirestore firestore = FirebaseFirestore.getInstance();
@@ -76,48 +70,52 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
                 nickname = user.getNickname();
                 if (nickname.length() == 0) { nickname = "회원"; }
                 nicknameTV.setText(nickname + "님,");
+                nickname2TV.setText(nickname);
             }
         });
 
-
-        //DB로부터 받아와서 list에 넣기
-        for (int i = 0; i < 20; i++)
-        {
-            list.add(new Item(R.drawable.ion,"LG","Gram2020", "", "75"));
-        }
-        //adapter로 넘겨주기.
-        mHomeStackAdapter = new HomeStackAdapter(getActivity(),list);
-
-        mStackView.setAdapter(mHomeStackAdapter);
+        cardStackView = rootView.findViewById(R.id.card_homecard);
+        cardStackView.setItemExpendListener(this);
 
 
-        new Handler().postDelayed(
-                new Runnable() {
-                    @Override
-                    public void run() {
-                        mHomeStackAdapter.updateData(Arrays.asList(TEST_DATAS));
-                    }
-                }
-                , 200
-        );
+        List<Item> list1= new ArrayList<>();
+        list1.add(new Item(R.drawable.ion,"SAMSUNG","Ion"));
+        list1.add(new Item(R.drawable.ion,"SAMSUNG","Ion"));
+
+
+        homeCards.add(new HomeCard(R.drawable.card1, "# 사무용 노트북", list1));
+        homeCards.add(new HomeCard(R.drawable.card2, "# 게이밍 노트북", list1));
+        homeCards.add(new HomeCard(R.drawable.card5, "# 가벼운 노트북", list1));
+        homeCards.add(new HomeCard(R.drawable.card3, "# 디자이너를 위한 노트북", list1));
+        homeCards.add(new HomeCard(R.drawable.card4, "# 동영상/음악 감상용 노트북", list1));
+
+        homeStackAdapter = new HomeStackAdapter(getActivity(),homeCards);
+        cardStackView.setAdapter(homeStackAdapter);
+        homeStackAdapter.updateData(homeCards);
+
+
+
         return rootView;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_all_down:
-                mStackView.setAnimatorAdapter(new AllMoveDownAnimatorAdapter(mStackView));
+                cardStackView.setAnimatorAdapter(new AllMoveDownAnimatorAdapter(cardStackView));
                 break;
             case R.id.menu_up_down:
-                mStackView.setAnimatorAdapter(new UpDownAnimatorAdapter(mStackView));
+                cardStackView.setAnimatorAdapter(new UpDownAnimatorAdapter(cardStackView));
                 break;
             case R.id.menu_up_down_stack:
-                mStackView.setAnimatorAdapter(new UpDownStackAnimatorAdapter(mStackView));
+                cardStackView.setAnimatorAdapter(new UpDownStackAnimatorAdapter(cardStackView));
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 
     @Override
     public void onItemExpend(boolean expend) { }

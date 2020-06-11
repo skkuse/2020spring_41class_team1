@@ -14,6 +14,11 @@ public class Item {
         this.num = num;
         this.score = score;
     }
+    public Item(int image, String manufacture, String name){
+        this.image = image;
+        this.manufacture = manufacture;
+        this.name = name;
+    }
 
     public int getImage() {
         return image;
