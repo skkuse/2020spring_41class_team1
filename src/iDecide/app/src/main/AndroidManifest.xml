@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".entities.HomeStackAdapter"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".utils.ScrollAwareFABBehavior" />
         <activity android:name=".GetProfileActivity" />
         <activity android:name=".RegisterActivity" />
@@ -27,7 +28,8 @@
         <activity android:name=".fragment.FragmentProfile" />
         <activity android:name=".fragment.FragmentSearch" />
         <activity android:name=".EmailRegisterActivity" />
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
