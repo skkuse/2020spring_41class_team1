@@ -38,7 +38,7 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
     private RecyclerView recyclerView;
     private String user_key;
     private TextView nicknameTV, nickname2TV;
-    private String nickname;
+    private String nickname = "";
 
     private HomeStackAdapter homeStackAdapter;
     private CardStackView cardStackView;
@@ -60,19 +60,27 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         nicknameTV = rootView.findViewById(R.id.nickname_home);
         nickname2TV = rootView.findViewById(R.id.nickname2_home);
 
-        // get and set user nickname
-        FirebaseFirestore firestore = FirebaseFirestore.getInstance();
-        firestore.collection("User").document(user_key).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                DocumentSnapshot document = task.getResult();
-                User user = new User(document.getData());
-                nickname = user.getNickname();
-                if (nickname.length() == 0) { nickname = "회원"; }
-                nicknameTV.setText(nickname + "님,");
-                nickname2TV.setText(nickname);
-            }
-        });
+        if (nickname.length() == 0) {
+            // get and set user nickname
+            FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+            firestore.collection("User").document(user_key).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    DocumentSnapshot document = task.getResult();
+                    User user = new User(document.getData());
+                    nickname = user.getNickname();
+                    if (nickname.length() == 0) {
+                        nickname = "회원";
+                    }
+                    nicknameTV.setText(nickname + "님,");
+                    nickname2TV.setText(nickname);
+                }
+            });
+        }
+        else {
+            nicknameTV.setText(nickname + "님,");
+            nickname2TV.setText(nickname);
+        }
 
         cardStackView = rootView.findViewById(R.id.card_homecard);
         cardStackView.setItemExpendListener(this);

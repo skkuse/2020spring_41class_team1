@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getPreferences.p1_budget"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:fontFamily="@font/dotumbold"
+            android:text="예산을 선택해주세요"
+            android:textColor="@color/colorFont"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/budget_0"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="~50만원"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/budget_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="50~100만원"
+                android:layout_marginTop="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/budget_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="100~150만원"
+                android:layout_marginTop="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/budget_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="150~200만원"
+                android:layout_marginTop="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/budget_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="200만원 이상"
+                android:layout_marginTop="20dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_budget"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:text="다음"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>

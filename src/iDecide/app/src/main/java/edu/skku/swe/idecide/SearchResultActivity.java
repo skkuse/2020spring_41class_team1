@@ -29,7 +29,7 @@ public class SearchResultActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        recyclerView = findViewById(R.id.rv_history_detail);
+        recyclerView = findViewById(R.id.rv_search_result);
 
         // 원래는 파이어베이스 history detail에서 받아와야함!!
         for (int i = 0; i < 20; i++)

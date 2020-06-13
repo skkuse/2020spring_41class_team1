@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getPreferences.p7_ranking"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:fontFamily="@font/dotumbold"
+            android:text="가장 중요한 항목을 선택해주세요"
+            android:textColor="@color/colorFont"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_0"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="예산"
+                android:layout_marginTop="30dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="사용목적"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="용도"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="사용장소"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="무게"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="화면 크기"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="운영체제"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/ranking_7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="20dp"
+                android:text="브랜드"
+                android:layout_marginTop="10dp"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_ranking_finish"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_round"
+        android:text="검색"
+        android:textSize="17dp"
+        android:layout_weight="0"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>

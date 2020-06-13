@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getPreferences.p5_weight_screen_size"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:fontFamily="@font/dotumbold"
+            android:text="무게와 화면 크기를 선택해주세요"
+            android:textColor="@color/colorFont"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dotumbold"
+                android:textSize="24dp"
+                android:textColor="@color/colorDarkGray"
+                android:text="무게"
+                android:layout_marginTop="30dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/weight_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="20dp"
+                    android:text="가벼움 (~1.4kg 이하)"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/weight_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="20dp"
+                    android:text="중간 (1.4kg~2.0kg)"
+                    android:layout_marginTop="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/weight_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="20dp"
+                    android:text="무거움 (2.0kg~)"
+                    android:layout_marginTop="10dp"/>
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dotumbold"
+                android:textSize="24dp"
+                android:textColor="@color/colorDarkGray"
+                android:text="화면 크기"
+                android:layout_marginTop="20dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/screenSize_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="20dp"
+                    android:text="작음 (~13인치)"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/screenSize_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="20dp"
+                    android:text="중간 (13~15인치)"
+                    android:layout_marginTop="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/screenSize_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="20dp"
+                    android:text="큼 (15~17인치)"
+                    android:layout_marginTop="10dp"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_weight_screen_size"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:text="다음"
+        android:textSize="17dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0"/>
+
+</LinearLayout>
