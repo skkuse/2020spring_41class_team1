@@ -34,7 +34,8 @@
             android:orientation="horizontal"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="50dp"
+            android:id="@+id/radio_os">
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 android:id="@+id/os_0"
@@ -75,40 +76,35 @@
         </RadioGroup>
 
 
-
-        <RadioGroup
+        <edu.skku.swe.idecide.utils.ToggleButtonGroupTableLayout
+            android:id="@+id/radio_brand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:orientation="vertical">
+            android:layout_marginTop="40dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp">
+            <TableRow>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_0"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:layout_weight="1"
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
-                    android:textSize="20dp"
-                    android:text="삼성전자"
-                    android:layout_marginRight="5dp"
                     android:gravity="center_vertical"
-                    android:layout_weight="1" />
+                    android:text="삼성전자"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"/>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_1"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
@@ -117,15 +113,9 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="20dp" />
 
-            </LinearLayout>
+            </TableRow>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp">
+            <TableRow>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_2"
@@ -136,32 +126,29 @@
                     android:checked="false"
                     android:textSize="20dp"
                     android:text="Acer"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_3"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
                     android:gravity="center_vertical"
                     android:text="Asus"
-                    android:layout_marginLeft="5dp"
+
                     android:textSize="20dp" />
+            </TableRow>
 
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp">
+            <TableRow>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_4"
@@ -172,33 +159,29 @@
                     android:checked="false"
                     android:textSize="20dp"
                     android:text="Dell"
-                    android:layout_marginRight="5dp"
                     android:gravity="center_vertical"
-                    android:layout_weight="1"/>
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_5"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
+                    android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
                     android:text="HP"
-                    android:layout_marginLeft="5dp"
                     android:textSize="20dp" />
+            </TableRow>
 
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp">
 
+            <TableRow>
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_6"
                     android:layout_width="match_parent"
@@ -208,32 +191,29 @@
                     android:checked="false"
                     android:textSize="20dp"
                     android:text="Lenovo"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_7"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
+                    android:layout_marginTop="10dp"
                     android:checked="false"
                     android:gravity="center_vertical"
                     android:text="MSI"
-                    android:layout_marginLeft="5dp"
                     android:textSize="20dp" />
 
-            </LinearLayout>
+            </TableRow>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp">
+
+            <TableRow>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_8"
@@ -244,26 +224,30 @@
                     android:checked="false"
                     android:textSize="20dp"
                     android:text="Microsoft"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/brand_9"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
+                    android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
                     android:text="Mac"
-                    android:layout_marginLeft="5dp"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"/>
+            </TableRow>
 
-            </LinearLayout>
 
-        </RadioGroup>
+
+
+        </edu.skku.swe.idecide.utils.ToggleButtonGroupTableLayout>
 
     </LinearLayout>
 

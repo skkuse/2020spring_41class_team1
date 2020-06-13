@@ -42,23 +42,26 @@
                 android:layout_marginTop="100dp">
 
                 <ImageView
+                    android:id="@+id/img_personal_purpose"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_person_unchecked_24dp"/>
+                    android:src="@drawable/ic_person_gradatoin_24dp" />
 
                 <ImageView
+                    android:id="@+id/img_public_purpose"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_public_uncheck_24dp"/>
+                    android:src="@drawable/ic_public_gradation_24dp"/>
 
             </LinearLayout>
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:id="@+id/radio_main_purpose">
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/purpose_0"
@@ -89,7 +92,7 @@
     </LinearLayout>
 
 <Button
-    android:id="@+id/button_purpose"
+    android:id="@+id/button_main_purpose"
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:background="@drawable/button_round"

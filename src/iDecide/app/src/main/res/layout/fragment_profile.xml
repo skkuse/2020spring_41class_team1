@@ -140,7 +140,7 @@
                         android:gravity="center_vertical"
                         android:textSize="17dp"
                         android:textColor="@color/colorFont"
-                        android:text="저장 옵션"
+                        android:text="공개 여부"
                         android:drawableLeft="@drawable/historyoption_profile"
                         android:drawablePadding="10dp"
                         style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>

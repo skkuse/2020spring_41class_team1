@@ -2,6 +2,10 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
     android:enterFadeDuration="@android:integer/config_shortAnimTime"
     android:exitFadeDuration="@android:integer/config_shortAnimTime">
-    <item android:drawable="@drawable/button_round" android:state_checked="true" />
-    <item android:drawable="@drawable/button_round2" android:state_checked="false" />
+    <item android:state_checked="true"
+        android:drawable="@drawable/button_round3"
+        android:color="@color/colorPrimary"/>
+    <item android:state_checked="false"
+        android:drawable="@drawable/button_round2"
+        android:color="@color/colorFont"/>
 </selector>

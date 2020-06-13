@@ -34,6 +34,7 @@ public class FragmentSearch extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), p1_budget.class);
+                intent.putExtra("user_key", user_key);
                 startActivity(intent);
             }
         });

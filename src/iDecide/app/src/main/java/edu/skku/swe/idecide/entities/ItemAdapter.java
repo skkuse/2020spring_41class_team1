@@ -1,10 +1,13 @@
 package edu.skku.swe.idecide.entities;
 
 import android.content.Intent;
+import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Adapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,6 +20,7 @@ import edu.skku.swe.idecide.R;
 
 public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
     List<Item> list;
+    String temp;
 
     public ItemAdapter(List<Item> list){
         this.list = list;
@@ -26,6 +30,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
     @Override
     public ItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item, parent, false);
+
         return new ItemViewHolder(view);
     }
 
@@ -37,6 +42,24 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
         holder.textView2.setText(list.get(position).name);
         holder.textView3.setText(list.get(position).num);
         holder.textView4.setText(list.get(position).score);
+
+
+        holder.linearlayout_item.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), ItemDetailActivity.class);
+                intent.putExtra("user_key", list.get(position).user_key);
+                intent.putExtra("code", list.get(position).code);
+                intent.putExtra("manufacture", list.get(position).manufacture);
+                intent.putExtra("name", list.get(position).name);
+                intent.putExtra("num", list.get(position).num);
+
+                intent.putExtra("hardware", (Parcelable) list.get(position).hardware);
+                intent.putExtra("review", (Parcelable) list.get(position).review);
+                intent.putExtra("score", list.get(position).score);
+                v.getContext().startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -45,9 +68,10 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
     }
 }
 
-class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+class ItemViewHolder extends RecyclerView.ViewHolder{
     ImageView imageView;
     TextView textView1, textView2, textView3, textView4;
+    LinearLayout linearlayout_item;
 
     public ItemViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -57,14 +81,6 @@ class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickList
         textView2 = itemView.findViewById(R.id.name_item);
         textView3 = itemView.findViewById(R.id.num_item);
         textView4 = itemView.findViewById(R.id.score_item);
-
-        itemView.setOnClickListener(this);
-    }
-
-
-    // 넘길때 laptop 정보도 포함시켜야함!
-    public void onClick(View v) {
-        Intent intent = new Intent(v.getContext(), ItemDetailActivity.class);
-        v.getContext().startActivity(intent);
+        linearlayout_item = itemView.findViewById(R.id.linearlayout_item);
     }
 }

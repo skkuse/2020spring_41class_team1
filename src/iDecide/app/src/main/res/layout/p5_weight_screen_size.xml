@@ -47,7 +47,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:id="@+id/radio_weight">
 
                 <androidx.appcompat.widget.AppCompatRadioButton
                     android:id="@+id/weight_0"
@@ -93,6 +94,7 @@
                 android:layout_marginTop="20dp"/>
 
             <RadioGroup
+                android:id="@+id/radio_screen_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"

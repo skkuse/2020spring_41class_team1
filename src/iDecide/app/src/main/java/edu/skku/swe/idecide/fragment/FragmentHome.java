@@ -92,12 +92,28 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
             list1.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
             list1.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
 
+            List<Item> list2 = new ArrayList<>();
+            list2.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+            list2.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+
+            List<Item> list3 = new ArrayList<>();
+            list3.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+            list3.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+
+            List<Item> list4 = new ArrayList<>();
+            list4.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+            list4.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+
+            List<Item> list5 = new ArrayList<>();
+            list5.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+            list5.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+
 
             homeCards.add(new HomeCard(R.drawable.card1, "# 사무용 노트북", list1));
-            homeCards.add(new HomeCard(R.drawable.card2, "# 게이밍 노트북", list1));
-            homeCards.add(new HomeCard(R.drawable.card5, "# 가벼운 노트북", list1));
-            homeCards.add(new HomeCard(R.drawable.card3, "# 디자이너를 위한 노트북", list1));
-            homeCards.add(new HomeCard(R.drawable.card4, "# 동영상/음악 감상용 노트북", list1));
+            homeCards.add(new HomeCard(R.drawable.card2, "# 게이밍 노트북", list2));
+            homeCards.add(new HomeCard(R.drawable.card5, "# 가벼운 노트북", list3));
+            homeCards.add(new HomeCard(R.drawable.card3, "# 디자이너를 위한 노트북", list4));
+            homeCards.add(new HomeCard(R.drawable.card4, "# 동영상/음악 감상용 노트북", list5));
         }
 
         homeStackAdapter = new HomeStackAdapter(getActivity(),homeCards);

@@ -35,10 +35,11 @@
             android:orientation="horizontal"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp">
+            android:layout_marginRight="15dp"
+            android:id="@+id/radio_carry">
 
             <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/os_0"
+                android:id="@+id/carry_0"
                 android:layout_width="60dp"
                 android:layout_height="40dp"
                 android:background="@drawable/preference_bg_no_icon"
@@ -50,7 +51,7 @@
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"/>
             <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/os_1"
+                android:id="@+id/carry_1"
                 android:layout_width="60dp"
                 android:layout_height="40dp"
                 android:background="@drawable/preference_bg_no_icon"
@@ -63,7 +64,7 @@
                 android:layout_marginRight="5dp"/>
 
             <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/os_2"
+                android:id="@+id/carry_2"
                 android:layout_width="60dp"
                 android:layout_height="40dp"
                 android:background="@drawable/preference_bg_no_icon"
@@ -85,7 +86,8 @@
             android:gravity="center"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="40dp">
+            android:layout_marginTop="40dp"
+            android:id="@+id/radio_place_of_use">
 
 
             <androidx.appcompat.widget.AppCompatRadioButton
