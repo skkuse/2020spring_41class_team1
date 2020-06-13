@@ -78,16 +78,19 @@ public class FragmentHome extends Fragment implements CardStackView.ItemExpendLi
         cardStackView.setItemExpendListener(this);
 
 
-        List<Item> list1= new ArrayList<>();
-        list1.add(new Item(R.drawable.ion,"SAMSUNG","Ion"));
-        list1.add(new Item(R.drawable.ion,"SAMSUNG","Ion"));
+        if (homeCards.isEmpty()) {
+
+            List<Item> list1 = new ArrayList<>();
+            list1.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
+            list1.add(new Item(R.drawable.ion, "SAMSUNG", "Ion"));
 
 
-        homeCards.add(new HomeCard(R.drawable.card1, "# 사무용 노트북", list1));
-        homeCards.add(new HomeCard(R.drawable.card2, "# 게이밍 노트북", list1));
-        homeCards.add(new HomeCard(R.drawable.card5, "# 가벼운 노트북", list1));
-        homeCards.add(new HomeCard(R.drawable.card3, "# 디자이너를 위한 노트북", list1));
-        homeCards.add(new HomeCard(R.drawable.card4, "# 동영상/음악 감상용 노트북", list1));
+            homeCards.add(new HomeCard(R.drawable.card1, "# 사무용 노트북", list1));
+            homeCards.add(new HomeCard(R.drawable.card2, "# 게이밍 노트북", list1));
+            homeCards.add(new HomeCard(R.drawable.card5, "# 가벼운 노트북", list1));
+            homeCards.add(new HomeCard(R.drawable.card3, "# 디자이너를 위한 노트북", list1));
+            homeCards.add(new HomeCard(R.drawable.card4, "# 동영상/음악 감상용 노트북", list1));
+        }
 
         homeStackAdapter = new HomeStackAdapter(getActivity(),homeCards);
         cardStackView.setAdapter(homeStackAdapter);
