@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getPreferences.p4_place_of_use_carry"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:fontFamily="@font/dotumbold"
+            android:text="이용빈도 및 사용장소를 선택해주세요"
+            android:textColor="@color/colorFont"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/radio_carry">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/carry_0"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/preference_bg_no_icon"
+                android:textColor="@drawable/preference_bg_no_icon"
+                android:button="@null"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="1주일에 1~2번"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/carry_1"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/preference_bg_no_icon"
+                android:textColor="@drawable/preference_bg_no_icon"
+                android:button="@null"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="1주일에 3~4번"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/carry_2"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/preference_bg_no_icon"
+                android:button="@null"
+                android:textColor="@drawable/preference_bg_no_icon"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="거의 매일"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+        </RadioGroup>
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/radio_place_of_use">
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/place_0"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="카페"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/place_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="회사"
+                android:layout_marginTop="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/place_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="집"
+                android:layout_marginTop="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/place_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/preference_bg"
+                android:button="@drawable/preference_button"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="조용한 장소"
+                android:layout_marginTop="20dp"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+<Button
+    android:id="@+id/button_place"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/button_round"
+    android:text="다음"
+    android:textSize="17dp"
+    android:textStyle="bold"
+    android:layout_weight="0"
+    android:textColor="@color/colorPrimary"
+    android:layout_marginBottom="40dp"/>
+
+</LinearLayout>

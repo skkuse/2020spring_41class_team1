@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getPreferences.p6_OS_brand"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:fontFamily="@font/dotumbold"
+            android:text="운영체제와 브랜드를 선택해 주세요"
+            android:textColor="@color/colorFont"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/radio_os">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/os_0"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/preference_bg_no_icon"
+                android:textColor="@drawable/preference_bg_no_icon"
+                android:button="@null"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="Window10"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/os_1"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/preference_bg_no_icon"
+                android:button="@null"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="IOS"
+                android:textColor="@drawable/preference_bg_no_icon"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/os_2"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/preference_bg_no_icon"
+                android:textColor="@drawable/preference_bg_no_icon"
+                android:button="@null"
+                android:checked="false"
+                android:textSize="17dp"
+                android:text="리눅스"
+                android:gravity="center"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+
+        <edu.skku.swe.idecide.utils.ToggleButtonGroupTableLayout
+            android:id="@+id/radio_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="40dp">
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:text="삼성전자"
+                    android:textSize="17dp"
+                    android:layout_marginRight="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:text="LG전자"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="17dp"
+                    android:text="Acer"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:text="Asus"
+
+                    android:textSize="17dp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="17dp"
+                    android:text="Dell"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:text="HP"
+                    android:textSize="17dp" />
+            </TableRow>
+
+
+
+            <TableRow>
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="17dp"
+                    android:text="Lenovo"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:gravity="center_vertical"
+                    android:text="MSI"
+                    android:textSize="17dp" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:textSize="17dp"
+                    android:text="Microsoft"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"/>
+
+                <androidx.appcompat.widget.AppCompatRadioButton
+                    android:id="@+id/brand_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/preference_bg"
+                    android:button="@drawable/preference_button"
+                    android:checked="false"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Mac"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"/>
+            </TableRow>
+
+
+
+
+        </edu.skku.swe.idecide.utils.ToggleButtonGroupTableLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_os_brand"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_round"
+        android:text="다음"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0"/>
+
+</LinearLayout>

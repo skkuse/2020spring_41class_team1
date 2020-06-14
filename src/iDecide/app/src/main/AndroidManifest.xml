@@ -13,7 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".entities.HomeStackAdapter"></activity>
+        <activity android:name=".getPreferences.p7_ranking"></activity>
+        <activity android:name=".getPreferences.p6_OS_brand" />
+        <activity android:name=".getPreferences.p5_weight_screen_size" />
+        <activity android:name=".getPreferences.p4_place_of_use_carry" />
+        <activity android:name=".getPreferences.p3_usage" />
+        <activity android:name=".getPreferences.p2_main_purpose" />
+        <activity android:name=".getPreferences.p1_budget" />
+        <activity android:name=".SearchingActivity" />
+        <activity android:name=".entities.HomeStackAdapter" />
         <activity android:name=".MainActivity" />
         <activity android:name=".utils.ScrollAwareFABBehavior" />
         <activity android:name=".GetProfileActivity" />

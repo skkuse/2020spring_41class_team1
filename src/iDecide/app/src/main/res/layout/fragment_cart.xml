@@ -5,18 +5,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragment_cart"
     android:orientation="vertical"
+    android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".fragment.FragmentCart">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_cart"
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical"
-        android:scrollbarThumbVertical="@color/colorAccent"
-        android:scrollbarStyle="outsideInset"
-        android:scrollbarSize="4dp" >
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:scrollbarThumbVertical="@color/colorAccent"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarSize="4dp" >
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar_c"
+            android:layout_gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
 
 </LinearLayout>

@@ -32,7 +32,17 @@ public class VendorAdapter extends RecyclerView.Adapter<VendorViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull VendorViewHolder holder, final int position) {
-        holder.imageView.setImageResource(list.get(position).siteImg);
+        String vendor_name = list.get(position).name;
+        if (vendor_name.equals("11번가")) { holder.imageView.setImageResource(R.drawable.vendor_11st); }
+        else if (vendor_name.equals("쿠팡")) { holder.imageView.setImageResource(R.drawable.vendor_coupang); }
+        else if (vendor_name.equals("G마켓")) { holder.imageView.setImageResource(R.drawable.vendor_gmarket); }
+        else if (vendor_name.equals("인터파크")) { holder.imageView.setImageResource(R.drawable.vendor_interpark); }
+        else if (vendor_name.equals("티몬")) { holder.imageView.setImageResource(R.drawable.vendor_tmon); }
+        else if (vendor_name.equals("옥션")) { holder.imageView.setImageResource(R.drawable.vendor_auction); }
+        else if (vendor_name.equals("위메프")) { holder.imageView.setImageResource(R.drawable.vendor_wemakeprice); }
+        else if (vendor_name.equals("G9")) { holder.imageView.setImageResource(R.drawable.vendor_g9); }
+
+
         holder.textView1.setText(list.get(position).price);
         holder.textView2.setText(list.get(position).shipping);
         holder.imageView.setTag(list.get(position).siteLink);

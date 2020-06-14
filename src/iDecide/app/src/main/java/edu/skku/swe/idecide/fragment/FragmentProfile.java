@@ -118,7 +118,7 @@ public class FragmentProfile extends Fragment {
                 final CharSequence[] saveOrNot = {"저장", "저장 안함"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
-                builder.setTitle("검색기록 저장 옵션을 선택해주세요")
+                builder.setTitle("검색기록 공개 여부 선택해주세요")
                         .setSingleChoiceItems(saveOrNot, notSaveHistory, new DialogInterface.OnClickListener(){
                             public void onClick(DialogInterface dialog, int index){ getIndex = index; }
                         });
