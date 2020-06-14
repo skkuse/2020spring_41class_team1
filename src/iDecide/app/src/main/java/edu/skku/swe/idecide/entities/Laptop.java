@@ -1,204 +1,77 @@
 package edu.skku.swe.idecide.entities;
 
 public class Laptop {
-    private String mLaptopModel;
-    private String mMinPrice;
-    private String mMaxPrice;
-    private String mMinBatteryLife;
-    private String mMaxBatteryLife;
-    private String mCPUModel;
-    private String mCPUSpeed;
-    private String mCPUCores;
-    private String mCPUClass;
-    private String mGPUModel;
-    private String mGPUSpeed;
-    private String mGPUMemSpeed;
-    private String mGPUMemSize;
-    private String mGPUClass;
-    private String mDisplaySize;
-    private String mDisplayHres;
-    private String mDisplayVres;
-    private String mDisplayTouch;
-    private String mStorageSize;
-    private String mStorageType;
-    private String mMemSize;
-    private String mOSModel;
-
-    public Laptop(){}
-
-    public String getLaptopModel() {
-        return mLaptopModel;
+    public String getmLaptopName() {
+        return mLaptopName;
     }
 
-    public void setLaptopModel(String laptopModel) {
-        mLaptopModel = laptopModel;
+    public void setmLaptopName(String mLaptopName) {
+        this.mLaptopName = mLaptopName;
     }
 
-    public String getMinPrice() {
+    public String getmMinPrice() {
         return mMinPrice;
     }
 
-    public void setMinPrice(String minPrice) {
-        mMinPrice = minPrice;
+    public void setmMinPrice(String mMinPrice) {
+        this.mMinPrice = mMinPrice;
     }
 
-    public String getMaxPrice() {
-        return mMaxPrice;
-    }
-
-    public void setMaxPrice(String maxPrice) {
-        mMaxPrice = maxPrice;
-    }
-
-    public String getMinBatteryLife() {
-        return mMinBatteryLife;
-    }
-
-    public void setMinBatteryLife(String minBatteryLife) {
-        mMinBatteryLife = minBatteryLife;
-    }
-
-    public String getMaxBatteryLife() {
+    public String getmMaxBatteryLife() {
         return mMaxBatteryLife;
     }
 
-    public void setMaxBatteryLife(String maxBatteryLife) {
-        mMaxBatteryLife = maxBatteryLife;
+    public void setmMaxBatteryLife(String mMaxBatteryLife) {
+        this.mMaxBatteryLife = mMaxBatteryLife;
     }
 
-    public String getCPUModel() {
-        return mCPUModel;
-    }
-
-    public void setCPUModel(String CPUModel) {
-        mCPUModel = CPUModel;
-    }
-
-    public String getCPUSpeed() {
-        return mCPUSpeed;
-    }
-
-    public void setCPUSpeed(String CPUSpeed) {
-        mCPUSpeed = CPUSpeed;
-    }
-
-    public String getCPUCores() {
-        return mCPUCores;
-    }
-
-    public void setCPUCores(String CPUCores) {
-        mCPUCores = CPUCores;
-    }
-
-    public String getCPUClass() {
-        return mCPUClass;
-    }
-
-    public void setCPUClass(String CPUClass) {
-        mCPUClass = CPUClass;
-    }
-
-    public String getGPUModel() {
-        return mGPUModel;
-    }
-
-    public void setGPUModel(String GPUModel) {
-        mGPUModel = GPUModel;
-    }
-
-    public String getGPUSpeed() {
-        return mGPUSpeed;
-    }
-
-    public void setGPUSpeed(String GPUSpeed) {
-        mGPUSpeed = GPUSpeed;
-    }
-
-    public String getGPUMemSpeed() {
-        return mGPUMemSpeed;
-    }
-
-    public void setGPUMemSpeed(String GPUMemSpeed) {
-        mGPUMemSpeed = GPUMemSpeed;
-    }
-
-    public String getGPUMemSize() {
-        return mGPUMemSize;
-    }
-
-    public void setGPUMemSize(String GPUMemSize) {
-        mGPUMemSize = GPUMemSize;
-    }
-
-    public String getGPUClass() {
-        return mGPUClass;
-    }
-
-    public void setGPUClass(String GPUClass) {
-        mGPUClass = GPUClass;
-    }
-
-    public String getDisplaySize() {
+    public String getmDisplaySize() {
         return mDisplaySize;
     }
 
-    public void setDisplaySize(String displaySize) {
-        mDisplaySize = displaySize;
+    public void setmDisplaySize(String mDisplaySize) {
+        this.mDisplaySize = mDisplaySize;
     }
 
-    public String getDisplayHres() {
-        return mDisplayHres;
+    public String getmOfficialSite() {
+        return mOfficialSite;
     }
 
-    public void setDisplayHres(String displayHres) {
-        mDisplayHres = displayHres;
+    public void setmOfficialSite(String mOfficialSite) {
+        this.mOfficialSite = mOfficialSite;
     }
 
-    public String getDisplayVres() {
-        return mDisplayVres;
+    public String getmScore() {
+        return mScore;
     }
 
-    public void setDisplayVres(String displayVres) {
-        mDisplayVres = displayVres;
+    public void setmScore(String mScore) {
+        this.mScore = mScore;
     }
 
-    public String getDisplayTouch() {
-        return mDisplayTouch;
+    public String getmCpuScore() {
+        return mCpuScore;
     }
 
-    public void setDisplayTouch(String displayTouch) {
-        mDisplayTouch = displayTouch;
+    public void setmCpuScore(String mCpuScore) {
+        this.mCpuScore = mCpuScore;
     }
 
-    public String getStorageSize() {
-        return mStorageSize;
+    public String getmGpuScore() {
+        return mGpuScore;
     }
 
-    public void setStorageSize(String storageSize) {
-        mStorageSize = storageSize;
+    public void setmGpuScore(String mGpuScore) {
+        this.mGpuScore = mGpuScore;
     }
 
-    public String getStorageType() {
-        return mStorageType;
-    }
-
-    public void setStorageType(String storageType) {
-        mStorageType = storageType;
-    }
-
-    public String getMemSize() {
-        return mMemSize;
-    }
-
-    public void setMemSize(String memSize) {
-        mMemSize = memSize;
-    }
-
-    public String getOSModel() {
-        return mOSModel;
-    }
-
-    public void setOSModel(String OSModel) {
-        mOSModel = OSModel;
-    }
+    private String mMaxBatteryLife;
+    private String mDisplaySize;
+    private String mOfficialSite;
+    private String mScore;
+    private String mCpuScore;
+    private String mGpuScore;
+    private String mLaptopName;
+    private String mMinPrice;
+    public Laptop(){}
 }

@@ -6,17 +6,34 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+
+import edu.skku.swe.idecide.entities.Laptop;
 import edu.skku.swe.idecide.entities.User;
 import edu.skku.swe.idecide.fragment.FragmentCart;
 import edu.skku.swe.idecide.fragment.FragmentHistory;
 import edu.skku.swe.idecide.fragment.FragmentHome;
 import edu.skku.swe.idecide.fragment.FragmentProfile;
 import edu.skku.swe.idecide.fragment.FragmentSearch;
+import edu.skku.swe.idecide.utils.UpdateLaptop;
 
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;
@@ -70,6 +87,12 @@ public class MainActivity extends AppCompatActivity {
         fragmentHistory = new FragmentHistory(user_key);
         fragmentCart = new FragmentCart(user_key);
         setFrag(0);
+
+        try {
+            UpdateLaptop.saveLaptopsToFiretore("model.txt", this);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private void setFrag(int i)

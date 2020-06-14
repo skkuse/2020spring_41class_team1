@@ -36,73 +36,22 @@ public class UpdateLaptop {
 
                 while ((line = bufferedReader.readLine()) != null) {
                     Laptop laptop = new Laptop();
-
-                    laptop.setLaptopModel(line);
-
+                    laptop.setmLaptopName(line);
                     line = bufferedReader.readLine();
-                    laptop.setMinPrice(line);
-
+                    laptop.setmMinPrice(line);
                     line = bufferedReader.readLine();
-                    laptop.setMaxPrice(line);
-
+                    laptop.setmMaxBatteryLife(line);
                     line = bufferedReader.readLine();
-                    laptop.setMinBatteryLife(line);
-
+                    laptop.setmDisplaySize(line);
                     line = bufferedReader.readLine();
-                    laptop.setMaxBatteryLife(line);
-
+                    laptop.setmOfficialSite(line);
                     line = bufferedReader.readLine();
-                    laptop.setCPUModel(line);
-
+                    laptop.setmScore(line);
                     line = bufferedReader.readLine();
-                    laptop.setCPUSpeed(line);
-
+                    laptop.setmCpuScore(line);
                     line = bufferedReader.readLine();
-                    laptop.setCPUCores(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setCPUClass(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setGPUModel(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setGPUSpeed(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setGPUMemSpeed(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setGPUMemSize(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setGPUClass(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setDisplaySize(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setDisplayHres(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setDisplayVres(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setDisplayTouch(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setStorageSize(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setStorageType(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setMemSize(line);
-
-                    line = bufferedReader.readLine();
-                    laptop.setOSModel(line);
-
-                    mDb.collection("Laptop").document(laptop.getLaptopModel())
+                    laptop.setmGpuScore(line);
+                    mDb.collection("Laptop").document()
                             .set(laptop)
                             .addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
