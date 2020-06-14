@@ -86,6 +86,7 @@ public class p4_place_of_use_carry extends AppCompatActivity {
                     intent.putExtra("carry", carry);
                     intent.putExtra("place_of_use", place_of_use);
                     startActivity(intent);
+                    overridePendingTransition(0, 0);
                     finish();
                 }
                 else Toast.makeText(p4_place_of_use_carry.this, "항목을 모두 선택해 주세요", Toast.LENGTH_SHORT).show();

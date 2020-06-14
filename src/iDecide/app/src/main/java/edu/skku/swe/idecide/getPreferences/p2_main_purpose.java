@@ -56,6 +56,7 @@ public class p2_main_purpose extends AppCompatActivity {
                     intent.putExtra("budget", budget);
                     intent.putExtra("main_purpose", purpose);
                     startActivity(intent);
+                    overridePendingTransition(0, 0);
                     finish();
                 }
             }

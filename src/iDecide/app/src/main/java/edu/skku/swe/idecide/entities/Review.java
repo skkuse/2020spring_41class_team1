@@ -1,9 +1,12 @@
 package edu.skku.swe.idecide.entities;
 
+import android.os.Parcelable;
+
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Review {
+public class Review implements Serializable {
     int weight;
     int design;
     int screen;

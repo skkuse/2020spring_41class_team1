@@ -64,6 +64,7 @@ public class p1_budget extends AppCompatActivity {
                     intent.putExtra("user_key", user_key);
                     intent.putExtra("budget", budget);
                     startActivity(intent);
+                    overridePendingTransition(0, 0);
                     finish();
                 }
             }

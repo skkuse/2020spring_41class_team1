@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -27,6 +28,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.pranavpandey.android.dynamic.toasts.DynamicToast;
 
+import java.io.Serializable;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +40,7 @@ import edu.skku.swe.idecide.entities.Review;
 import edu.skku.swe.idecide.entities.Vendor;
 import edu.skku.swe.idecide.entities.VendorAdapter;
 
-public class ItemDetailActivity extends AppCompatActivity {
+public class ItemDetailActivity extends AppCompatActivity implements Serializable {
     private RadarChart chart;
     TextView scoreTV;
     int hardwareColor = 0xFF64B5F6;
@@ -64,23 +66,25 @@ public class ItemDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_detail);
 
-        // toolbar
-        Toolbar tb = (Toolbar) findViewById(R.id.toolbar_item_detail);
-        tb.setTitle("상세 정보"); // change title to clicked laptop name later (after db is made)
-        setSupportActionBar(tb);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
 
 
         Intent intent = getIntent();
+        user_key = intent.getStringExtra("user_key");
         code = intent.getStringExtra("code");
-        hardware = intent.getParcelableExtra("hardware");
-        review = intent.getParcelableExtra("review");
-        vendors = intent.getParcelableExtra("vendor");
+        hardware = (Hardware) intent.getSerializableExtra("hardware");
+        review = (Review) intent.getSerializableExtra("review");
+        vendors = (List<Vendor>) intent.getSerializableExtra("vendors");
         score = intent.getStringExtra("score");
         manufacture = intent.getStringExtra("manufacture");
         name = intent.getStringExtra("name");
         num = intent.getStringExtra("num");
+
+
+        // toolbar
+        Toolbar tb = (Toolbar) findViewById(R.id.toolbar_item_detail);
+        tb.setTitle(code); // change title to clicked laptop name later (after db is made)
+        setSupportActionBar(tb);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
 
@@ -94,8 +98,9 @@ public class ItemDetailActivity extends AppCompatActivity {
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
                 Map<String, Object> postValue = null;
                 postValue = item.toMap();
+                Log.v("error", postValue.toString());
                 db.collection("User").document(user_key)
-                        .collection("Preference").document(code).set(postValue);
+                        .collection("Cart").document(code).set(postValue);
 
                 Toast toast = Toast.makeText(getApplicationContext(), "장바구니에 추가되었습니다", Toast.LENGTH_SHORT);
                 toast.show();
@@ -113,20 +118,7 @@ public class ItemDetailActivity extends AppCompatActivity {
 
 
         recyclerView = (RecyclerView) findViewById(R.id.rv_item_detail);
-        // 원래는 파이어베이스 item에서 받아와야함!!
-        // 원래는 name, price, shipping, sitelink 받아와야 함(이미지 말고), sitelink가 그 판매 페이지 바로가게 되어야 함!!!
-        if (vendors.isEmpty()) {
-            vendors.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500, "https://11st.co.kr"));
-            vendors.add(new Vendor(R.drawable.vendor_coupang, 1200000, 0, "https://www.coupang.com/"));
-            vendors.add(new Vendor(R.drawable.vendor_gmarket, 1200000, 2500, "https://www.gmarket.co.kr/"));
-            vendors.add(new Vendor(R.drawable.vendor_interpark, 1200000, 0, "http://interpark.com/"));
-            vendors.add(new Vendor(R.drawable.vendor_tmon, 1200000, 2500, "http://tmon.co.kr/"));
-            vendors.add(new Vendor(R.drawable.vendor_11st, 1200000, 2500, "https://11st.co.kr"));
-            vendors.add(new Vendor(R.drawable.vendor_coupang, 1200000, 0, "https://www.coupang.com/"));
-            vendors.add(new Vendor(R.drawable.vendor_gmarket, 1200000, 2500, "https://www.gmarket.co.kr/"));
-            vendors.add(new Vendor(R.drawable.vendor_interpark, 1200000, 0, "http://interpark.com/"));
-            vendors.add(new Vendor(R.drawable.vendor_tmon, 1200000, 2500, "http://tmon.co.kr/"));
-        }
+
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));

@@ -42,6 +42,7 @@
                 android:layout_width="60dp"
                 android:layout_height="40dp"
                 android:background="@drawable/preference_bg_no_icon"
+                android:textColor="@drawable/preference_bg_no_icon"
                 android:button="@null"
                 android:checked="false"
                 android:textSize="17dp"
@@ -58,6 +59,7 @@
                 android:checked="false"
                 android:textSize="17dp"
                 android:text="IOS"
+                android:textColor="@drawable/preference_bg_no_icon"
                 android:gravity="center"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"/>
@@ -67,6 +69,7 @@
                 android:layout_width="60dp"
                 android:layout_height="40dp"
                 android:background="@drawable/preference_bg_no_icon"
+                android:textColor="@drawable/preference_bg_no_icon"
                 android:button="@null"
                 android:checked="false"
                 android:textSize="17dp"
@@ -97,7 +100,7 @@
                     android:checked="false"
                     android:gravity="center_vertical"
                     android:text="삼성전자"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:layout_marginRight="5dp"/>
 
                 <androidx.appcompat.widget.AppCompatRadioButton
@@ -111,7 +114,7 @@
                     android:gravity="center_vertical"
                     android:text="LG전자"
                     android:layout_marginLeft="5dp"
-                    android:textSize="20dp" />
+                    android:textSize="17dp" />
 
             </TableRow>
 
@@ -124,7 +127,7 @@
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:text="Acer"
                     android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
@@ -144,7 +147,7 @@
                     android:gravity="center_vertical"
                     android:text="Asus"
 
-                    android:textSize="20dp" />
+                    android:textSize="17dp" />
             </TableRow>
 
 
@@ -157,7 +160,7 @@
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:text="Dell"
                     android:gravity="center_vertical"
                     android:layout_marginTop="10dp"
@@ -176,7 +179,7 @@
                     android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
                     android:text="HP"
-                    android:textSize="20dp" />
+                    android:textSize="17dp" />
             </TableRow>
 
 
@@ -189,7 +192,7 @@
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:text="Lenovo"
                     android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
@@ -208,7 +211,7 @@
                     android:checked="false"
                     android:gravity="center_vertical"
                     android:text="MSI"
-                    android:textSize="20dp" />
+                    android:textSize="17dp" />
 
             </TableRow>
 
@@ -222,7 +225,7 @@
                     android:background="@drawable/preference_bg"
                     android:button="@drawable/preference_button"
                     android:checked="false"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:text="Microsoft"
                     android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
@@ -240,7 +243,7 @@
                     android:layout_marginTop="10dp"
                     android:gravity="center_vertical"
                     android:text="Mac"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:layout_marginLeft="5dp"/>
             </TableRow>
 
@@ -260,6 +263,7 @@
         android:background="@drawable/button_round"
         android:text="다음"
         android:textSize="17dp"
+        android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:layout_marginBottom="40dp"
         android:layout_weight="0"/>

@@ -2,6 +2,7 @@ package edu.skku.swe.idecide.entities;
 
 import android.content.Intent;
 import android.os.Parcelable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,12 +14,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.io.Serializable;
 import java.util.List;
 
 import edu.skku.swe.idecide.ItemDetailActivity;
 import edu.skku.swe.idecide.R;
 
-public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
+public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder> implements Serializable{
     List<Item> list;
     String temp;
 
@@ -36,8 +38,21 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ItemViewHolder holder, final int position) {
+        String name = list.get(position).name;
+        if (name.equals("갤럭시북 이온")) holder.imageView.setImageResource(R.drawable.laptop_ion);
+        else if (name.equals("갤럭시북 플렉스 알파")) holder.imageView.setImageResource(R.drawable.laptop_flex_alpha);
+        else if (name.equals("갤럭시북 플렉스")) holder.imageView.setImageResource(R.drawable.laptop_flex);
+        else if (name.equals("갤럭시북 S")) holder.imageView.setImageResource(R.drawable.laptop_s);
+        else if (name.equals("그램")) holder.imageView.setImageResource(R.drawable.laptop_gram);
+        else if (name.equals("비보북")) holder.imageView.setImageResource(R.drawable.laptop_vivo);
+        else if (name.equals("GF 시리즈")) holder.imageView.setImageResource(R.drawable.laptop_gf);
+        else if (name.equals("인스피론")) holder.imageView.setImageResource(R.drawable.laptop_inspiron);
+        else if (name.equals("요가북")) holder.imageView.setImageResource(R.drawable.laptop_yogabook);
+        else if (name.equals("블레이드")) holder.imageView.setImageResource(R.drawable.laptop_blade);
+        else if (name.equals("스위프트 3")) holder.imageView.setImageResource(R.drawable.laptop_swift3);
+        else if (name.equals("아이디어패드")) holder.imageView.setImageResource(R.drawable.laptop_ideapad);
 
-        holder.imageView.setImageResource(list.get(position).image);
+
         holder.textView1.setText(list.get(position).manufacture);
         holder.textView2.setText(list.get(position).name);
         holder.textView3.setText(list.get(position).num);
@@ -54,9 +69,12 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder>{
                 intent.putExtra("name", list.get(position).name);
                 intent.putExtra("num", list.get(position).num);
 
-                intent.putExtra("hardware", (Parcelable) list.get(position).hardware);
-                intent.putExtra("review", (Parcelable) list.get(position).review);
+                intent.putExtra("hardware", list.get(position).hardware);
+                intent.putExtra("review", list.get(position).review);
                 intent.putExtra("score", list.get(position).score);
+
+                intent.putExtra("vendors", (Serializable) list.get(position).vendors);
+
                 v.getContext().startActivity(intent);
             }
         });

@@ -11,10 +11,11 @@ import android.widget.Toast;
 
 import edu.skku.swe.idecide.R;
 import edu.skku.swe.idecide.SearchResultActivity;
+import edu.skku.swe.idecide.utils.ToggleButtonGroupTableLayout;
 
 public class p7_ranking extends AppCompatActivity {
     Button button;
-    RadioGroup rankingRadio;
+    ToggleButtonGroupTableLayout rankingRadio;
     int budget = -1, purpose = -1, usage = -1, carry = -1, place_of_use = -1,
             weight = -1, screen_size = -1, os = -1, brand = -1, ranking = -1;
     String user_key;

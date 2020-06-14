@@ -44,7 +44,7 @@
                 android:background="@drawable/preference_bg"
                 android:button="@drawable/preference_button"
                 android:checked="false"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:text="게임"/>
 
             <androidx.appcompat.widget.AppCompatRadioButton
@@ -54,7 +54,7 @@
                 android:background="@drawable/preference_bg"
                 android:button="@drawable/preference_button"
                 android:checked="false"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:text="문서작성"
                 android:layout_marginTop="20dp"/>
 
@@ -65,7 +65,7 @@
                 android:background="@drawable/preference_bg"
                 android:button="@drawable/preference_button"
                 android:checked="false"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:text="음악 또는 동영상 재생"
                 android:layout_marginTop="20dp"/>
 
@@ -76,7 +76,7 @@
                 android:background="@drawable/preference_bg"
                 android:button="@drawable/preference_button"
                 android:checked="false"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:text="사진 또는 동영상 편집"
                 android:layout_marginTop="20dp"/>
 
@@ -87,7 +87,7 @@
                 android:background="@drawable/preference_bg"
                 android:button="@drawable/preference_button"
                 android:checked="false"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:text="기타"
                 android:layout_marginTop="20dp"/>
 
@@ -102,6 +102,7 @@
         android:background="@drawable/button_round"
         android:text="다음"
         android:textSize="17dp"
+        android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:layout_marginBottom="40dp"
         android:layout_weight="0"

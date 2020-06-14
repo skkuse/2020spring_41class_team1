@@ -91,6 +91,7 @@ public class p5_weight_screen_size extends AppCompatActivity {
                     intent.putExtra("weight", weight);
                     intent.putExtra("screen_size", screen_size);
                     startActivity(intent);
+                    overridePendingTransition(0, 0);
                     finish();
                 }
                 else Toast.makeText(p5_weight_screen_size.this, "항목을 모두 선택해 주세요", Toast.LENGTH_SHORT).show();

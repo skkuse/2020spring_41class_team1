@@ -118,6 +118,7 @@ public class p6_OS_brand extends AppCompatActivity {
                     intent.putExtra("os", os);
                     intent.putExtra("brand", brand);
                     startActivity(intent);
+                    overridePendingTransition(0, 0);
                     finish();
                 }
                 else {

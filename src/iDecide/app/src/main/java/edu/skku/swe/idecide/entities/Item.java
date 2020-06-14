@@ -1,47 +1,48 @@
 package edu.skku.swe.idecide.entities;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Item {
+public class Item implements Serializable {
     String user_key;
     String code;
-    int image;
     String manufacture;
     String name;
     String num;
     String score;
     Hardware hardware;
     Review review;
+    List<Vendor> vendors;
 
-    public Item(String user_key, String code, int image, String manufacture, String name, String num, String score, Hardware hardware,
-                Review review){
+    public Item(String user_key, String code, String manufacture, String name, String num, String score, Hardware hardware,
+                Review review, List<Vendor> vendors){
         this.user_key = user_key;
         this.code = code;
-        this.image = image;
         this.manufacture = manufacture;
         this.name = name;
         this.num = num;
         this.score = score;
         this.hardware = hardware;
         this.review = review;
+        this.vendors = vendors;
     }
 
-    public Item(int image, String manufacture, String name, String num, String score){
-        this.image = image;
+    public Item(String user_key, String manufacture, String name, String num, String score){
         this.manufacture = manufacture;
         this.name = name;
         this.num = num;
         this.score = score;
     }
-    public Item(int image, String manufacture, String name){
-        this.image = image;
+    public Item(String user_key, String manufacture, String name){
+        this.user_key = user_key;
         this.manufacture = manufacture;
         this.name = name;
     }
     public Item(String code, String manufacture, String name, String num, String score, Hardware hardware, Review review){
+        this.user_key = user_key;
         this.code = code;
         this.manufacture = manufacture;
         this.name = name;
@@ -127,6 +128,7 @@ public class Item {
         result.put("review_graphic", review.graphic);
         result.put("review_battery", review.battery);
 
+        //result.put("vendor", vendors);
 
 
         return result;

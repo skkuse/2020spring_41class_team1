@@ -42,7 +42,7 @@ public class FragmentCart extends Fragment {
         // 지금은 사진이 int로 되어있는데 firebase에서 받아올때는 bitmap으로 바꿀수도 있음
         if (list.isEmpty()) {
             for (int i = 0; i < 20; i++) {
-                list.add(new Item(R.drawable.ion, "SAMSUNG", "Ion", "", "90"));
+                //list.add(new Item(R.drawable.ion, "SAMSUNG", "Ion", "", "90"));
             }
         }
 

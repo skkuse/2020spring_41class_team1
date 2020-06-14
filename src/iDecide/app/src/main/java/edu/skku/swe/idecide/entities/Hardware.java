@@ -1,9 +1,10 @@
 package edu.skku.swe.idecide.entities;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Hardware {
+public class Hardware implements Serializable {
     int weight;
     int design;
     int screen;

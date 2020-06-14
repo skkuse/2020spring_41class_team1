@@ -65,6 +65,7 @@ public class p3_usage extends AppCompatActivity {
                     intent.putExtra("main_purpose", purpose);
                     intent.putExtra("usage", usage);
                     startActivity(intent);
+                    overridePendingTransition(0, 0);
                     finish();
                 }
             }
