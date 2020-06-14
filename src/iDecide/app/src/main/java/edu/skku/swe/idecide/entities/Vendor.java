@@ -2,6 +2,8 @@ package edu.skku.swe.idecide.entities;
 
 import java.io.Serializable;
 import java.text.DecimalFormat;
+import java.util.HashMap;
+import java.util.Map;
 
 // 원래는 price, shipping, siteLink, name이 있어야 함!
 public class Vendor implements Serializable {
@@ -18,6 +20,38 @@ public class Vendor implements Serializable {
         else this.shipping = formatter.format(shipping) + "원";
         this.siteLink = siteLink;
     }
+
+    public Vendor(String name, String price, String shipping, String siteLink){
+        this.name = name;
+        this.price = price;
+        this.shipping = shipping;
+        this.siteLink = siteLink;
+    }
+
+    public Vendor(Map<String, Object> map) {
+        if (map.get("name") != null) this.name = map.get("name").toString();
+        else this.name = "";
+        if (map.get("price") != null) this.price = map.get("price").toString();
+        else this.price = "";
+        if (map.get("shipping") != null) this.shipping = map.get("shipping").toString();
+        else this.shipping = "";
+        if (map.get("siteLink") != null) this.siteLink = map.get("siteLink").toString();
+        else this.siteLink = "";
+    }
+
+    public Map<String, Object> toMap()
+    {
+        HashMap<String, Object> result = new HashMap<>();
+
+        result.put("name", name);
+        result.put("price", price);
+        result.put("shipping", shipping);
+        result.put("siteLink", siteLink);
+
+        return result;
+    }
+
+
 
     public String getName() {
         return name;

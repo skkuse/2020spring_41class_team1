@@ -1,5 +1,6 @@
 package edu.skku.swe.idecide;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,6 +12,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,8 +27,12 @@ import com.github.mikephil.charting.data.RadarDataSet;
 import com.github.mikephil.charting.data.RadarEntry;
 import com.github.mikephil.charting.formatter.IAxisValueFormatter;
 import com.github.mikephil.charting.interfaces.datasets.IRadarDataSet;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.pranavpandey.android.dynamic.toasts.DynamicToast;
 
 import java.io.Serializable;
@@ -46,6 +53,7 @@ public class ItemDetailActivity extends AppCompatActivity implements Serializabl
     int hardwareColor = 0xFF64B5F6;
     int reviewColor = 0xFF9575CD;
     private RecyclerView recyclerView;
+    private ProgressBar mProgressbar;
 
     private List<Vendor> vendors = new ArrayList<>();
     private Hardware hardware;
@@ -86,27 +94,60 @@ public class ItemDetailActivity extends AppCompatActivity implements Serializabl
         setSupportActionBar(tb);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
+        mProgressbar = findViewById(R.id.progressBar_i);
 
         // add to cart button
         add_button = findViewById(R.id.fab_item_detail);
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                showDialog();
                 item = new Item(code, manufacture, name, num, score, hardware, review);
                 // preference firestore로 전송
                 FirebaseFirestore db = FirebaseFirestore.getInstance();
                 Map<String, Object> postValue = null;
                 postValue = item.toMap();
-                Log.v("error", postValue.toString());
-                db.collection("User").document(user_key)
-                        .collection("Cart").document(code).set(postValue);
 
-                Toast toast = Toast.makeText(getApplicationContext(), "장바구니에 추가되었습니다", Toast.LENGTH_SHORT);
-                toast.show();
+                /*
+                db.collection("User").document(user_key).collection("Cart").get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                QuerySnapshot snapshots1 = task.getResult();
+                                for (DocumentSnapshot documentSnapshot : snapshots1.getDocuments()) {
+                                    if (documentSnapshot.getId().equals(code))
+                                    {
+                                        Toast toast = Toast.makeText(getApplicationContext(), "이미 장바구니 있는 아이템입니다", Toast.LENGTH_SHORT);
+                                        toast.show();
+                                        break;
+                                    }
+                                }
+
+                            }
+                        });
+
+                 */
 
 
-                //DynamicToast.makeSuccess(ItemDetailActivity.this, "장바구니에 추가했습니다", Toast.LENGTH_SHORT).show();
+                try {
+                    db.collection("User").document(user_key)
+                            .collection("Cart").document(code).set(postValue);
+                    for (int i = 0; i < vendors.size(); i++) {
+                        Map<String, Object> postValue1 = null;
+                        postValue1 = vendors.get(i).toMap();
+                        Log.v("error", vendors.get(i).getName());
+                        db.collection("User").document(user_key)
+                                .collection("Cart").document(code).collection("Vendor")
+                                .document(vendors.get(i).getName()).set(postValue1);
+                    }
+
+                    Toast toast = Toast.makeText(getApplicationContext(), "장바구니에 추가되었습니다", Toast.LENGTH_SHORT);
+                    toast.show();
+                    hideDialog();
+                } catch (Exception e) {
+                    Toast toast = Toast.makeText(getApplicationContext(), "이미 장바구니에 있는 아이템입니다", Toast.LENGTH_SHORT);
+                    toast.show();
+                    hideDialog();
+                }
             }
         });
 
@@ -118,7 +159,6 @@ public class ItemDetailActivity extends AppCompatActivity implements Serializabl
 
 
         recyclerView = (RecyclerView) findViewById(R.id.rv_item_detail);
-
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
@@ -270,6 +310,17 @@ public class ItemDetailActivity extends AppCompatActivity implements Serializabl
         return super.onOptionsItemSelected(item);
     }
 
+    private void showDialog(){
+        mProgressbar.setVisibility(View.VISIBLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
+    }
 
+    private void hideDialog(){
+        if(mProgressbar.getVisibility() == View.VISIBLE){
+            mProgressbar.setVisibility(View.INVISIBLE);
+            this.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
+        }
+    }
 
 }

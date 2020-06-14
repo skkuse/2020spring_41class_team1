@@ -70,7 +70,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder> implements
                 intent.putExtra("num", list.get(position).num);
 
                 intent.putExtra("hardware", list.get(position).hardware);
-                intent.putExtra("review", list.get(position).review);
+                if (list.get(position).review != null) intent.putExtra("review", list.get(position).review);
                 intent.putExtra("score", list.get(position).score);
 
                 intent.putExtra("vendors", (Serializable) list.get(position).vendors);

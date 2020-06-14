@@ -59,11 +59,10 @@ public class Item implements Serializable {
         else this.manufacture = "";
         if (map.get("name") != null) this.name = map.get("name").toString();
         else this.name = "";
-        if (map.get("num") != null) this.num = map.get("num").toString();
-        else this.num = "";
         if (map.get("score") != null) this.score = map.get("score").toString();
         else this.score = "";
 
+        this.hardware = new Hardware();
         if (map.get("hardware_weight") != null) {
             this.hardware.weight = ((Long) map.get("hardware_weight")).intValue();
         } else this.hardware.weight = -1;
@@ -84,6 +83,7 @@ public class Item implements Serializable {
         } else this.hardware.battery = -1;
 
 
+        this.review = new Review();
         if (map.get("review_weight") != null) {
             this.review.weight = ((Long) map.get("review_weight")).intValue();
         } else this.review.weight = -1;
@@ -133,8 +133,8 @@ public class Item implements Serializable {
 
         return result;
     }
-
-
+    public void setVendors(List<Vendor> vendors) { this.vendors = vendors;}
+    public List<Vendor> getVendors() { return vendors; }
     public String getName() {
         return name;
     }

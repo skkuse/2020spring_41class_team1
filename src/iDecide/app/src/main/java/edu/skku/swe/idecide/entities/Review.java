@@ -23,6 +23,8 @@ public class Review implements Serializable {
         this.battery = battery;
     }
 
+    public Review() {}
+
     public Review(Map<String, Object> map) {
         if (map.get("weight") != null) this.weight = ((Long) map.get("weight")).intValue();
         else this.weight = -1;

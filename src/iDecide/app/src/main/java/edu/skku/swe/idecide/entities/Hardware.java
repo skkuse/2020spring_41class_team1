@@ -21,6 +21,8 @@ public class Hardware implements Serializable {
         this.battery = battery;
     }
 
+    public Hardware() {}
+
     public Hardware(Map<String, Object> map) {
         if (map.get("weight") != null) this.weight = ((Long) map.get("weight")).intValue();
         else this.weight = -1;
