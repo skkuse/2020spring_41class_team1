@@ -67,12 +67,10 @@ for url in urls:
         continue
     
     battery_size = driver.find_element_by_xpath('//*[(@id = "collapse-9")]/div/div/div/div[2]')
-    battery_size = str(battery_size.text).split()[0]
-    f.write(battery_size + '\n')
+    f.write(battery_size.text + '\n')
 
     year = driver.find_element_by_xpath('//*[(@id = "cpu_ldate")]')
-    year = str(year.text).split()[1]
-    f.write(year + '\n')
+    f.write(year.text + '\n')
 
     display_size = driver.find_element_by_xpath('//*[(@id = "display_size")]')
     f.write(display_size.text + '\n')
