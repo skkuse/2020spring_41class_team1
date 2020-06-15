@@ -2,6 +2,9 @@
 
 ### iDecide
 
+<p align="center"><img src="https://i.ibb.co/rMs8smN/idecide.png" width="80%"></p>
+
+> _Our application is recommendding laptop for tech newbies_
 
 ### Team Member
 * Allan
@@ -10,6 +13,7 @@
 * Kynugyeon Park
 * Sara
 * Seungrok Yoon
+
 
 ### Structure
 ```
