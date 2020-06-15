@@ -1,0 +1,3602 @@
+[
+    {
+        "S15_S533FL-BQ504_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S15 S533FL-BQ504",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "ASUS",
+            "minPrice": 820000,
+            "product_code": "S15 S533FL-BQ504",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.05"
+        }
+    },
+    {
+        "Slim_5-15IIL_Major_i5_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Major i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 799000,
+            "product_code": "Slim 5-15IIL Major i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "15U50N-GR56K_8": {
+            "OS": 0,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15U50N-GR56K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 951000,
+            "product_code": "15U50N-GR56K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.75,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GF65_Thin_9SEXR_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF65 Thin 9SEXR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2060",
+            "manufacture": "MSI",
+            "minPrice": 1345000,
+            "product_code": "GF65 Thin 9SEXR",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.86,
+            "year": "2020.05"
+        }
+    },
+    {
+        "15ZD90N-VX50K_8": {
+            "OS": -1,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a815 15ZD90N-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1351000,
+            "product_code": "15ZD90N-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.12,
+            "year": "2019.12"
+        }
+    },
+    {
+        "15UD50N-GX50K_8": {
+            "OS": -1,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15UD50N-GX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 831000,
+            "product_code": "15UD50N-GX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.75,
+            "year": "2020.04"
+        }
+    },
+    {
+        "NT950XCR-G58A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT950XCR-G58A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1441000,
+            "product_code": "NT950XCR-G58A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.26,
+            "year": "2019.12"
+        }
+    },
+    {
+        "A15_FA506II-HN137_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": "TUF Gaming A15 FA506II-HN137",
+            "cpu_manu": "AMD",
+            "cpu_type": "4800H 2.9GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650 Ti",
+            "manufacture": "ASUS",
+            "minPrice": 1040000,
+            "product_code": "A15 FA506II-HN137",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2020.04"
+        }
+    },
+    {
+        "Y540-15IRH_i5_Edition_PRO_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-15IRH i5 Edition PRO",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-9300HF 2.4GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 898000,
+            "product_code": "Y540-15IRH i5 Edition PRO",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2020.02"
+        }
+    },
+    {
+        "14ARE_R5_W10_8": {
+            "OS": 0,
+            "battery_size": 52.5,
+            "brand": "\ud50c\ub809\uc2a45 14ARE R5 W10",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 14.0,
+            "display_type": "true",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 790000,
+            "product_code": "14ARE R5 W10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.53,
+            "year": "2020.05"
+        }
+    },
+    {
+        "17ZD90N-VX5BK_8": {
+            "OS": -1,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD90N-VX5BK",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1491000,
+            "product_code": "17ZD90N-VX5BK",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.35,
+            "year": "2019.12"
+        }
+    },
+    {
+        "455_G7-3Q044PA_8": {
+            "OS": -1,
+            "battery_size": 45.0,
+            "brand": "\ud504\ub85c\ubd81 455 G7-3Q044PA",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "HP",
+            "minPrice": 684000,
+            "product_code": "455 G7-3Q044PA",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.0,
+            "year": "2020.05"
+        }
+    },
+    {
+        "SLIM_5-15ARE_R5_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc SLIM 5-15ARE R5",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 629000,
+            "product_code": "SLIM 5-15ARE R5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.63,
+            "year": "2020.06"
+        }
+    },
+    {
+        "NT750QCR-A38A_8": {
+            "OS": -1,
+            "battery_size": 54.0,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \ud50c\ub809\uc2a4 \uc54c\ud30c NT750QCR-A38A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "true",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1346000,
+            "product_code": "NT750QCR-A38A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.63,
+            "year": "2020.05"
+        }
+    },
+    {
+        "NT550XCR-AD5A_8": {
+            "OS": -1,
+            "battery_size": 43.0,
+            "brand": "\ub178\ud2b8\ubd81 \ud50c\ub7ec\uc2a4 NT550XCR-AD5A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 840000,
+            "product_code": "NT550XCR-AD5A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.81,
+            "year": "2020.04"
+        }
+    },
+    {
+        "BossMonster_X5067T_8": {
+            "OS": -1,
+            "battery_size": 48.96,
+            "brand": " BossMonster X5067T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10875H 2.3GHz(5.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1270000,
+            "product_code": "BossMonster X5067T",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.1,
+            "year": "2020.06"
+        }
+    },
+    {
+        "A15_FA506IU-HN174_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": "TUF Gaming A15 FA506IU-HN174",
+            "cpu_manu": "AMD",
+            "cpu_type": "4800H 2.9GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "ASUS",
+            "minPrice": 1199000,
+            "product_code": "A15 FA506IU-HN174",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2020.04"
+        }
+    },
+    {
+        "R424DA-EB446_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 R424DA-EB446",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "ASUS",
+            "minPrice": 585000,
+            "product_code": "R424DA-EB446",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "R424DA-EB447_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 R424DA-EB447",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "ASUS",
+            "minPrice": 586000,
+            "product_code": "R424DA-EB447",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "15UD50N-GX30K_8": {
+            "OS": -1,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15UD50N-GX30K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 681000,
+            "product_code": "15UD50N-GX30K",
+            "ram_size": 8,
+            "storage_size": 128,
+            "weight": 1.75,
+            "year": "2020.05"
+        }
+    },
+    {
+        "X512FA-BQ1634_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 X512FA-BQ1634",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 679000,
+            "product_code": "X512FA-BQ1634",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.7,
+            "year": "2020.01"
+        }
+    },
+    {
+        "GF63_Thin_9SCX-i5_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF63 Thin 9SCX-i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-9300H 2.4GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 846000,
+            "product_code": "GF63 Thin 9SCX-i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.77,
+            "year": "2020.04"
+        }
+    },
+    {
+        "17ZD995-VX50K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD995-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1386000,
+            "product_code": "17ZD995-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.34,
+            "year": "2020.01"
+        }
+    },
+    {
+        "NT950XCR-A58A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT950XCR-A58A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1350000,
+            "product_code": "NT950XCR-A58A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2019.12"
+        }
+    },
+    {
+        "NT950XCR-A38A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT950XCR-A38A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1126000,
+            "product_code": "NT950XCR-A38A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2019.12"
+        }
+    },
+    {
+        "S533FA-BQ027_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S533FA-BQ027",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 799000,
+            "product_code": "S533FA-BQ027",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GP75_Leopard_10SEK_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GP\uc2dc\ub9ac\uc988 GP75 Leopard 10SEK",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10750H 2.6GHz(5.0GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2060",
+            "manufacture": "MSI",
+            "minPrice": 1616000,
+            "product_code": "GP75 Leopard 10SEK",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "445_G7-3Q020PA_8": {
+            "OS": -1,
+            "battery_size": 45.0,
+            "brand": "\ud504\ub85c\ubd81 445 G7-3Q020PA",
+            "cpu_manu": "AMD",
+            "cpu_type": "4700U 2.0GHz(4.1GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "HP",
+            "minPrice": 782000,
+            "product_code": "445 G7-3Q020PA",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.6,
+            "year": "2020.05"
+        }
+    },
+    {
+        "14ZD90N-VX30K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a814 14ZD90N-VX30K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-1005G1 1.2GHz(3.4GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1093000,
+            "product_code": "14ZD90N-VX30K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 999.0,
+            "year": "2020.01"
+        }
+    },
+    {
+        "17Z90N-VA56K_8": {
+            "OS": 0,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17Z90N-VA56K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1639000,
+            "product_code": "17Z90N-VA56K",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.35,
+            "year": "2019.12"
+        }
+    },
+    {
+        "S15_S533FL-BQ504_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S15 S533FL-BQ504",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "ASUS",
+            "minPrice": 820000,
+            "product_code": "S15 S533FL-BQ504",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.05"
+        }
+    },
+    {
+        "Slim_5-15IIL_Major_i5_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Major i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 799000,
+            "product_code": "Slim 5-15IIL Major i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "15U50N-GR56K_8": {
+            "OS": 0,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15U50N-GR56K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 951000,
+            "product_code": "15U50N-GR56K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.75,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GF65_Thin_9SEXR_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF65 Thin 9SEXR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2060",
+            "manufacture": "MSI",
+            "minPrice": 1345000,
+            "product_code": "GF65 Thin 9SEXR",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.86,
+            "year": "2020.05"
+        }
+    },
+    {
+        "15ZD90N-VX50K_8": {
+            "OS": -1,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a815 15ZD90N-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1351000,
+            "product_code": "15ZD90N-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.12,
+            "year": "2019.12"
+        }
+    },
+    {
+        "15UD50N-GX50K_8": {
+            "OS": -1,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15UD50N-GX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 831000,
+            "product_code": "15UD50N-GX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.75,
+            "year": "2020.04"
+        }
+    },
+    {
+        "NT950XCR-G58A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT950XCR-G58A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1441000,
+            "product_code": "NT950XCR-G58A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.26,
+            "year": "2019.12"
+        }
+    },
+    {
+        "A15_FA506II-HN137_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": "TUF Gaming A15 FA506II-HN137",
+            "cpu_manu": "AMD",
+            "cpu_type": "4800H 2.9GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650 Ti",
+            "manufacture": "ASUS",
+            "minPrice": 1040000,
+            "product_code": "A15 FA506II-HN137",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2020.04"
+        }
+    },
+    {
+        "Y540-15IRH_i5_Edition_PRO_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-15IRH i5 Edition PRO",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-9300HF 2.4GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 898000,
+            "product_code": "Y540-15IRH i5 Edition PRO",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2020.02"
+        }
+    },
+    {
+        "14ARE_R5_W10_8": {
+            "OS": 0,
+            "battery_size": 52.5,
+            "brand": "\ud50c\ub809\uc2a45 14ARE R5 W10",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 14.0,
+            "display_type": "true",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 790000,
+            "product_code": "14ARE R5 W10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.53,
+            "year": "2020.05"
+        }
+    },
+    {
+        "17ZD90N-VX5BK_8": {
+            "OS": -1,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD90N-VX5BK",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1491000,
+            "product_code": "17ZD90N-VX5BK",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.35,
+            "year": "2019.12"
+        }
+    },
+    {
+        "455_G7-3Q044PA_8": {
+            "OS": -1,
+            "battery_size": 45.0,
+            "brand": "\ud504\ub85c\ubd81 455 G7-3Q044PA",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "HP",
+            "minPrice": 684000,
+            "product_code": "455 G7-3Q044PA",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.0,
+            "year": "2020.05"
+        }
+    },
+    {
+        "SLIM_5-15ARE_R5_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc SLIM 5-15ARE R5",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 629000,
+            "product_code": "SLIM 5-15ARE R5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.63,
+            "year": "2020.06"
+        }
+    },
+    {
+        "NT750QCR-A38A_8": {
+            "OS": -1,
+            "battery_size": 54.0,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \ud50c\ub809\uc2a4 \uc54c\ud30c NT750QCR-A38A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "true",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1346000,
+            "product_code": "NT750QCR-A38A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.63,
+            "year": "2020.05"
+        }
+    },
+    {
+        "NT550XCR-AD5A_8": {
+            "OS": -1,
+            "battery_size": 43.0,
+            "brand": "\ub178\ud2b8\ubd81 \ud50c\ub7ec\uc2a4 NT550XCR-AD5A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 840000,
+            "product_code": "NT550XCR-AD5A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.81,
+            "year": "2020.04"
+        }
+    },
+    {
+        "BossMonster_X5067T_8": {
+            "OS": -1,
+            "battery_size": 48.96,
+            "brand": " BossMonster X5067T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10875H 2.3GHz(5.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1270000,
+            "product_code": "BossMonster X5067T",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.1,
+            "year": "2020.06"
+        }
+    },
+    {
+        "A15_FA506IU-HN174_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": "TUF Gaming A15 FA506IU-HN174",
+            "cpu_manu": "AMD",
+            "cpu_type": "4800H 2.9GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "ASUS",
+            "minPrice": 1199000,
+            "product_code": "A15 FA506IU-HN174",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2020.04"
+        }
+    },
+    {
+        "R424DA-EB446_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 R424DA-EB446",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "ASUS",
+            "minPrice": 585000,
+            "product_code": "R424DA-EB446",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "R424DA-EB447_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 R424DA-EB447",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "ASUS",
+            "minPrice": 586000,
+            "product_code": "R424DA-EB447",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "15UD50N-GX30K_8": {
+            "OS": -1,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15UD50N-GX30K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 681000,
+            "product_code": "15UD50N-GX30K",
+            "ram_size": 8,
+            "storage_size": 128,
+            "weight": 1.75,
+            "year": "2020.05"
+        }
+    },
+    {
+        "X512FA-BQ1634_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 X512FA-BQ1634",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 679000,
+            "product_code": "X512FA-BQ1634",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.7,
+            "year": "2020.01"
+        }
+    },
+    {
+        "GF63_Thin_9SCX-i5_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF63 Thin 9SCX-i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-9300H 2.4GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 846000,
+            "product_code": "GF63 Thin 9SCX-i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.77,
+            "year": "2020.04"
+        }
+    },
+    {
+        "17ZD995-VX50K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD995-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1386000,
+            "product_code": "17ZD995-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.34,
+            "year": "2020.01"
+        }
+    },
+    {
+        "NT950XCR-A58A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT950XCR-A58A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1350000,
+            "product_code": "NT950XCR-A58A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2019.12"
+        }
+    },
+    {
+        "NT950XCR-A38A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT950XCR-A38A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1126000,
+            "product_code": "NT950XCR-A38A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2019.12"
+        }
+    },
+    {
+        "S533FA-BQ027_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S533FA-BQ027",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 799000,
+            "product_code": "S533FA-BQ027",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GP75_Leopard_10SEK_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GP\uc2dc\ub9ac\uc988 GP75 Leopard 10SEK",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10750H 2.6GHz(5.0GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2060",
+            "manufacture": "MSI",
+            "minPrice": 1616000,
+            "product_code": "GP75 Leopard 10SEK",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "445_G7-3Q020PA_8": {
+            "OS": -1,
+            "battery_size": 45.0,
+            "brand": "\ud504\ub85c\ubd81 445 G7-3Q020PA",
+            "cpu_manu": "AMD",
+            "cpu_type": "4700U 2.0GHz(4.1GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "HP",
+            "minPrice": 782000,
+            "product_code": "445 G7-3Q020PA",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.6,
+            "year": "2020.05"
+        }
+    },
+    {
+        "14ZD90N-VX30K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a814 14ZD90N-VX30K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-1005G1 1.2GHz(3.4GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1093000,
+            "product_code": "14ZD90N-VX30K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 999.0,
+            "year": "2020.01"
+        }
+    },
+    {
+        "17Z90N-VA56K_8": {
+            "OS": 0,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17Z90N-VA56K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1639000,
+            "product_code": "17Z90N-VA56K",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.35,
+            "year": "2019.12"
+        }
+    },
+    {
+        "17ZD90N-VX7BK_WIN10_8": {
+            "OS": 0,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD90N-VX7BK WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1640000,
+            "product_code": "17ZD90N-VX7BK WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.35,
+            "year": "2020.01"
+        }
+    },
+    {
+        "15ZD995-VX50K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a815 15ZD995-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1316000,
+            "product_code": "15ZD995-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.099,
+            "year": "2020.01"
+        }
+    },
+    {
+        "17_D712DA-AU071_WIN10_8": {
+            "OS": 0,
+            "battery_size": 32.0,
+            "brand": "\ube44\ubcf4\ubd81 17 D712DA-AU071 WIN10",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "ASUS",
+            "minPrice": 779000,
+            "product_code": "17 D712DA-AU071 WIN10",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2019.10"
+        }
+    },
+    {
+        "Y540-15IRH_i5_Edition_PRO_144_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-15IRH i5 Edition PRO 144",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-9300HF 2.4GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 905000,
+            "product_code": "Y540-15IRH i5 Edition PRO 144",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2020.03"
+        }
+    },
+    {
+        "Slim3-15IML_7DX_8": {
+            "OS": -1,
+            "battery_size": -1,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim3-15IML 7DX",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10510U 1.8GHz(4.9GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX330",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 799000,
+            "product_code": "Slim3-15IML 7DX",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.64,
+            "year": "2020.05"
+        }
+    },
+    {
+        "15_R564DA-BQ935_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 15 R564DA-BQ935",
+            "cpu_manu": "AMD",
+            "cpu_type": "3700U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 RX Vega 10",
+            "manufacture": "ASUS",
+            "minPrice": 685000,
+            "product_code": "15 R564DA-BQ935",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.6,
+            "year": "2019.11"
+        }
+    },
+    {
+        "15IMH_I5_LEGEND_8": {
+            "OS": -1,
+            "battery_size": 45.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc \uac8c\uc774\ubc0d 3i 15IMH I5 LEGEND",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10300H 2.5GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 843000,
+            "product_code": "15IMH I5 LEGEND",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.2,
+            "year": "2020.05"
+        }
+    },
+    {
+        "SF314-42_R5_\uc52c\uc2a4\ud2f8\ub7ec_8": {
+            "OS": 2,
+            "battery_size": -1,
+            "brand": "Swift3 SF314-42 R5 \uc52c\uc2a4\ud2f8\ub7ec",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "ACER",
+            "minPrice": 731000,
+            "product_code": "SF314-42 R5 \uc52c\uc2a4\ud2f8\ub7ec",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.2,
+            "year": "2020.05"
+        }
+    },
+    {
+        "NT950QCG-X58A_8": {
+            "OS": 0,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \ud50c\ub809\uc2a4 NT950QCG-X58A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G4 1.1GHz(3.7GHz)",
+            "display_size": 15.6,
+            "display_type": "true",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1961000,
+            "product_code": "NT950QCG-X58A",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.57,
+            "year": "2019.12"
+        }
+    },
+    {
+        "A15_FA506II-HN162_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": "TUF Gaming A15 FA506II-HN162",
+            "cpu_manu": "AMD",
+            "cpu_type": "4600H 3.0GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650 Ti",
+            "manufacture": "ASUS",
+            "minPrice": 949000,
+            "product_code": "A15 FA506II-HN162",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2020.04"
+        }
+    },
+    {
+        "14ARE_R7_W10_8": {
+            "OS": 0,
+            "battery_size": 52.5,
+            "brand": "\ud50c\ub809\uc2a45 14ARE R7 W10",
+            "cpu_manu": "AMD",
+            "cpu_type": "4700U 2.0GHz(4.1GHz)",
+            "display_size": 14.0,
+            "display_type": "true",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 956000,
+            "product_code": "14ARE R7 W10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.53,
+            "year": "2020.05"
+        }
+    },
+    {
+        "MWTJ2KH/A_8": {
+            "OS": 1,
+            "battery_size": 49.9,
+            "brand": "2020 \ub9e5\ubd81\uc5d0\uc5b4 MWTJ2KH/A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-1000NG4 1.1GHz(3.2GHz)",
+            "display_size": 13.3,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "APPLE",
+            "minPrice": 1200000,
+            "product_code": "MWTJ2KH/A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.29,
+            "year": "2020.03"
+        }
+    },
+    {
+        "NT930XCR-A58A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT930XCR-A58A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 13.3,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1260000,
+            "product_code": "NT930XCR-A58A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 970.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "Slim5-14IIL_81YH0045KR_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim5-14IIL 81YH0045KR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 925000,
+            "product_code": "Slim5-14IIL 81YH0045KR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.39,
+            "year": "2020.04"
+        }
+    },
+    {
+        "15UD590-GX30K_WIN10_8": {
+            "OS": 0,
+            "battery_size": 35.0,
+            "brand": "2019 \uc6b8\ud2b8\ub77cPC 15UD590-GX30K WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-8145U 2.1GHz(3.9GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD 620",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 748000,
+            "product_code": "15UD590-GX30K WIN10",
+            "ram_size": 8,
+            "storage_size": 128,
+            "weight": 1.75,
+            "year": "2019.08"
+        }
+    },
+    {
+        "GL65_9SD_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GL\uc2dc\ub9ac\uc988 GL65 9SD",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1132000,
+            "product_code": "GL65 9SD",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2019.09"
+        }
+    },
+    {
+        "17_D712DA-AU071_8": {
+            "OS": -1,
+            "battery_size": 32.0,
+            "brand": "\ube44\ubcf4\ubd81 17 D712DA-AU071",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "ASUS",
+            "minPrice": 685000,
+            "product_code": "17 D712DA-AU071",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2019.10"
+        }
+    },
+    {
+        "S15_S533FL-BQ503_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S15 S533FL-BQ503",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "ASUS",
+            "minPrice": 772910,
+            "product_code": "S15 S533FL-BQ503",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.05"
+        }
+    },
+    {
+        "GF75_Thin_9SC-i7_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF75 Thin 9SC-i7",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "MSI",
+            "minPrice": 1099000,
+            "product_code": "GF75 Thin 9SC-i7",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.2,
+            "year": "2019.04"
+        }
+    },
+    {
+        "17UD70N-PX76K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77c\uae30\uc5b4 17UD70N-PX76K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10510U 1.8GHz(4.9GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1621000,
+            "product_code": "17UD70N-PX76K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.95,
+            "year": "2020.02"
+        }
+    },
+    {
+        "SLIM_5-15ARE_R7_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc SLIM 5-15ARE R7",
+            "cpu_manu": "AMD",
+            "cpu_type": "4700U 2.0GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 809000,
+            "product_code": "SLIM 5-15ARE R7",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.63,
+            "year": "2020.06"
+        }
+    },
+    {
+        "15ZD90N-VX50K_WIN10_8": {
+            "OS": 0,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a815 15ZD90N-VX50K WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1425000,
+            "product_code": "15ZD90N-VX50K WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.12,
+            "year": "2020.01"
+        }
+    },
+    {
+        "\uce90\ub9ac\ubd81_\uc288\ud37c\ud50c\ub77c\uc774_J7FC_5S_8": {
+            "OS": -1,
+            "battery_size": 73.0,
+            "brand": " \uce90\ub9ac\ubd81 \uc288\ud37c\ud50c\ub77c\uc774 J7FC_5S",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc8fc\uc5f0\ud14c\ud06c",
+            "minPrice": 879000,
+            "product_code": "\uce90\ub9ac\ubd81 \uc288\ud37c\ud50c\ub77c\uc774 J7FC_5S",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.096,
+            "year": "2020.01"
+        }
+    },
+    {
+        "GL75_9SDK_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GL\uc2dc\ub9ac\uc988 GL75 9SDK",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1299000,
+            "product_code": "GL75 9SDK",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "NT930XCR-A38A_8": {
+            "OS": -1,
+            "battery_size": 69.7,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \uc774\uc628 NT930XCR-A38A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 13.3,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1126000,
+            "product_code": "NT930XCR-A38A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 970.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "15s-eq0138AU_8": {
+            "OS": -1,
+            "battery_size": -1,
+            "brand": " 15s-eq0138AU",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "HP",
+            "minPrice": 571000,
+            "product_code": "15s-eq0138AU",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "\ubaa8\ub35814_A10M-i5_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35814 A10M-i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "MSI",
+            "minPrice": 698000,
+            "product_code": "\ubaa8\ub35814 A10M-i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2019.10"
+        }
+    },
+    {
+        "BossMonster_X7957_120_8": {
+            "OS": -1,
+            "battery_size": 48.96,
+            "brand": " BossMonster X7957 120",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 944000,
+            "product_code": "BossMonster X7957 120",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.5,
+            "year": "2019.12"
+        }
+    },
+    {
+        "\uce90\ub9ac\ubd81_\ub77c\uc774\ud2b8\ud50c\ub77c\uc774_J7FC_8": {
+            "OS": -1,
+            "battery_size": 36.0,
+            "brand": " \uce90\ub9ac\ubd81 \ub77c\uc774\ud2b8\ud50c\ub77c\uc774 J7FC",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc8fc\uc5f0\ud14c\ud06c",
+            "minPrice": 828990,
+            "product_code": "\uce90\ub9ac\ubd81 \ub77c\uc774\ud2b8\ud50c\ub77c\uc774 J7FC",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 967.0,
+            "year": "2020.01"
+        }
+    },
+    {
+        "15_A10SC_8": {
+            "OS": -1,
+            "battery_size": 82.0,
+            "brand": "\ud504\ub808\uc2a4\ud2f0\uc9c0 15 A10SC",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10710U 1.1GHz(4.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 1470000,
+            "product_code": "15 A10SC",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.6,
+            "year": "2019.11"
+        }
+    },
+    {
+        "\uc5b8\ub354\ucf00\uc774\uc9c0_TFX242XA_8": {
+            "OS": -1,
+            "battery_size": 46.74,
+            "brand": " \uc5b8\ub354\ucf00\uc774\uc9c0 TFX242XA",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 648000,
+            "product_code": "\uc5b8\ub354\ucf00\uc774\uc9c0 TFX242XA",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 1.05,
+            "year": "2020.01"
+        }
+    },
+    {
+        "S15_S533FL-BQ503T_8": {
+            "OS": 0,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S15 S533FL-BQ503T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "ASUS",
+            "minPrice": 940000,
+            "product_code": "S15 S533FL-BQ503T",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.05"
+        }
+    },
+    {
+        "S533FA-BQ026_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S533FA-BQ026",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 799000,
+            "product_code": "S533FA-BQ026",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.04"
+        }
+    },
+    {
+        "SLIM_5-15ARE_R5_WIN10_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc SLIM 5-15ARE R5 WIN10",
+            "cpu_manu": "AMD",
+            "cpu_type": "4500U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 749000,
+            "product_code": "SLIM 5-15ARE R5 WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.63,
+            "year": "2020.06"
+        }
+    },
+    {
+        "17ZD90N-VX50K_8": {
+            "OS": -1,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD90N-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1452000,
+            "product_code": "17ZD90N-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.35,
+            "year": "2019.12"
+        }
+    },
+    {
+        "MUHR2KH/A_8": {
+            "OS": 1,
+            "battery_size": 58.0,
+            "brand": "2019 \ub9e5\ubd81\ud504\ub85c13 MUHR2KH/A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-8257U 1.4GHz(3.9GHz)",
+            "display_size": 13.3,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus 645",
+            "manufacture": "APPLE",
+            "minPrice": 1498000,
+            "product_code": "MUHR2KH/A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.37,
+            "year": "2019.07"
+        }
+    },
+    {
+        "TFX255GS_\uc544\ubc29\uac00\ub974\ub4dc_8": {
+            "OS": -1,
+            "battery_size": 91.24,
+            "brand": " TFX255GS \uc544\ubc29\uac00\ub974\ub4dc",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1249000,
+            "product_code": "TFX255GS \uc544\ubc29\uac00\ub974\ub4dc",
+            "ram_size": 8,
+            "storage_size": 500,
+            "weight": 1.5,
+            "year": "2019.10"
+        }
+    },
+    {
+        "15UD70N-GX56K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15UD70N-GX56K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 901000,
+            "product_code": "15UD70N-GX56K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.75,
+            "year": "2020.01"
+        }
+    },
+    {
+        "MVH22KH/A_8": {
+            "OS": 1,
+            "battery_size": 49.9,
+            "brand": "2020 \ub9e5\ubd81\uc5d0\uc5b4 MVH22KH/A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1030NG7 1.1GHz(3.5GHz)",
+            "display_size": 13.3,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "APPLE",
+            "minPrice": 1487000,
+            "product_code": "MVH22KH/A",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.29,
+            "year": "2020.03"
+        }
+    },
+    {
+        "15-cs3041TU_WIN10_8": {
+            "OS": 0,
+            "battery_size": 41.0,
+            "brand": "\ud30c\ube4c\ub9ac\uc628 15-cs3041TU WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "HP",
+            "minPrice": 788000,
+            "product_code": "15-cs3041TU WIN10",
+            "ram_size": 8,
+            "storage_size": 120,
+            "weight": 1.85,
+            "year": "2020.03"
+        }
+    },
+    {
+        "NT730QCJ-KF38_8": {
+            "OS": 0,
+            "battery_size": 54.0,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81 \ud50c\ub809\uc2a4 \uc54c\ud30c NT730QCJ-KF38",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 13.3,
+            "display_type": "true",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1419000,
+            "product_code": "NT730QCJ-KF38",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2020.05"
+        }
+    },
+    {
+        "P5440FA-BM0656_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "ExpertBook P5440FA-BM0656",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-8265U 1.6GHz(3.9GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD 620",
+            "manufacture": "ASUS",
+            "minPrice": 708000,
+            "product_code": "P5440FA-BM0656",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.23,
+            "year": "2020.04"
+        }
+    },
+    {
+        "14ZD90N-VX50K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a814 14ZD90N-VX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1259000,
+            "product_code": "14ZD90N-VX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 999.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "S15_S533FL-BQ504T_8": {
+            "OS": 0,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S15 S533FL-BQ504T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "ASUS",
+            "minPrice": 934000,
+            "product_code": "S15 S533FL-BQ504T",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.05"
+        }
+    },
+    {
+        "SM-W767NZADKOO_8": {
+            "OS": 0,
+            "battery_size": 42.0,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81S SM-W767NZADKOO",
+            "cpu_manu": "Qualcomm",
+            "cpu_type": "8cx",
+            "display_size": 13.3,
+            "display_type": "true",
+            "gpu_manu": "Qualcomm",
+            "gpu_type": null,
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1126000,
+            "product_code": "SM-W767NZADKOO",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 961.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "BossMonster_RX5065T_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster RX5065T",
+            "cpu_manu": "AMD",
+            "cpu_type": "3600 3.6GHz (4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1057000,
+            "product_code": "BossMonster RX5065T",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "15_R564DA-BQ936_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 15 R564DA-BQ936",
+            "cpu_manu": "AMD",
+            "cpu_type": "3700U 2.3GHz(4.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 RX Vega 10",
+            "manufacture": "ASUS",
+            "minPrice": 699000,
+            "product_code": "15 R564DA-BQ936",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.6,
+            "year": "2019.11"
+        }
+    },
+    {
+        "\uc62c\ub370\uc774\ub871_TFX252XA_8": {
+            "OS": -1,
+            "battery_size": 91.24,
+            "brand": " \uc62c\ub370\uc774\ub871 TFX252XA",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 698000,
+            "product_code": "\uc62c\ub370\uc774\ub871 TFX252XA",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 1.4,
+            "year": "2020.01"
+        }
+    },
+    {
+        "15_7590_D001I759003KR_8": {
+            "OS": 0,
+            "battery_size": 97.0,
+            "brand": "\uc778\uc2a4\ud53c\ub860 15 7590 D001I759003KR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "DELL",
+            "minPrice": 1520000,
+            "product_code": "15 7590 D001I759003KR",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.59,
+            "year": "2019.07"
+        }
+    },
+    {
+        "X509JA-BQ246_8": {
+            "OS": -1,
+            "battery_size": 32.0,
+            "brand": "Laptop15 X509JA-BQ246",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 635000,
+            "product_code": "X509JA-BQ246",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.9,
+            "year": "2020.03"
+        }
+    },
+    {
+        "\ubaa8\ub35814_A10M-i5_\uce74\ubcf8_\uadf8\ub808\uc774_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35814 A10M-i5 \uce74\ubcf8 \uadf8\ub808\uc774",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "MSI",
+            "minPrice": 697000,
+            "product_code": "\ubaa8\ub35814 A10M-i5 \uce74\ubcf8 \uadf8\ub808\uc774",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.18,
+            "year": "2020.04"
+        }
+    },
+    {
+        "X412FA-EB958_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 X412FA-EB958",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 630000,
+            "product_code": "X412FA-EB958",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.5,
+            "year": "2020.02"
+        }
+    },
+    {
+        "SM-W767NZNDKOO_8": {
+            "OS": 0,
+            "battery_size": 42.0,
+            "brand": "\uac24\ub7ed\uc2dc\ubd81S SM-W767NZNDKOO",
+            "cpu_manu": "Qualcomm",
+            "cpu_type": "8cx",
+            "display_size": 13.3,
+            "display_type": "true",
+            "gpu_manu": "Qualcomm",
+            "gpu_type": null,
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1136000,
+            "product_code": "SM-W767NZNDKOO",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 961.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "\uc62c\ub370\uc774\ub871_TFX255S_8": {
+            "OS": -1,
+            "battery_size": 91.24,
+            "brand": " \uc62c\ub370\uc774\ub871 TFX255S",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 940000,
+            "product_code": "\uc62c\ub370\uc774\ub871 TFX255S",
+            "ram_size": 8,
+            "storage_size": 500,
+            "weight": 1.4,
+            "year": "2019.12"
+        }
+    },
+    {
+        "Slim_5-15IIL_Raise_i5_WIN10_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Raise i5 WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 848000,
+            "product_code": "Slim 5-15IIL Raise i5 WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "\uc62c\ub370\uc774\ub871_TFX255SW_8": {
+            "OS": 0,
+            "battery_size": 91.24,
+            "brand": " \uc62c\ub370\uc774\ub871 TFX255SW",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1025000,
+            "product_code": "\uc62c\ub370\uc774\ub871 TFX255SW",
+            "ram_size": 8,
+            "storage_size": 500,
+            "weight": 1.4,
+            "year": "2019.12"
+        }
+    },
+    {
+        "GS65_Stealth_8SG_WIN10_8": {
+            "OS": 0,
+            "battery_size": 82.0,
+            "brand": "GS\uc2dc\ub9ac\uc988 GS65 Stealth 8SG WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-8750H 2.2GHz(4.1GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2080(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 1907000,
+            "product_code": "GS65 Stealth 8SG WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.9,
+            "year": "2019.01"
+        }
+    },
+    {
+        "FX505DT-AL003_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": "TUF FX505DT-AL003",
+            "cpu_manu": "AMD",
+            "cpu_type": "3750H 2.3GHz(4GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "ASUS",
+            "minPrice": 797000,
+            "product_code": "FX505DT-AL003",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.2,
+            "year": "2019.09"
+        }
+    },
+    {
+        "15UD50N-GX50K_WIN10_8": {
+            "OS": 0,
+            "battery_size": 35.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 15UD50N-GX50K WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 899000,
+            "product_code": "15UD50N-GX50K WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.75,
+            "year": "2020.04"
+        }
+    },
+    {
+        "BossMonster_X5967T_8": {
+            "OS": -1,
+            "battery_size": 48.0,
+            "brand": " BossMonster X5967T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1134000,
+            "product_code": "BossMonster X5967T",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.1,
+            "year": "2019.05"
+        }
+    },
+    {
+        "S740-14IIL_Liberty_i7_8": {
+            "OS": 0,
+            "battery_size": 62.0,
+            "brand": "Yoga S740-14IIL Liberty i7",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1337000,
+            "product_code": "S740-14IIL Liberty i7",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.45,
+            "year": "2019.11"
+        }
+    },
+    {
+        "GF75_Thin_10SCSR_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF75 Thin 10SCSR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10750H 2.6GHz(5.0GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1290000,
+            "product_code": "GF75 Thin 10SCSR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.2,
+            "year": "2020.04"
+        }
+    },
+    {
+        "BossMonster_RX5067T_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster RX5067T",
+            "cpu_manu": "AMD",
+            "cpu_type": "3700X 3.6GHz (4.4GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1237000,
+            "product_code": "BossMonster RX5067T",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "NT760XBV-G78A_8": {
+            "OS": 2,
+            "battery_size": 43.0,
+            "brand": "\ub178\ud2b8\ubd817 Force NT760XBV-G78A",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-8565U 1.8GHz(4.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "\uc0bc\uc131\uc804\uc790",
+            "minPrice": 1348000,
+            "product_code": "NT760XBV-G78A",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.85,
+            "year": "2019.05"
+        }
+    },
+    {
+        "Slim_5-15IIL_Major_i7_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Major i7",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 945000,
+            "product_code": "Slim 5-15IIL Major i7",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "GF63_Thin_9SC-i7_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF63 Thin 9SC-i7",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "MSI",
+            "minPrice": 986000,
+            "product_code": "GF63 Thin 9SC-i7",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.77,
+            "year": "2019.04"
+        }
+    },
+    {
+        "GF75_Thin_9SD_8": {
+            "OS": -1,
+            "battery_size": 41.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF75 Thin 9SD",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1235000,
+            "product_code": "GF75 Thin 9SD",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2019.09"
+        }
+    },
+    {
+        "14ARE_R3_W10_8": {
+            "OS": 0,
+            "battery_size": 52.5,
+            "brand": "\ud50c\ub809\uc2a45 14ARE R3 W10",
+            "cpu_manu": "AMD",
+            "cpu_type": "4300U 2.7GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "true",
+            "gpu_manu": "AMD",
+            "gpu_type": "Radeon Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 695000,
+            "product_code": "14ARE R3 W10",
+            "ram_size": 8,
+            "storage_size": 128,
+            "weight": 1.53,
+            "year": "2020.05"
+        }
+    },
+    {
+        "Y540-15IRH_i7_Prime_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-15IRH i7 Prime",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750HF 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1188000,
+            "product_code": "Y540-15IRH i7 Prime",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2019.06"
+        }
+    },
+    {
+        "BossMonster_X7067T_8": {
+            "OS": -1,
+            "battery_size": 48.96,
+            "brand": " BossMonster X7067T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10875H 2.3GHz(5.1GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1320000,
+            "product_code": "BossMonster X7067T",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.4,
+            "year": "2020.06"
+        }
+    },
+    {
+        "\uc5b8\ub354\ucf00\uc774\uc9c0_TFX245S_8": {
+            "OS": -1,
+            "battery_size": 47.0,
+            "brand": " \uc5b8\ub354\ucf00\uc774\uc9c0 TFX245S",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 805000,
+            "product_code": "\uc5b8\ub354\ucf00\uc774\uc9c0 TFX245S",
+            "ram_size": 8,
+            "storage_size": 500,
+            "weight": 1.08,
+            "year": "2019.12"
+        }
+    },
+    {
+        "GF65_Thin_9SD_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF65 Thin 9SD",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1144000,
+            "product_code": "GF65 Thin 9SD",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.86,
+            "year": "2019.10"
+        }
+    },
+    {
+        "\ubaa8\ub35815_A10M-i5_\uc624\ub2c9\uc2a4_\ube14\ub799_8": {
+            "OS": -1,
+            "battery_size": 52.0,
+            "brand": "\ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35815 A10M-i5 \uc624\ub2c9\uc2a4 \ube14\ub799",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "MSI",
+            "minPrice": 789000,
+            "product_code": "\ubaa8\ub35815 A10M-i5 \uc624\ub2c9\uc2a4 \ube14\ub799",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.6,
+            "year": "2020.05"
+        }
+    },
+    {
+        "BossMonster_X7957W_120_8": {
+            "OS": 0,
+            "battery_size": 48.96,
+            "brand": " BossMonster X7957W 120",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1075000,
+            "product_code": "BossMonster X7957W 120",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.5,
+            "year": "2019.12"
+        }
+    },
+    {
+        "\ubaa8\ub35814_A10M-i7_8": {
+            "OS": -1,
+            "battery_size": 50.0,
+            "brand": "\ubaa8\ub358\uc2dc\ub9ac\uc988 \ubaa8\ub35814 A10M-i7",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10510U 1.8GHz(4.9GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "MSI",
+            "minPrice": 829000,
+            "product_code": "\ubaa8\ub35814 A10M-i7",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.19,
+            "year": "2019.09"
+        }
+    },
+    {
+        "13UD50N-GX30K_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77cPC 13UD50N-GX30K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i3-10110U 2.1GHz(4.1GHz)",
+            "display_size": 13.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 580000,
+            "product_code": "13UD50N-GX30K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.3,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GF63_Thin_10SCSR_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF63 Thin 10SCSR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10750H 2.6GHz(5.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650 Ti(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 1209000,
+            "product_code": "GF63 Thin 10SCSR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.77,
+            "year": "2020.04"
+        }
+    },
+    {
+        "S730-13IML_Wave_i5_8": {
+            "OS": 0,
+            "battery_size": 42.0,
+            "brand": "Yoga S730-13IML Wave i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 13.3,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1066000,
+            "product_code": "S730-13IML Wave i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.1,
+            "year": "2019.12"
+        }
+    },
+    {
+        "Y540-15IRH_i7_Blade_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-15IRH i7 Blade",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1240000,
+            "product_code": "Y540-15IRH i7 Blade",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2019.06"
+        }
+    },
+    {
+        "\uc5b8\ub354\ucf00\uc774\uc9c0_TFX245SW_8": {
+            "OS": 0,
+            "battery_size": 47.0,
+            "brand": " \uc5b8\ub354\ucf00\uc774\uc9c0 TFX245SW",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 949000,
+            "product_code": "\uc5b8\ub354\ucf00\uc774\uc9c0 TFX245SW",
+            "ram_size": 8,
+            "storage_size": 500,
+            "weight": 1.08,
+            "year": "2019.12"
+        }
+    },
+    {
+        "GF75_Thin_9SC-i7_WIN10_8": {
+            "OS": 0,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF75 Thin 9SC-i7 WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "MSI",
+            "minPrice": 1156000,
+            "product_code": "GF75 Thin 9SC-i7 WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.2,
+            "year": "2019.04"
+        }
+    },
+    {
+        "Y540-17IRH_i7_Prime_W10P_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-17IRH i7 Prime W10P",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1363000,
+            "product_code": "Y540-17IRH i7 Prime W10P",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.84,
+            "year": "2019.06"
+        }
+    },
+    {
+        "BossMonster_RX5065_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster RX5065",
+            "cpu_manu": "AMD",
+            "cpu_type": "3600 3.6GHz (4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2060",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1243000,
+            "product_code": "BossMonster RX5065",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "Y540-17IRH_i7_Blade_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-17IRH i7 Blade",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750HF 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1278000,
+            "product_code": "Y540-17IRH i7 Blade",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.84,
+            "year": "2019.06"
+        }
+    },
+    {
+        "Slim_5-15IIL_Major_i5_WIN10_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Major i5 WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 940000,
+            "product_code": "Slim 5-15IIL Major i5 WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "BossMonster_RX5077_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster RX5077",
+            "cpu_manu": "AMD",
+            "cpu_type": "3700X 3.6GHz (4.4GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2070",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1638000,
+            "product_code": "BossMonster RX5077",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "17_HDR_WB_8": {
+            "OS": -1,
+            "battery_size": 94.24,
+            "brand": "AERO 17 HDR WB",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10875H 2.3GHz(5.1GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2070(MAX-Q)",
+            "manufacture": "GIGABYTE",
+            "minPrice": 3084000,
+            "product_code": "17 HDR WB",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.5,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GP75_Leopard_9SD_WIN10_8": {
+            "OS": 0,
+            "battery_size": 51.0,
+            "brand": "GP\uc2dc\ub9ac\uc988 GP75 Leopard 9SD WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1460000,
+            "product_code": "GP75 Leopard 9SD WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.6,
+            "year": "2019.12"
+        }
+    },
+    {
+        "BossMonster_EH6967_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster EH6967",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-8700 (3.2GHz)",
+            "display_size": 16.1,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2060",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1312000,
+            "product_code": "BossMonster EH6967",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.78,
+            "year": "2019.01"
+        }
+    },
+    {
+        "BossMonster_RX5079_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster RX5079",
+            "cpu_manu": "AMD",
+            "cpu_type": "3900 3.1GHz (4.3GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2070",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1800000,
+            "product_code": "BossMonster RX5079",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.6,
+            "year": "2020.05"
+        }
+    },
+    {
+        "Slim_5-15IIL_Major_i7_WIN10_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Major i7 WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1035000,
+            "product_code": "Slim 5-15IIL Major i7 WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "17ZD90N-VX70K_8": {
+            "OS": -1,
+            "battery_size": 80.0,
+            "brand": "2020 \uadf8\ub7a817 17ZD90N-VX70K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 17.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1624000,
+            "product_code": "17ZD90N-VX70K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.35,
+            "year": "2019.12"
+        }
+    },
+    {
+        "Slim5-14IIL_81YH0043KR_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim5-14IIL 81YH0043KR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "MX350",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1035000,
+            "product_code": "Slim5-14IIL 81YH0043KR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.39,
+            "year": "2020.04"
+        }
+    },
+    {
+        "BossMonster_X5957W_120_8": {
+            "OS": 0,
+            "battery_size": 48.96,
+            "brand": " BossMonster X5957W 120",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1035000,
+            "product_code": "BossMonster X5957W 120",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.1,
+            "year": "2019.12"
+        }
+    },
+    {
+        "GF63_Thin_9SC-i7_WIN10_8": {
+            "OS": 0,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF63 Thin 9SC-i7 WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "MSI",
+            "minPrice": 1072000,
+            "product_code": "GF63 Thin 9SC-i7 WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.77,
+            "year": "2019.04"
+        }
+    },
+    {
+        "GL65_9SC_8": {
+            "OS": -1,
+            "battery_size": 41.0,
+            "brand": "GL\uc2dc\ub9ac\uc988 GL65 9SC",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "MSI",
+            "minPrice": 998000,
+            "product_code": "GL65 9SC",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.3,
+            "year": "2019.10"
+        }
+    },
+    {
+        "Slim_5-15IIL_Raise_i5_8": {
+            "OS": -1,
+            "battery_size": 57.0,
+            "brand": "\uc544\uc774\ub514\uc5b4\ud328\ub4dc Slim 5-15IIL Raise i5",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G1 1.0GHz(3.6GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 720000,
+            "product_code": "Slim 5-15IIL Raise i5",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.69,
+            "year": "2020.05"
+        }
+    },
+    {
+        "BossMonster_RX5075_8": {
+            "OS": -1,
+            "battery_size": 62.0,
+            "brand": " BossMonster RX5075",
+            "cpu_manu": "AMD",
+            "cpu_type": "3600 3.6GHz (4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2070",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 1447000,
+            "product_code": "BossMonster RX5075",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "X512FA-BQ1607_8": {
+            "OS": -1,
+            "battery_size": 37.0,
+            "brand": "\ube44\ubcf4\ubd81 X512FA-BQ1607",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "ASUS",
+            "minPrice": 678000,
+            "product_code": "X512FA-BQ1607",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.7,
+            "year": "2020.01"
+        }
+    },
+    {
+        "P75_\ud06c\ub9ac\uc5d0\uc774\ud130_9SD_8": {
+            "OS": -1,
+            "battery_size": 82.0,
+            "brand": "\ud504\ub808\uc2a4\ud2f0\uc9c0 P75 \ud06c\ub9ac\uc5d0\uc774\ud130 9SD",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1454000,
+            "product_code": "P75 \ud06c\ub9ac\uc5d0\uc774\ud130 9SD",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.2,
+            "year": "2019.07"
+        }
+    },
+    {
+        "A3DD_\uc5d0\uc5b4_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "\uc54c\ud30c15 A3DD \uc5d0\uc5b4",
+            "cpu_manu": "AMD",
+            "cpu_type": "3750H 2.3GHz(4GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 RX 5500M",
+            "manufacture": "MSI",
+            "minPrice": 843000,
+            "product_code": "A3DD \uc5d0\uc5b4",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2019.12"
+        }
+    },
+    {
+        "14-IIL_20SLA00FKR_8": {
+            "OS": -1,
+            "battery_size": 45.0,
+            "brand": "\uc53d\ud06c\ubd81 14-IIL 20SLA00FKR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G4 1.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 709000,
+            "product_code": "14-IIL 20SLA00FKR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "GL75_9SDK_WIN10_8": {
+            "OS": 0,
+            "battery_size": 51.0,
+            "brand": "GL\uc2dc\ub9ac\uc988 GL75 9SDK WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1414000,
+            "product_code": "GL75 9SDK WIN10",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.5,
+            "year": "2020.03"
+        }
+    },
+    {
+        "14ZD90N-VX50K_WIN10_8": {
+            "OS": 0,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a814 14ZD90N-VX50K WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-1035G7 1.2GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1382000,
+            "product_code": "14ZD90N-VX50K WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 999.0,
+            "year": "2020.01"
+        }
+    },
+    {
+        "C340-14IML_i7_Pen_X_8": {
+            "OS": 0,
+            "battery_size": 45.0,
+            "brand": "Yoga C340-14IML i7 Pen X",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10510U 1.8GHz(4.9GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 950000,
+            "product_code": "C340-14IML i7 Pen X",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.59,
+            "year": "2019.12"
+        }
+    },
+    {
+        "GP65_Leopard_9SD_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GP\uc2dc\ub9ac\uc988 GP65 Leopard 9SD",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1241000,
+            "product_code": "GP65 Leopard 9SD",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.33,
+            "year": "2019.08"
+        }
+    },
+    {
+        "S15_S533FL-BQ501T_8": {
+            "OS": 0,
+            "battery_size": 50.0,
+            "brand": "\ube44\ubcf4\ubd81 S15 S533FL-BQ501T",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX250",
+            "manufacture": "ASUS",
+            "minPrice": 940000,
+            "product_code": "S15 S533FL-BQ501T",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 1.8,
+            "year": "2020.05"
+        }
+    },
+    {
+        "14s-IML_20RSA002KR_8": {
+            "OS": 0,
+            "battery_size": 45.0,
+            "brand": "\uc53d\ud06c\ubd81 14s-IML 20RSA002KR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 630",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 885000,
+            "product_code": "14s-IML 20RSA002KR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.49,
+            "year": "2020.01"
+        }
+    },
+    {
+        "Y540-15IRH_i7_Prime_W10P_8": {
+            "OS": 0,
+            "battery_size": 57.0,
+            "brand": "LEGION Y540-15IRH i7 Prime W10P",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750HF 2.6GHz(4.5GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1286000,
+            "product_code": "Y540-15IRH i7 Prime W10P",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.3,
+            "year": "2019.06"
+        }
+    },
+    {
+        "C340-15IIL_i7_Pen_X_8": {
+            "OS": 0,
+            "battery_size": 52.5,
+            "brand": "Yoga C340-15IIL i7 Pen X",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-1065G7 1.3GHz(3.9GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "Iris Plus Graphics",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1009000,
+            "product_code": "C340-15IIL i7 Pen X",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "\uc5b8\ub354\ucf00\uc774\uc9c0_TFX242XAW_8": {
+            "OS": 0,
+            "battery_size": 46.74,
+            "brand": " \uc5b8\ub354\ucf00\uc774\uc9c0 TFX242XAW",
+            "cpu_manu": "AMD",
+            "cpu_type": "3500U 2.1GHz(3.7GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "AMD",
+            "gpu_type": "\ub77c\ub370\uc628 Vega 8",
+            "manufacture": "\ud55c\uc131\ucef4\ud4e8\ud130",
+            "minPrice": 778000,
+            "product_code": "\uc5b8\ub354\ucf00\uc774\uc9c0 TFX242XAW",
+            "ram_size": 8,
+            "storage_size": 250,
+            "weight": 1.05,
+            "year": "2020.01"
+        }
+    },
+    {
+        "17_HDR_XB_8": {
+            "OS": -1,
+            "battery_size": 94.24,
+            "brand": "AERO 17 HDR XB",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10875H 2.3GHz(5.1GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "RTX2070 SUPER(MAX-Q)",
+            "manufacture": "GIGABYTE",
+            "minPrice": 3289000,
+            "product_code": "17 HDR XB",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.5,
+            "year": "2020.04"
+        }
+    },
+    {
+        "C340-15IML_i7_Pen_X_MX_8": {
+            "OS": 0,
+            "battery_size": 52.5,
+            "brand": "Yoga C340-15IML i7 Pen X MX",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10510U 1.8GHz(4.9GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "\uc9c0\ud3ec\uc2a4 MX230",
+            "manufacture": "\ub808\ub178\ubc84",
+            "minPrice": 1072000,
+            "product_code": "C340-15IML i7 Pen X MX",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.0,
+            "year": "2019.12"
+        }
+    },
+    {
+        "GP75_Leopard_10SDK_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GP\uc2dc\ub9ac\uc988 GP75 Leopard 10SDK",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10750H 2.6GHz(5.0GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "MSI",
+            "minPrice": 1530000,
+            "product_code": "GP75 Leopard 10SDK",
+            "ram_size": 8,
+            "storage_size": 512,
+            "weight": 2.6,
+            "year": "2020.04"
+        }
+    },
+    {
+        "GF63_Thin_10SCXR_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF63 Thin 10SCXR",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10750H 2.6GHz(5.0GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 1110000,
+            "product_code": "GF63 Thin 10SCXR",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.77,
+            "year": "2020.04"
+        }
+    },
+    {
+        "SA_i7_E_8": {
+            "OS": -1,
+            "battery_size": 48.96,
+            "brand": "AORUS 7 SA i7 E",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1660 Ti",
+            "manufacture": "GIGABYTE",
+            "minPrice": 1285000,
+            "product_code": "SA i7 E",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 2.5,
+            "year": "2020.01"
+        }
+    },
+    {
+        "GF75_Thin_9SC-i7_\uc5bc\ud2f0\ubc0b_8": {
+            "OS": -1,
+            "battery_size": 51.0,
+            "brand": "GF\uc2dc\ub9ac\uc988 GF75 Thin 9SC-i7 \uc5bc\ud2f0\ubc0b",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-9750H 2.6GHz(4.5GHz)",
+            "display_size": 17.3,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650",
+            "manufacture": "MSI",
+            "minPrice": 1179000,
+            "product_code": "GF75 Thin 9SC-i7 \uc5bc\ud2f0\ubc0b",
+            "ram_size": 8,
+            "storage_size": 128,
+            "weight": 2.2,
+            "year": "2019.11"
+        }
+    },
+    {
+        "14ZD995-GX50K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uadf8\ub7a814 14ZD995-GX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 14.0,
+            "display_type": "false",
+            "gpu_manu": "Intel",
+            "gpu_type": "UHD Graphics",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1240000,
+            "product_code": "14ZD995-GX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 995.0,
+            "year": "2020.01"
+        }
+    },
+    {
+        "15UD70N-PX50K_8": {
+            "OS": -1,
+            "battery_size": 72.0,
+            "brand": "2020 \uc6b8\ud2b8\ub77c\uae30\uc5b4 15UD70N-PX50K",
+            "cpu_manu": "Intel",
+            "cpu_type": "i5-10210U 1.6GHz(4.2GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1050",
+            "manufacture": "LG\uc804\uc790",
+            "minPrice": 1149000,
+            "product_code": "15UD70N-PX50K",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.85,
+            "year": "2020.01"
+        }
+    },
+    {
+        "15_A10SC_WIN10_8": {
+            "OS": 0,
+            "battery_size": 82.0,
+            "brand": "\ud504\ub808\uc2a4\ud2f0\uc9c0 15 A10SC WIN10",
+            "cpu_manu": "Intel",
+            "cpu_type": "i7-10710U 1.1GHz(4.7GHz)",
+            "display_size": 15.6,
+            "display_type": "false",
+            "gpu_manu": "NVIDIA",
+            "gpu_type": "GTX1650(MAX-Q)",
+            "manufacture": "MSI",
+            "minPrice": 1611000,
+            "product_code": "15 A10SC WIN10",
+            "ram_size": 8,
+            "storage_size": 256,
+            "weight": 1.6,
+            "year": "2019.11"
+        }
+    }
+]
