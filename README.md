@@ -10,7 +10,7 @@
 * Allan
 * Hanwoul Lee
 * Hogi Min
-* Kynugyeon Park
+* Kyungyeon Park
 * Sara
 * Seungrok Yoon
 
